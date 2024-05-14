@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container z-30 py-5 fixed top-0 left-0 right-0 bg-white shadow-md">
       <Link href="/">
         <Image
           src="/images/logo.png"
@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={link.key}
-            className="regular-12 text-blue-base flexCenter cursor-pointer pb-1.5 transition-all hover:font-gilroy-bold"
+            className="regular-12 text-blue-base flexCenter cursor-pointer transition-all hover:bg-orange-600-base hover:text-white hover:p-2 hover:px-4 hover:rounded-full"
           >
             {link.label}
           </Link>
