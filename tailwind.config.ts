@@ -19,6 +19,8 @@ const config: Config = {
         red: {
           "base": "#F76779",
           50: "#FFF1F2",
+          100: "#FEE5E7",
+          600: "#DC2247",
           900: "#851636"
         },
         green: {
@@ -36,6 +38,7 @@ const config: Config = {
         },
         orange: {
           50: "#FFFBEC",
+          100: "#FFF7D3",
           "base": "#FF9100",
           900: "#82450C",
         },
@@ -50,6 +53,7 @@ const config: Config = {
         },
         generic: {
           500: "#7C7C7C",
+          700: "#525252",
           800: "#464646",
         },
         border: "hsl(var(--border))",
@@ -64,6 +68,9 @@ const config: Config = {
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          50: "#EFFAFF",
+          100: "#DEF4FF",
+          950: "#04344D",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

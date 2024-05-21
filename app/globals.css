@@ -26,7 +26,7 @@ body {
     @apply bg-orange-base px-6 py-2 text-white transition-all hover:bg-orange-base/75 cursor-pointer;
   }
   .btn_dark_orange_outline {
-    @apply border-gray-20 bg-orange-base px-6 py-3 text-white;
+    @apply border-orange-base text-orange-base px-6 py-2 border;
   }
   .btn_dark_blue {
     @apply bg-blue-base px-6 py-2 text-white transition-all hover:bg-blue-base/75 cursor-pointer;
@@ -171,6 +171,10 @@ body {
   /* Get App */
   .get-app {
     @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+  }
+
+  .no-focus {
+    @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
   }
 }
 
