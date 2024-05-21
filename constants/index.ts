@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/overview", key: "about-us", label: "About Us" },
-  { href: "/", key: "uubsidiaries", label: "Subsidiaries" },
-  { href: "/", key: "our-impact", label: "Our Impact" },
-  { href: "/", key: "careers", label: "Careers" },
+  { href: "/tangerine-general", key: "our-subsidiaries", label: "Subsidiaries" },
+  { href: "/impact", key: "our-impact", label: "Our Impact" },
+  { href: "/careers", key: "careers", label: "Careers" },
 ];
 
 // CAMP SECTION

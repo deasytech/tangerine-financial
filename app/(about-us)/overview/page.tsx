@@ -3,7 +3,6 @@ import Button from "@/components/Button";
 import SubsidaryCard from "@/components/cards/SubsidaryCard";
 import ValuesCard from "@/components/cards/ValuesCard";
 import { CloudDownloadIcon } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 const OverviewPage = () => {
@@ -199,7 +198,7 @@ const OverviewPage = () => {
           <h2 className="bold-40 text-orange-base">
             Section 172 Statement
           </h2>
-          <p className="regular-18 text-generic-800">Discover how we put people first with our Section 172 statement. See how our decisions consider everyone, from employees to the environment. We're not just about profits—we're about building a sustainable future for all.</p>
+          <p className="regular-18 text-generic-800">Discover how we put people first with our Section 172 statement. See how our decisions consider everyone, from employees to the environment. We have not just about profits we are about building a sustainable future for all.</p>
           <Button
             type={"button"}
             title={"Learn more"}
