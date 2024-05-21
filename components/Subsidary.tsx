@@ -6,7 +6,7 @@ import SubsidaryImage from "./SubsidaryImage";
 const Subsidary = () => {
   return (
     <section className="relative max-container padding-container mt-24 flex flex-col gap-4">
-      <h3 className="bold-40 text-orange-600-base">Our Subsidiaries</h3>
+      <h3 className="bold-40 text-orange-base">Our Subsidiaries</h3>
       <p className="regular-14 text-gray-700 font-gilroy-medium max-w-[544px]">
         We invest in businesses that merge deep consumer insights and
         cutting-edge technology to provide a range of carefully tailored

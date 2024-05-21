@@ -4,7 +4,7 @@ type ButtonProps = {
   type: "button" | "submit";
   title: string;
   icon?: string;
-  variant: "btn_dark_orange";
+  variant: string;
 };
 
 const Button = ({ type, title, icon, variant }: ButtonProps) => {
@@ -13,7 +13,7 @@ const Button = ({ type, title, icon, variant }: ButtonProps) => {
       type={type}
       className={`flexCenter gap-3 rounded-xl border ${variant}`}
     >
-      <label className="whitespace-nowrap bold-14">{title}</label>{" "}
+      <label className="whitespace-nowrap bold-14">{title}</label>
       {icon && <Image src={icon} alt={title} width={13} height={13} />}
     </button>
   );

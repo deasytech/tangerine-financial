@@ -10,7 +10,7 @@ const OurImpact = () => {
         <p className="regular-14 uppercase text-gray-400 font-gilroy-semibold">
           our impact
         </p>
-        <h2 className="bold-40 text-orange-600-base max-w-md">
+        <h2 className="bold-40 text-orange-base max-w-md">
           Our Commitment to Social Responsibility
         </h2>
         <p className="regular-14 text-gray-700 font-gilroy-medium max-w-md">

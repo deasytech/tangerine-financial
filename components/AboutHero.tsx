@@ -1,15 +1,14 @@
-import RenderTag from "./RenderTag";
 
 const AboutHero = () => {
   return (
-    <section className="mt-20 relative max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row h-[900px]">
-      <div
-        className="absolute inset-0 h-screen w-screen bg-cover bg-bottom"
-        style={{ backgroundImage: "url('/images/hero2.svg')" }}
-      />
-
-      <div className="relative z-10 flex flex-col items-start max-w-[450px] gap-2">
-        <h1 className="bold-32 mt-36 lg:bold-40 lg:mt-10 text-orange-600-base">
+    <section className="relative w-full h-screen bg-cover bg-center" style={{
+      backgroundImage: "url('/images/hero2.svg')", 
+      borderBottomLeftRadius: '25px',
+      borderBottomRightRadius: '25px',
+      overflow: 'hidden',
+    }}>
+      <div className="ml-32 h-full flex flex-col justify-center items-start w-[30%]">
+        <h1 className="bold-32 lg:bold-56 items-center mb-3 lg:mt-10 text-orange-base">
           Cover for all that matters
         </h1>
         <p className="regular-18 text-gray-500">

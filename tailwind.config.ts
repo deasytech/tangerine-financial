@@ -16,9 +16,16 @@ const config: Config = {
     },
     extend: {
       colors: {
+        red: {
+          "base": "#F76779",
+          50: "#FFF1F2",
+          900: "#851636"
+        },
         green: {
           50: "#F8FEE7",
           90: "#292C27",
+          900: "#395314",
+          "base": "#7CBB0E",
         },
         gray: {
           10: "#EEEEEE",
@@ -29,13 +36,21 @@ const config: Config = {
         },
         orange: {
           50: "#FFFBEC",
-          "600-base": "#FF9100",
+          "base": "#FF9100",
+          900: "#82450C",
         },
         blue: {
           base: "#1D0C47",
+          50: "#EAEBFF",
+          600: "#5E1DFF",
+          950: "#000164",
         },
         yellow: {
           50: "#FEC601",
+        },
+        generic: {
+          500: "#7C7C7C",
+          800: "#464646",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -80,6 +95,7 @@ const config: Config = {
         "10xl": "1512px",
       },
       borderRadius: {
+        "3xl": "32px",
         "5xl": "40px",
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
