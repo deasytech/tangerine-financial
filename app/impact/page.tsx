@@ -86,7 +86,7 @@ const ImpactPage = () => {
       </section>
 
       <section className='relative max-container padding-container -mt-8'>
-        <div className='flex gap-8 bg-green-50 p-16 rounded-3xl'>
+        <div className='flex flex-col md:flex-row gap-8 bg-green-50 p-16 rounded-3xl'>
           <p className='regular-18 text-generic-700'>We organized the first edition in July 2020 through a recyclable collection drive tagged <span className='text-orange-base'>#TangerinePlasticChallenge.</span> Following the 3-day collection exercise, about 642kg of recyclables was presented to ISRINA School, Ajegunle Lagos. ISRINA School receives recyclables as a form of school fee payment. Miss Yetunde Saheed was the scholarship recipient for the 2020/2021 academic year.</p>
           <p className='regular-18 text-generic-700'>For the second edition, we are in partnership with the Lagos State Waste Management (LAWMA). Mesh bins have been set in strategic locations in Lagos state to collect recyclable plastic items. After the collection period, accredited recyclers will weigh the items, and exchange them for money or present them as an acceptable mode of school fee payment. Our target is to sponsor 10 kids by the beginning of the next academic year September</p>
         </div>
@@ -145,13 +145,13 @@ const ImpactPage = () => {
       </section>
 
       <section className="relative max-container padding-container mt-20">
-        <div className="w-full min-h-[372px] flex justify-start items-center bg-blue-950 rounded-3xl" style={{
+        <div className="w-full min-h-[372px] flex justify-start items-start pt-6 md:items-center md:pt-0 bg-blue-950 rounded-3xl" style={{
           backgroundImage: "url('/images/envelope.png')",
           backgroundPosition: "bottom right",
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
         }}>
-          <div className="h-full flex-col justify-center items-center md:items-start md:pl-20 gap-6 flex w-full md:w-1/2">
+          <div className="h-full flex-col justify-center items-center mx-6 md:mx-0 md:items-start md:pl-20 gap-6 flex w-full md:w-1/2">
             <h3 className="bold-32 md:bold-48 text-white">Sign up to our Newsletter</h3>
             <p className="regular-18 text-white text-center">
             Get updates on our products, offerings.
