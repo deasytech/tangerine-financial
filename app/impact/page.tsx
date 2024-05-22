@@ -64,7 +64,7 @@ const ImpactPage = () => {
 
       <section className="relative max-container padding-container flexCenter flex-col md:flex-row justify-between mt-24">
         <div className="w-full flex flex-col gap-4">
-          <p className="regular-14 uppercase text-gray-400 font-gilroy-semibold">
+          <p className="regular-14 uppercase text-generic-500 font-gilroy-semibold">
             other initiatives
           </p>
           <h2 className="bold-40 text-orange-base max-w-md">

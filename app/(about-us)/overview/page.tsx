@@ -220,7 +220,7 @@ const OverviewPage = () => {
               Download our Corporate Profile for a comprehensive overview.
             </p>
             <Link href="/" className="w-fit px-8 py-3 bg-white rounded-lg justify-center items-center gap-3 inline-flex">
-              <div className="grow shrink basis-0 text-center text-orange-base text-base font-normal font-['Gilroy-SemiBold'] leading-normal">Dowload</div>
+              <p className="text-center text-orange-base text-base font-normal font-gilroy-semibold">Dowload</p>
               <CloudDownloadIcon className="text-orange-base" />
             </Link>
           </div>
