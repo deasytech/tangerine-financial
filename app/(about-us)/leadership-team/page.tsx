@@ -1,3 +1,4 @@
+import TeamCard from '@/components/cards/TeamCard'
 import { CloudDownloadIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -15,51 +16,92 @@ const LeadershipPage = () => {
         </div>
         <div className=''>
           <div className='flex flex-col md:flex-row gap-4'>
-            <div className='flex flex-col gap-1 w-full'>
-              <div className="relative">
-                <Image
-                  src="/images/team/cardoso.png"
-                  alt="Lola Cardoso"
-                  width={280}
-                  height={296}
-                  className='w-full h-auto'
-                />
-                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
-                  <h3 className="text-orange-base">Lola Cardoso</h3>
-                  <p className="regular-12">Group Chief Executive Officer</p>
-                </div>
-              </div>
-            </div>
-            <div className='flex flex-col gap-1 w-full'>
-              <div className="relative">
-                <Image src="/images/team/abrantes.png" alt='Helio Abrantes' width={280} height={296}
-                  className='w-full h-auto' />
-                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
-                  <h3 className='text-orange-base'>Helio Abrantes</h3>
-                  <p className='regular-12'>Group Chief Financial Officer</p>
-                </div>
-              </div>
-            </div>
-            <div className='flex flex-col gap-1 w-full'>
-              <div className="relative">
-                <Image src="/images/team/sijuwade.png" alt='Christine Sijuwade' width={280} height={296}
-                  className='w-full h-auto' />
-                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
-                  <h3 className='text-orange-base'>Christine Sijuwade</h3>
-                  <p className='regular-12'>Group General Counsel & Group Head of Legal and Compliance</p>
-                </div>
-              </div>
-            </div>
-            <div className='flex flex-col gap-1 w-full'>
-              <div className="relative">
-                <Image src="/images/team/bakere.png" alt='Sekeenat Bakere' width={280} height={296}
-                  className='w-full h-auto' />
-                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
-                  <h3 className='text-orange-base'>Sekeenat Bakere</h3>
-                  <p className='regular-12'>Executive Director of Tangerine Life</p>
-                </div>
-              </div>
-            </div>
+            <TeamCard
+              image="/images/team/cardoso.svg"
+              name="Lola Cardoso"
+              position="Group Chief Executive Officer"
+            />
+            <TeamCard
+              image="/images/team/abrantes.svg"
+              name="Helio Abrantes"
+              position="Group Chief Financial Officer"
+            />
+            <TeamCard
+              image="/images/team/sijuwade.svg"
+              name="Christine Sijuwade"
+              position="Group General Counsel & Group Head of Legal and Compliance"
+            />
+            <TeamCard
+              image="/images/team/bakere.svg"
+              name="Sekeenat Bakere"
+              position="Executive Director of Tangerine Life"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="relative max-container padding-container mt-48">
+        <div className="mb-14 flex flex-col gap-4 w-1/2">
+          <h2 className="bold-40 text-orange-base">
+            Board of Directors
+          </h2>
+          <p className="regular-18 text-generic-800">Our board of directors, under the guidance of our esteemed Chairperson, ensures that Tangerine Financial operates with integrity and foresight. With a diverse range of backgrounds and experiences, our board members provide invaluable insight and oversight to our strategic decisions.</p>
+        </div>
+        <div className=''>
+          <div className='flex flex-col md:flex-row gap-4'>
+            <TeamCard
+              image="/images/team/no-image.png"
+              name="Emeka Emuwa"
+              position="Chairman"
+            />
+            <TeamCard
+              image="/images/team/cardoso.svg"
+              name="Lola Cardoso"
+              position=""
+            />
+            <TeamCard
+              image="/images/team/no-image.png"
+              name="Carlos Heneine"
+              position=""
+            />
+            <TeamCard
+              image="/images/team/grundy.svg"
+              name="Percy Grundy"
+              position=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="relative max-container padding-container mt-48">
+        <div className="mb-14 flex flex-col gap-4 w-1/2">
+          <h2 className="bold-40 text-orange-base">
+          Business Heads
+          </h2>
+          <p className="regular-18 text-generic-800">At the core of our operations lies our dedicated Business Heads, steadfast in their pursuit of excellence across every facet of our business. Each business head contributes their distinct expertise, propelling our growth trajectory and guaranteeing unparalleled customer satisfaction.</p>
+        </div>
+        <div className=''>
+          <div className='flex flex-col md:flex-row gap-4'>
+            <TeamCard
+              image="/images/team/adeduro.svg"
+              name="Ademayowa Adeduro"
+              position="Managing Director"
+            />
+            <TeamCard
+              image="/images/team/mbuya.svg"
+              name="Anele Mbuya"
+              position="Executive Director, Acting Managing Director"
+            />
+            <TeamCard
+              image="/images/team/deinde.svg"
+              name="Toyin Deinde"
+              position="Chief Operating Officer"
+            />
+            <TeamCard
+              image="/images/team/mohammed.svg"
+              name="Aliyu D. Mohammed"
+              position="Managing Director"
+            />
           </div>
         </div>
       </section>
