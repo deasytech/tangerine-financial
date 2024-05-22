@@ -93,6 +93,10 @@ body {
     @apply text-[14px] font-[400];
   }
 
+  .regular-10 {
+    @apply text-[10px] font-[400] font-gilroy-medium;
+  }
+
   .regular-12 {
     @apply text-[12px] font-[400] font-gilroy-medium;
   }

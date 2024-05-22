@@ -1,7 +1,27 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/overview", key: "about-us", label: "About Us" },
-  { href: "/tangerine-general", key: "our-subsidiaries", label: "Subsidiaries" },
+  { 
+    href: "/overview", 
+    key: "about-us", 
+    label: "About Us",
+    subMenu: [
+      { href: "/overview", key: "overview", label: "Overview" },
+      { href: "/investors", key: "investors", label: "Investors" },
+      { href: "/leadership-team", key: "leadership-team", label: "Leadership Team" },
+      { href: "/our-businesses", key: "our-businesses", label: "Our Businesses" },
+    ]
+  },
+  { 
+    href: "/tangerine-general", 
+    key: "our-subsidiaries", 
+    label: "Subsidiaries",
+    subMenu: [
+      { href: "/tangerine-general", key: "tangerine-general", label: "Tangerine General" },
+      { href: "/tangerine-life", key: "tangerine-life", label: "Tangerine Life" },
+      { href: "/tangerine-health", key: "tangerine-health", label: "Tangerine Health" },
+      { href: "/tangerine-apt-pension", key: "tangerine-apt-pension", label: "Tangerine APT Pension" },
+    ]
+  },
   { href: "/impact", key: "our-impact", label: "Our Impact" },
   { href: "/careers", key: "careers", label: "Careers" },
 ];

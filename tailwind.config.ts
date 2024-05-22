@@ -55,6 +55,7 @@ const config: Config = {
           500: "#7C7C7C",
           700: "#525252",
           800: "#464646",
+          950: "#292929",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
