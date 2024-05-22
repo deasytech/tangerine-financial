@@ -1,4 +1,5 @@
 import { CloudDownloadIcon } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -13,29 +14,50 @@ const LeadershipPage = () => {
           <p className="regular-18 text-generic-800">At Tangerine Africa, our leadership team is comprised of seasoned professionals dedicated to driving our company forward. Led by our CEO, they bring expertise in strategic planning, operations management, financial stewardship, and marketing innovation.</p>
         </div>
         <div className=''>
-          <div className='flex'>
+          <div className='flex flex-col md:flex-row gap-4'>
             <div className='flex flex-col gap-1 w-full'>
-              <div className='bg-white p-3'>
-                <h3 className='text-orange-base'>Lola Cardoso</h3>
-                <p className='regular-12'>Group Chief Executive Officer</p>
+              <div className="relative">
+                <Image
+                  src="/images/team/cardoso.png"
+                  alt="Lola Cardoso"
+                  width={280}
+                  height={296}
+                  className='w-full h-auto'
+                />
+                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
+                  <h3 className="text-orange-base">Lola Cardoso</h3>
+                  <p className="regular-12">Group Chief Executive Officer</p>
+                </div>
               </div>
             </div>
             <div className='flex flex-col gap-1 w-full'>
-              <div className='bg-white p-3'>
-                <h3 className='text-orange-base'>Helio Abrantes</h3>
-                <p className='regular-12'>Group Chief Financial Officer</p>
+              <div className="relative">
+                <Image src="/images/team/abrantes.png" alt='Helio Abrantes' width={280} height={296}
+                  className='w-full h-auto' />
+                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
+                  <h3 className='text-orange-base'>Helio Abrantes</h3>
+                  <p className='regular-12'>Group Chief Financial Officer</p>
+                </div>
               </div>
             </div>
             <div className='flex flex-col gap-1 w-full'>
-              <div className='bg-white p-3'>
-                <h3 className='text-orange-base'>Christine Sijuwade</h3>
-                <p className='regular-12'>Group General Counsel & Group Head of Legal and Compliance</p>
+              <div className="relative">
+                <Image src="/images/team/sijuwade.png" alt='Christine Sijuwade' width={280} height={296}
+                  className='w-full h-auto' />
+                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
+                  <h3 className='text-orange-base'>Christine Sijuwade</h3>
+                  <p className='regular-12'>Group General Counsel & Group Head of Legal and Compliance</p>
+                </div>
               </div>
             </div>
             <div className='flex flex-col gap-1 w-full'>
-              <div className='bg-white p-3'>
-                <h3 className='text-orange-base'>Sekeenat Bakere</h3>
-                <p className='regular-12'>Executive Director of Tangerine Life</p>
+              <div className="relative">
+                <Image src="/images/team/bakere.png" alt='Sekeenat Bakere' width={280} height={296}
+                  className='w-full h-auto' />
+                <div className="absolute rounded-lg bottom-4 left-4 right-4 bg-white p-3">
+                  <h3 className='text-orange-base'>Sekeenat Bakere</h3>
+                  <p className='regular-12'>Executive Director of Tangerine Life</p>
+                </div>
               </div>
             </div>
           </div>
