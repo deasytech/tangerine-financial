@@ -3,7 +3,7 @@ import React from 'react'
 
 const COntactPage = () => {
   return (
-    <section className="relative w-full h-screen bg-cover bg-center max-h-[680px]" style={{
+    <section className="relative w-full h-full bg-cover bg-center pb-8" style={{
       backgroundImage: "url('/images/footer-bg.svg')",
       backgroundPosition: "top center",
       overflow: 'hidden',
