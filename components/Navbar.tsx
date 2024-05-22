@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className="flexBetween max-container padding-container">
         <Link href="/">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.svg"
             alt="Tangerine Africa"
             width={120}
             height={40}
