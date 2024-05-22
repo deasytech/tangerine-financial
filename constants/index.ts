@@ -19,7 +19,7 @@ export const NAV_LINKS = [
       { href: "/tangerine-general", key: "tangerine-general", label: "Tangerine General" },
       { href: "/tangerine-life", key: "tangerine-life", label: "Tangerine Life" },
       { href: "/tangerine-health", key: "tangerine-health", label: "Tangerine Health" },
-      { href: "/tangerine-apt-pension", key: "tangerine-apt-pension", label: "Tangerine APT Pension" },
+      { href: "/tangerine-pension", key: "tangerine-pension", label: "Tangerine APT Pension" },
     ]
   },
   { href: "/impact", key: "our-impact", label: "Our Impact" },

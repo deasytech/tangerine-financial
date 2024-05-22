@@ -3,7 +3,6 @@
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "./Button";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
@@ -86,8 +85,8 @@ const Navbar = () => {
           <Link href="/contact" className={`regular-12 ${pathname === '/contact' ? 'bg-orange-base rounded-full text-white p-1 px-4' : ''}`}>
             Contact Us
           </Link>
-          <Link href="/">
-            <Button type="button" title="Get Started" variant="btn_dark_orange" />
+          <Link href="/get-started" className="btn_dark_orange rounded-lg">
+            Get Started
           </Link>
         </div>
 
