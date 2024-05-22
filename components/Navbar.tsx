@@ -83,10 +83,12 @@ const Navbar = () => {
         </ul>
 
         <div className="lg:flexCenter hidden gap-4">
-          <Link href="/" className="regular-12">
+          <Link href="/contact" className={`regular-12 ${pathname === '/contact' ? 'bg-orange-base rounded-full text-white p-1 px-4' : ''}`}>
             Contact Us
           </Link>
-          <Button type="button" title="Get Started" variant="btn_dark_orange" />
+          <Link href="/">
+            <Button type="button" title="Get Started" variant="btn_dark_orange" />
+          </Link>
         </div>
 
         <Image

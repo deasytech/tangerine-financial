@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter py-32 mt-32 bg-orange-50" style={{
+    <footer className="flexCenter py-32 mt-10 bg-orange-50" style={{
       backgroundImage: "url('/images/footer-bg.svg')",
       backgroundPosition: "bottom center",
       backgroundSize: "cover",

@@ -180,6 +180,17 @@ body {
   .no-focus {
     @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
   }
+
+  .tab-title {
+    @apply text-[14px] uppercase text-generic-950 mb-2
+  }
+
+  .tab {
+    @apply flex flex-col gap-4 justify-start
+  }
+  .tab p {
+    @apply text-[16px] font-[400] text-generic-950 leading-[145%] font-gilroy-regular
+  }
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
