@@ -8,7 +8,7 @@ const AboutFront = () => {
         className="absolute inset-0 h-full w-full bg-cover bg-center bg-no-repeat rounded-3xl"
         style={{ backgroundImage: "url('/images/building.png')" }}
       />
-      <div className="relative z-10 flex flex-col items-start max-w-[488px] gap-4 px-6 md:px-10 xl:px-16">
+      <div className="relative z-10 flex flex-col items-start max-w-sm md:max-w-[488px] gap-4 px-6 md:px-10 xl:px-16">
         <p className="regular-14 uppercase text-gray-400 font-gilroy-semibold">
           About us
         </p>

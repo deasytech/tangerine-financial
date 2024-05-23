@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const OurImpact = () => {
   return (
-    <section className="relative max-container padding-container flex flex-row justify-between mt-24">
+    <section className="relative max-container padding-container flex flex-col md:flex-row gap-6 justify-between mt-24">
       <div className="w-full flex flex-col gap-4">
         <p className="regular-14 uppercase text-gray-400 font-gilroy-semibold">
           our impact

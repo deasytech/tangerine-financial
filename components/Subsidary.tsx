@@ -22,7 +22,7 @@ const Subsidary = () => {
         />
       </Link>
 
-      <div className="flex flex-row mt-10 max-w-full gap-4">
+      <div className="flex flex-col md:flex-row mt-10 max-w-full gap-4">
         <SubsidaryImage image="/images/general.png" name="General" link="/" />
         <SubsidaryImage image="/images/life.png" name="Life" link="/" />
         <SubsidaryImage image="/images/pension.png" name="Pension" link="/" />
