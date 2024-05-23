@@ -3,6 +3,7 @@ import Button from "@/components/Button";
 import SubsidaryCard from "@/components/cards/SubsidaryCard";
 import ValuesCard from "@/components/cards/ValuesCard";
 import { CloudDownloadIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const OverviewPage = () => {
@@ -171,12 +172,10 @@ const OverviewPage = () => {
             <h2 className="bold-40 text-orange-base">
               Group Executives
             </h2>
-            <Button
-              type={"button"}
-              title={"Learn more"}
-              variant={"btn_dark_orange w-fit p-0!"}
-              icon="/icons/arrow-top-right.svg"
-            />
+            <Link href="" className="flex gap-2 rounded-lg btn_dark_orange w-fit">
+              <span>Learn more</span>
+              <Image src="/icons/arrow-top-right.svg" alt="Learn more" width={13} height={13} />
+            </Link>
           </div>
           <div className="bg-blue-50 w-full p-12 flex flex-col gap-6 rounded-3xl">
             <h2 className="bold-40 text-blue-base">

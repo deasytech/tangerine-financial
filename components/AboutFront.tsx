@@ -32,7 +32,6 @@ const AboutFront = () => {
         </Link>
       </div>
     </section>
-
   );
 };
 
