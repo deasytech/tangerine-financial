@@ -23,13 +23,13 @@ body {
     @apply border-green-50 bg-green-50 px-8 py-5 text-white;
   }
   .btn_dark_orange {
-    @apply bg-orange-base px-6 py-2 text-white transition-all hover:bg-orange-base/75 cursor-pointer;
+    @apply bg-orange-base px-6 py-2 text-white transition-all hover:bg-orange-base/75 cursor-pointer font-gilroy-regular;
   }
   .btn_dark_orange_outline {
-    @apply border-orange-base text-orange-base px-6 py-2 border;
+    @apply border-orange-base text-orange-base px-6 py-2 border font-gilroy-regular;
   }
   .btn_dark_blue {
-    @apply bg-blue-base px-6 py-2 text-white transition-all hover:bg-blue-base/75 cursor-pointer;
+    @apply bg-blue-base px-6 py-2 text-white transition-all hover:bg-blue-base/75 cursor-pointer font-gilroy-regular;
   }
 
   .max-container {

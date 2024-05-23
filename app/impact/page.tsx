@@ -103,10 +103,12 @@ const ImpactPage = () => {
             </h2>
             <p className="regular-14 text-generic-700 font-gilroy-medium">Discover the ethical dimensions of our CSR efforts. Dive into our commitment to making a positive impact, guided by transparency and adherence to ISO 26000 standards.</p>
             <div className='flex gap-5'>
-              <Link href="/" className='cursor-pointer w-fit'>
-                <Button type='button' title='Become a Partner' variant='btn_dark_orange' />
+              <Link href="/" className='btn_dark_orange rounded-lg w-fit'>
+                Become a Partner
               </Link>
-              <Button type='button' title='Explore Our CSR Reports' variant='btn_dark_orange_outline' />
+              <Link href="/" className='btn_dark_orange_outline rounded-lg w-fit'>
+              Explore Our CSR Reports
+              </Link>
             </div>
           </div>
         </div>
@@ -157,8 +159,8 @@ const ImpactPage = () => {
             Get updates on our products, offerings.
             </p>
             <div className='flex w-full bg-white rounded-lg p-2 gap-2'>
-              <input type="text" placeholder='Your email' className='w-full no-focus' />
-              <Button type='button' title='Get in touch' variant='btn_dark_orange' />
+              <input type="text" placeholder='Your email' className='flex-1 no-focus' />
+              <Link href="/" className="rounded-lg btn_dark_orange w-fit">Get in touch</Link>
             </div>
           </div>
         </div>

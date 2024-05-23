@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gilroyRegular.className} ${gilroyBlack.className} ${gilroyBold.className} ${gilroyLight.className} ${gilroyMedium.className} ${gilroySemiBold.className}`}
+        className={`${gilroyRegular.variable} ${gilroyBlack.variable} ${gilroyBold.variable} ${gilroyLight.variable} ${gilroyMedium.variable} ${gilroySemiBold.variable}`}
       >
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
