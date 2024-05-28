@@ -1,4 +1,5 @@
 import { FOOTER_LINKS, SOCIALS } from "@/constants";
+import { textToSlug } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -57,7 +58,7 @@ const Footer = () => {
               <FooterColumn title={columns.title} key={index}>
                 <ul className="regular-12 flex flex-col gap-2 text-gray-800">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <Link href={`/footer/${textToSlug(link)}`} key={link}>
                       {link}
                     </Link>
                   ))}

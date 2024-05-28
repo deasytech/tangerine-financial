@@ -1,5 +1,6 @@
 import KeyFigures from '@/components/KeyFigures'
 import SubsidaryImage from '@/components/SubsidaryImage'
+import { PRESS } from '@/constants'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -101,18 +102,17 @@ const InvestorsPage = () => {
       <section className="relative max-container padding-container mt-32 flex flex-col gap-20 md:flex-row items-center">
         <div className="w-full">
           <h3 className="bold-48 mb-12 text-blue-950">Press Releases</h3>
-          <div className="flex flex-col p-4 gap-4 border-b border-generic-500">
-            <p className="regular-12">13 Aug 2023</p>
-            <p className="regular-16 text-generic-700">Verod Capital Press Release On Tangerine's Acquisition Of ARM Life Plc.</p>
-          </div>
-          <div className="flex flex-col p-4 gap-4 border-b border-generic-500">
-            <p className="regular-12">13 Aug 2023</p>
-            <p className="regular-16 text-generic-700">Strong revenue growth underpins improved profitability as Tangerine records 27% growth in Insurance revenues following implementation of IFRS 17</p>
-          </div>
-          <div className="flex flex-col p-4 gap-4">
-            <p className="regular-12">13 Aug 2023</p>
-            <p className="regular-16 text-generic-700">Strong revenue growth underpins improved profitability as Tangerine records 27% growth in Insurance revenues following implementation of IFRS 17</p>
-          </div>
+          {PRESS.map((press, index) => (
+            <Link
+              key={press.slug}
+              href={`press/${press.slug}`}
+              className={`flex flex-col p-4 gap-4 ${index !== PRESS.length - 1 ? 'border-b border-generic-500' : ''
+                }`}
+            >
+              <p className="regular-12">{press.date}</p>
+              <p className="regular-16 text-generic-700">{press.title}</p>
+            </Link>
+          ))}
           <Link href="/" className="flex items-center gap-2 text-orange-base w-fit mt-6">
             <span>View all releases</span>
             <ArrowRight size={16} className="text-orange-base" />
