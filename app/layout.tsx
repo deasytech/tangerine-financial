@@ -7,7 +7,7 @@ import {
   gilroyMedium,
   gilroyRegular,
   gilroySemiBold,
-} from "./font/font";
+} from "@/app/font/font";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
