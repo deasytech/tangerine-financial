@@ -13,7 +13,7 @@ export const NAV_LINKS = [
   { 
     href: "/wellness", 
     key: "wellness", 
-    label: "Subsidiaries",
+    label: "Wellness",
     subMenu: [
       { href: "/wellness", key: "wellness-overview", label: "Wellness", desc: "Bespoke well-being solutions tailored to your employees' wellness needs." },
       { href: "/gym-list", key: "gym-list", label: "Tangerine Life", desc: "" },
@@ -23,7 +23,7 @@ export const NAV_LINKS = [
   { 
     href: "/provider-network", 
     key: "provider-network", 
-    label: "Subsidiaries",
+    label: "Provider Network",
     subMenu: [
       { href: "/provider-network", key: "provider-network-overview", label: "Provider Network", desc: "THT is in partnership with 1500+ healthcare professionals and world-class providers of health-related services in Nigeria." },
       { href: "/find-provider", key: "find-provider", label: "Find a Provider", desc: "" },
