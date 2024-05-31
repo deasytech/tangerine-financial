@@ -20,6 +20,7 @@ const config: Config = {
           "base": "#F76779",
           50: "#FFF1F2",
           100: "#FEE5E7",
+          400: "#F76779",
           600: "#DC2247",
           900: "#851636"
         },
@@ -34,6 +35,7 @@ const config: Config = {
           20: "#7C7C7C",
           30: "#7B7B7B",
           50: "#585858",
+          100: "#E7E7E7",
           90: "#141414",
         },
         orange: {
@@ -45,6 +47,7 @@ const config: Config = {
         blue: {
           base: "#1D0C47",
           50: "#EAEBFF",
+          200: "#CED6FF",
           600: "#5E1DFF",
           950: "#000164",
         },

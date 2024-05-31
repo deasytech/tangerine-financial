@@ -67,37 +67,33 @@ export const PRESS = [
 export const FOOTER_LINKS = [
   {
     title: "Company",
-    links: ["About us", "Our Impact", "Careers", "Investors", "Leadership"],
+    links: ["About us", "History", "Leadership Team", "Partnership", "Privacy Policy", "Terms"],
   },
   {
-    title: "Subsidiaries",
+    title: "Plans",
     links: [
-      "Tangerine General",
-      "Tangerine Life",
-      "Tangerine Pension",
-      "Tangerine Health",
+      "Liberty Health Plans",
+      "Total Health Plan",
+      "Managed Care Plan",
+      "FAQs",
     ],
   },
   {
-    title: "Media centre",
-    links: ["Media Center"],
+    title: "Wellness",
+    links: ["Wellness Offerings", "Gym List", "Book a session"],
   },
   {
-    title: "Compliance",
+    title: "provider network",
     links: [
-      "Terms and Conditions",
-      "Privacy Policy",
-      "Cookies Policy",
-      "Whistleblowing Policy",
+      "Find a Provider",
+      "Join our Provider Network",
     ],
   },
   {
-    title: "Contact us",
+    title: "Media",
     links: [
-      "hello@tangerine.africa",
-      "14 Hughes Ave, Alagomeji-Yaba, Lagos.",
-      "54 Portland Place, London, United Kingdom, W1B 1DY",
-      "0700tangerine ( 0700 826437463)",
+      "Blog",
+      "Gallery",
     ],
   },
 ];
