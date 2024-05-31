@@ -1,13 +1,4 @@
 import type { Metadata } from "next";
-import "@/app/globals.css";
-import {
-  gilroyBlack,
-  gilroyBold,
-  gilroyLight,
-  gilroyMedium,
-  gilroyRegular,
-  gilroySemiBold,
-} from "@/app/font/font";
 import Navbar from "./tangerine-health/_components/Navbar";
 import Footer from "./tangerine-health/_components/Footer";
 
@@ -24,14 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${gilroyRegular.variable} ${gilroyBlack.variable} ${gilroyBold.variable} ${gilroyLight.variable} ${gilroyMedium.variable} ${gilroySemiBold.variable}`}
-      >
-        <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
-        <Footer />
-      </body>
-    </html>
+    <main>
+      <Navbar />
+      <div className="relative overflow-hidden">{children}</div>
+      <Footer />
+    </main>
   );
 }

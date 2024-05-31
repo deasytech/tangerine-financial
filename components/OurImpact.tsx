@@ -35,7 +35,7 @@ const OurImpact = () => {
           alt="our impact"
           width={492}
           height={505}
-          className="z-50 relative"
+          className="z-1 relative"
         />
       </div>
     </section>

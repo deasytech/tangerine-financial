@@ -1,6 +1,6 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/about", key: "about", label: "About" },
+  { href: "/tangerine-health/about", key: "about", label: "About" },
   { 
     href: "/corporate-msmes", 
     key: "plans", 

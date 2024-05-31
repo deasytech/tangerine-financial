@@ -8,8 +8,6 @@ import {
   gilroyRegular,
   gilroySemiBold,
 } from "@/app/font/font";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Tangerine Africa Group",
@@ -28,9 +26,7 @@ export default function RootLayout({
       <body
         className={`${gilroyRegular.variable} ${gilroyBlack.variable} ${gilroyBold.variable} ${gilroyLight.variable} ${gilroyMedium.variable} ${gilroySemiBold.variable}`}
       >
-        <Navbar />
         <main className="relative overflow-hidden">{children}</main>
-        <Footer />
       </body>
     </html>
   );
