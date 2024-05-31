@@ -21,7 +21,7 @@ const Slider = () => {
       ]}>
         <CarouselContent>
           {SLIDES.map((slide: string, index: number) => (
-            <CarouselItem>
+            <CarouselItem key={index}>
               <Image src={slide} alt={`slide ${index + 1}`} width={1216} height={540} className="w-full" />
             </CarouselItem>
           ))}
