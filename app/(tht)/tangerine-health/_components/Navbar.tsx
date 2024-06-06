@@ -61,20 +61,12 @@ const Navbar = () => {
                           <Link href={subLink.href} className="regular-12 text-generic-700" onClick={handleSubMenuClick}>
                             {subLink.label}
                           </Link>
-                          <p className="regular-10 text-generic-700">{subLink.desc}</p>
+                          <p className="regular-10 text-generic-700">
+                            <Link href={subLink.href}>{subLink.desc}</Link>
+                          </p>
                         </li>
                       ))}
                     </div>
-                    {link.key === "about-us" && <div className="w-full">
-                      <Image src="/images/menu-about-img.svg" alt="About Us" width={253} height={132} className="rounded-lg mb-5" />
-                      <h3 className="regular-12 text-generic-950">About Tangerine Financial</h3>
-                      <p className="regular-10 text-generic-700">Tangerine Financials is an investment holding company with registration number 13341620.</p>
-                    </div>}
-                    {link.key === "our-subsidiaries" && <div className="w-full">
-                      <Image src="/images/menu-subsidiary-img.svg" alt="Our Subsidiaries" width={253} height={132} className="rounded-lg mb-5" />
-                      <h3 className="regular-12 text-generic-950">Our Subsidiaries</h3>
-                      <p className="regular-10 text-generic-700">We invest in businesses that merge deep consumer insights and cutting-edge technology to provide a range of carefully tailored products that improve life.</p>
-                    </div>}
                   </ul>
                 </div>
               )}

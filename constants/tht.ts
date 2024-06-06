@@ -2,32 +2,32 @@
 export const NAV_LINKS = [
   { href: "/tangerine-health/about", key: "about", label: "About" },
   { 
-    href: "/corporate-msmes", 
+    href: "/tangerine-health/corporate-msmes", 
     key: "plans", 
     label: "Plans",
     subMenu: [
-      { href: "/corporate-msmes", key: "corporate-msmes", label: "Corporates & MSMEs", desc: "Comprehensive healthcare plans for all types of organisations." },
-      { href: "/individuals", key: "individuals", label: "Individuals", desc: "Tailor made individual plans covering primary, secondary and tertiary health care." },
+      { href: "/tangerine-health/corporate-msmes", key: "corporate-msmes", label: "Corporates & MSMEs", desc: "Comprehensive healthcare plans for all types of organisations." },
+      { href: "/tangerine-health/individuals", key: "individuals", label: "Individuals", desc: "Tailor made individual plans covering primary, secondary and tertiary health care." },
     ]
   },
   { 
-    href: "/wellness", 
+    href: "/tangerine-health/wellness", 
     key: "wellness", 
     label: "Wellness",
     subMenu: [
-      { href: "/wellness", key: "wellness-overview", label: "Wellness", desc: "Bespoke well-being solutions tailored to your employees' wellness needs." },
-      { href: "/gym-list", key: "gym-list", label: "Tangerine Life", desc: "" },
-      { href: "/book-session", key: "book-session", label: "Book a Session", desc: "" },
+      { href: "/tangerine-health/wellness", key: "wellness-overview", label: "Wellness", desc: "Bespoke well-being solutions tailored to your employees' wellness needs." },
+      { href: "/tangerine-health/gym-list", key: "gym-list", label: "Tangerine Life", desc: "" },
+      { href: "/tangerine-health/book-session", key: "book-session", label: "Book a Session", desc: "" },
     ]
   },
   { 
-    href: "/provider-network", 
+    href: "/tangerine-health/provider-network", 
     key: "provider-network", 
     label: "Provider Network",
     subMenu: [
-      { href: "/provider-network", key: "provider-network-overview", label: "Provider Network", desc: "THT is in partnership with 1500+ healthcare professionals and world-class providers of health-related services in Nigeria." },
-      { href: "/find-provider", key: "find-provider", label: "Find a Provider", desc: "" },
-      { href: "/join-provider-network", key: "join-provider-network", label: "Join our Provider Network", desc: "" },
+      { href: "/tangerine-health/provider-network", key: "provider-network-overview", label: "Provider Network", desc: "THT is in partnership with 1500+ healthcare professionals and world-class providers of health-related services in Nigeria." },
+      { href: "/tangerine-health/find-provider", key: "find-provider", label: "Find a Provider", desc: "" },
+      { href: "/tangerine-health/join-provider-network", key: "join-provider-network", label: "Join our Provider Network", desc: "" },
     ]
   },
 ];
@@ -134,5 +134,43 @@ export const CORE_VALUES = [
     title: "Excellence",
     icon: "/icons/tht/excellence.svg",
     text: "We are intentional in consistently producing high-quality results, thereby exceeding the expectations of our stakeholders.",
+  },
+];
+
+// BENEFITS OFFERED
+export const BENEFITS_OFFERED = [
+  {
+    title: "Comprehensive Health Plans",
+    icon: "/icons/tht/comprehensive-health-plan.svg",
+    text: "Our health plans offer both in-and-out-of-the-country healthcare services leveraging our partnership with Liberty Health and world-class healthcare facilities.",
+  },
+  {
+    title: "Robust well-being offering",
+    icon: "/icons/tht/robust-well-being.svg",
+    text: "We believe in preventive healthcare; hence we offer well-being services that are second to none.",
+  },
+  {
+    title: "24/7 Customer Service Solutions",
+    icon: "/icons/tht/customer-service.svg",
+    text: "We believe healthcare services should be instant, the reason behind having a contact centre that is well equipped to support the management of all healthcare needs.",
+  },
+];
+
+// PLANS
+export const PLANS = [
+  {
+    title: "Liberty Health Cover",
+    link: "/tangerine-health",
+    text: "high-end health plans best suited for multinationals, corporations, and SMEs within and outside the country.",
+  },
+  {
+    title: "Managed Care Plans",
+    link: "/tangerine-health",
+    text: "Managed Care is designed for those who desire adequate cover for all medically necessary conditions that are budget-friendly.",
+  },
+  {
+    title: "Fee-For-Service Plans",
+    link: "/tangerine-health",
+    text: "Cost-effective healthcare plans for those who crave the flexibility of access to care.",
   },
 ];
