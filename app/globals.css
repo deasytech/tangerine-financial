@@ -109,7 +109,7 @@ body {
   }
 
   .regular-12 {
-    @apply text-[12px] font-[400] font-gilroy-semibold;
+    @apply text-[12px] font-[400] font-gilroy-regular;
   }
 
   .medium-14 {

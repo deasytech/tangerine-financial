@@ -174,3 +174,163 @@ export const PLANS = [
     text: "Cost-effective healthcare plans for those who crave the flexibility of access to care.",
   },
 ];
+
+// INDIVIDUAL PLANS
+export const INDIVIDUAL_PLANS = [
+  {
+    "planName": "Alldo",
+    "price": "₦44,600",
+    "description": "A fee-for-service plan designed to meet your essential health needs at a pocket-friendly rate. This plan covers outpatient, inpatient, and diagnostic services with value-added services like Telemedicine, onsite health checks and more.",
+    "details": [
+      {
+        "title": "In-patient limit",
+        "value": "150,000"
+      },
+      {
+        "title": "Out-patient limit",
+        "value": "125,000"
+      },
+      {
+        "title": "Consultations",
+        "value": "General and Specialist Consultation"
+      },
+      {
+        "title": "Scans",
+        "value": "Basic radiological, haematological and pathological (laboratory) investigations"
+      },
+      {
+        "title": "Surgeries",
+        "value": "Minor surgical procedures to the tune of 25,000 as part of the In-patient limit of 150,000"
+      },
+      {
+        "title": "Emergency",
+        "value": "Accident and Emergencies cover inclusive of evacuation (Ambulance services)"
+      },
+      {
+        "title": "Dental care",
+        "value": "Dental services - Basic dental treatment (7,500)"
+      },
+      {
+        "title": "Optical care",
+        "value": "Optical services - Eye care consultation & testing covered up to 7,500"
+      },
+      {
+        "title": "Maternity",
+        "value": "N/A"
+      },
+      {
+        "title": "Telemedicine",
+        "value": "N/A"
+      },
+      {
+        "title": "Gym",
+        "value": "N/A"
+      },
+    ],
+    "link": "/tangerine-health"
+  },
+  {
+    "planName": "Pearl",
+    "price": "₦72,500",
+    "description": "The plan is a mid-range cost health plan designed to provide you with the best care. This plan covers obstetrics and gynaecological and opthalmological services with value-added services like telemedicine, psychological well-being support and network gym access.",
+    "details": [
+      {
+        "title": "In-patient limit",
+        "value": "400,000"
+      },
+      {
+        "title": "Out-patient limit",
+        "value": "200,000"
+      },
+      {
+        "title": "Consultations",
+        "value": "General and Specialist Consultation"
+      },
+      {
+        "title": "Scans",
+        "value": "Basic and advanced investigations such as CT scan, MRI covered up to 50,000"
+      },
+      {
+        "title": "Surgeries",
+        "value": "Minor, Intermediate and Major Surgeries covered up to 150,000"
+      },
+      {
+        "title": "Emergency",
+        "value": "Accident and Emergencies cover inclusive of evacuation (Ambulance services)"
+      },
+      {
+        "title": "Dental care",
+        "value": "Dental services - Basic dental treatment and secondary dental care (20,000)"
+      },
+      {
+        "title": "Optical care",
+        "value": "Optical services - Eye care consultation & testing covered up to 20,000 with Lens & Frame inclusive up to 10,000"
+      },
+      {
+        "title": "Maternity",
+        "value": "Maternity services - inclusive of ante-natal care and delivery covered up to 130,000 and neonatal/paediatric care inclusive of immunizations to the limit of 30,000"
+      },
+      {
+        "title": "Telemedicine",
+        "value": "Telemedicine services"
+      },
+      {
+        "title": "Gym",
+        "value": "Gym access (Discounted gym access at i-Fitness gyms)"
+      },
+    ],
+    "link": "/tangerine-health"
+  },
+  {
+    "planName": "Coral",
+    "price": "₦88,500",
+    "description": "A fee-for-service, flexible and cost-effective health plan designed to provide you with comprehensive health coverage. This plan covers obstetrics and gynaecological, Neonatal/Pediatric, and surgical services with value-added services like telemedicine, psychological well-being support and network gym access.",
+    "details": [
+      {
+        "title": "In-patient limit",
+        "value": "500,000"
+      },
+      {
+        "title": "Out-patient limit",
+        "value": "250,000"
+      },
+      {
+        "title": "Consultations",
+        "value": "General and Specialist Consultation"
+      },
+      {
+        "title": "Scans",
+        "value": "Basic and advanced investigations such as CT scan, MRI covered up to 100,000"
+      },
+      {
+        "title": "Surgeries",
+        "value": "Minor, Intermediate and Major Surgeries covered up to 275,000"
+      },
+      {
+        "title": "Emergency",
+        "value": "Accident and Emergencies cover inclusive of evacuation (Ambulance services)"
+      },
+      {
+        "title": "Dental care",
+        "value": "Dental services - Basic dental treatment and secondary dental care (30,000)"
+      },
+      {
+        "title": "Optical care",
+        "value": "Optical services - Eye care consultation & testing covered up to 30,000 with Lens & Frame inclusive up to 15,000"
+      },
+      {
+        "title": "Maternity",
+        "value": "Maternity services - inclusive of ante-natal care and delivery covered up to 200,000 and neonatal/paediatric care inclusive of immunizations to the limit of 50,000"
+      },
+      {
+        "title": "Telemedicine",
+        "value": "Telemedicine services"
+      },
+      {
+        "title": "Gym",
+        "value": "Gym access (Discounted gym access at i-Fitness gyms)"
+      },
+    ],
+    "link": "/tangerine-health"
+  },
+];

@@ -1,28 +1,26 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
-import CoreValue from '../_components/CoreValue'
-import { BENEFITS_OFFERED, PLANS } from '@/constants/tht'
+import CoreValue from '../../_components/CoreValue'
+import { BENEFITS_OFFERED, INDIVIDUAL_PLANS, PLANS } from '@/constants/tht'
 import PlansCard from '@/components/cards/PlansCard'
+import PricingPlanCard from '@/components/cards/PricingPlanCard'
 
-const MSMESPage = () => {
+const IndividualsPage = () => {
   return (
     <>
       <section className="relative max-container padding-container mt-40">
         <div className="h-[540px] bg-cover bg-center" style={{
-          backgroundImage: "url('/images/tht/msmes-banner.png')",
+          backgroundImage: "url('/images/tht/individuals-banner.png')",
           borderRadius: '32px',
           overflow: 'hidden',
         }}>
-          <div className="ml-32 h-full flex flex-col justify-center items-start w-[40%]">
+          <div className="px-8 md:ml-32 h-full flex flex-col justify-center items-start w-full md:w-[40%]">
             <p className="regular-14 uppercase text-white">our plans</p>
             <h1 className="bold-32 lg:bold-56 items-center mb-3 lg:mt-10 text-white">
-              Corporate & MSME Plans
+              Retail Plans
             </h1>
-            <Link href="/" className="regular-18 btn_dark_orange rounded-lg flex gap-2 items-center">
-              Get a Quote
-              <ArrowRight size={18} className="text-white" />
-            </Link>
+            <p className="regular-18 text-white">Healthcare covers are designed for you, so you don't have to part with cash when you need to access care.</p>
           </div>
         </div>
       </section>
@@ -31,7 +29,7 @@ const MSMESPage = () => {
         <div className="w-full md:w-1/2 space-y-4">
           <h5 className="regular-14 text-orange-base uppercase">our health plan's benefits</h5>
           <h3 className="bold-48 text-blue-950">The benefits we offer you</h3>
-          <p className="regular-16 text-generic-700">Our corporate health plans offer seamless and essential healthcare solutions to your employees.</p>
+          <p className="regular-16 text-generic-700">Our retail healthcare Plans are pocket-friendly, giving you peace of mind and seamless access to the best of care. You may even decide to “pay-on-the-go”(Quarterly and bi-annual payment options are available).</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-20">
@@ -54,12 +52,14 @@ const MSMESPage = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-20">
-          {PLANS.map((plan) =>
-            <PlansCard
-              key={plan.title}
+          {INDIVIDUAL_PLANS.map((plan) =>
+            <PricingPlanCard
+              key={plan.planName}
+              planName={plan.planName}
+              price={plan.price}
+              description={plan.description}
+              details={plan.details}
               link={plan.link}
-              title={plan.title}
-              text={plan.text}
             />
           )}
         </div>
@@ -97,4 +97,4 @@ const MSMESPage = () => {
   )
 }
 
-export default MSMESPage
+export default IndividualsPage
