@@ -16,7 +16,7 @@ export const NAV_LINKS = [
     label: "Wellness",
     subMenu: [
       { href: "/tangerine-health/wellness", key: "wellness-overview", label: "Wellness", desc: "Bespoke well-being solutions tailored to your employees' wellness needs." },
-      { href: "/tangerine-health/gym-list", key: "gym-list", label: "Tangerine Life", desc: "" },
+      { href: "/tangerine-health/gym-list", key: "gym-list", label: "Gym List", desc: "" },
       { href: "/tangerine-health/book-session", key: "book-session", label: "Book a Session", desc: "" },
     ]
   },
@@ -333,4 +333,13 @@ export const INDIVIDUAL_PLANS = [
     ],
     "link": "/tangerine-health"
   },
+];
+
+export const WELLNESS_OFFERINGS = [
+  { bgColor: "bg-blue-900", subTitle: "wellness offerings", title: "Bespoke wellness initiatives" },
+  { bgColor: "bg-generic-950", subTitle: "wellness offerings", title: "Comprehensive health check" },
+  { bgColor: "bg-red-500", subTitle: "wellness offerings", title: "Wellness webinars" },
+  { bgColor: "bg-blue-950", subTitle: "wellness offerings", title: "Wellness newsletters" },
+  { bgColor: "bg-green-700", subTitle: "wellness offerings", title: "Onsite health talks" },
+  { bgColor: "bg-orange-base", subTitle: "wellness offerings", title: "Onsite health checks" },
 ];

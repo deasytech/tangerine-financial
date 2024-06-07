@@ -3,7 +3,6 @@ import Link from 'next/link'
 import React from 'react'
 import CoreValue from '../../_components/CoreValue'
 import { BENEFITS_OFFERED, INDIVIDUAL_PLANS, PLANS } from '@/constants/tht'
-import PlansCard from '@/components/cards/PlansCard'
 import PricingPlanCard from '@/components/cards/PricingPlanCard'
 
 const IndividualsPage = () => {
