@@ -37,7 +37,7 @@ const WellnessPage = () => {
           <Image src="/icons/tht/wellness-offering.svg" alt="Wellness Offering" width={146} height={146} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
-          {WELLNESS_OFFERINGS.map((well) => {
+          {/* {WELLNESS_OFFERINGS.map((well) => {
             const bg = well.bgColor;
             return (
               <WellnessCard
@@ -47,7 +47,43 @@ const WellnessPage = () => {
                 title={well.title}
               />
             )
-          })}
+          })} */}
+          <WellnessCard
+            key={1}
+            bgColor="bg-blue-900"
+            subTitle="wellness offerings"
+            title="Bespoke wellness initiatives"
+          />
+          <WellnessCard
+            key={2}
+            bgColor="bg-generic-950"
+            subTitle="wellness offerings"
+            title="Comprehensive health check"
+          />
+          <WellnessCard
+            key={3}
+            bgColor="bg-red-500"
+            subTitle="wellness offerings"
+            title="Wellness webinars"
+          />
+          <WellnessCard
+            key={4}
+            bgColor="bg-blue-950"
+            subTitle="wellness offerings"
+            title="Wellness newsletters"
+          />
+          <WellnessCard
+            key={5}
+            bgColor="bg-green-700"
+            subTitle="wellness offerings"
+            title="Onsite health talks"
+          />
+          <WellnessCard
+            key={6}
+            bgColor="bg-orange-base"
+            subTitle="wellness offerings"
+            title="Onsite health checks"
+          />
         </div>
       </section>
 
@@ -67,7 +103,7 @@ const WellnessPage = () => {
               Do you need any of our wellbeing offerings? Click to get started
             </h5>
             <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
-              <span>Get tarted</span>
+              <span>Get started</span>
               <ArrowRight size={18} className='text-white' />
             </Link>
           </div>

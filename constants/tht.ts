@@ -343,3 +343,21 @@ export const WELLNESS_OFFERINGS = [
   { bgColor: "bg-green-700", subTitle: "wellness offerings", title: "Onsite health talks" },
   { bgColor: "bg-orange-base", subTitle: "wellness offerings", title: "Onsite health checks" },
 ];
+
+export const SPECIALIST_PANEL = [
+  { icon: "/icons/tht/trans-cardiology.svg", title: "Cardiologists" },
+  { icon: "/icons/tht/trans-surgeon.svg", title: "General Surgeons" },
+  { icon: "/icons/tht/trans-neurologist.svg", title: "Neurologists" },
+  { icon: "/icons/tht/trans-paediatricians.svg", title: "Paediatricians" },
+  { icon: "/icons/tht/trans-orthopaedics.svg", title: "Orthopaedics" },
+  { icon: "/icons/tht/trans-endocrinologists.svg", title: "Endocrinologists" },
+  { icon: "/icons/tht/trans-haematologists.svg", title: "Haematologists" },
+  { icon: "/icons/tht/trans-anaesthetics.svg", title: "Anaesthetics" },
+  { icon: "/icons/tht/trans-dermatologists.svg", title: "Dermatologists" },
+  { icon: "/icons/tht/trans-oncologists.svg", title: "Oncologists" },
+  { icon: "/icons/tht/trans-gastroenterologists.svg", title: "Gastroenterologists" },
+  { icon: "/icons/tht/trans-ear.svg", title: "Ear, nose, and throat (ENT) Specialists" },
+  { icon: "/icons/tht/trans-obstetricians.svg", title: "Obstetricians and Gynaecologists" },
+  { icon: "/icons/tht/trans-urologists.svg", title: "Urologists" },
+  { icon: "/icons/tht/trans-chiropractors.svg", title: "Chiropractors" },
+];
