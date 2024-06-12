@@ -9,7 +9,8 @@ import { ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const [ activeMenu, setActiveMenu ] = useState<string | null>(null);
+  const hideNavbar = pathname === '/tangerine-health/find-provider';
 
   const handleMenuClick = (key: string) => {
     setActiveMenu((prevMenu) => (prevMenu === key ? null : key));
@@ -18,6 +19,10 @@ const Navbar = () => {
   const handleSubMenuClick = () => {
     setActiveMenu(null);
   };
+
+  if (hideNavbar) {
+    return <></>
+  }
 
   return (
     <div className="w-full z-30 py-5 fixed top-0 left-0 right-0 bg-white shadow-md">

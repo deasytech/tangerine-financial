@@ -1,9 +1,19 @@
+"use client"
+
 import { FOOTER_LINKS, SOCIALS } from "@/constants";
 import { textToSlug } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
+  const pathname = usePathname();
+  const hideNavbar = pathname === '/tangerine-health/find-provider';
+
+  if (hideNavbar) {
+    return <></>
+  }
+
   return (
     <>
       <section className="relative max-container padding-container flex gap-6 mt-28">
