@@ -11,6 +11,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const [ activeMenu, setActiveMenu ] = useState<string | null>(null);
   const hideNavbar = pathname === '/tangerine-health/find-provider';
+  const hideNavbar2 = pathname === '/tangerine-health/join-provider-network';
 
   const handleMenuClick = (key: string) => {
     setActiveMenu((prevMenu) => (prevMenu === key ? null : key));
@@ -20,7 +21,7 @@ const Navbar = () => {
     setActiveMenu(null);
   };
 
-  if (hideNavbar) {
+  if (hideNavbar || hideNavbar2) {
     return <></>
   }
 

@@ -9,8 +9,9 @@ import { usePathname } from "next/navigation";
 const Footer = () => {
   const pathname = usePathname();
   const hideNavbar = pathname === '/tangerine-health/find-provider';
+  const hideNavbar2 = pathname === '/tangerine-health/join-provider-network';
 
-  if (hideNavbar) {
+  if (hideNavbar || hideNavbar2) {
     return <></>
   }
 

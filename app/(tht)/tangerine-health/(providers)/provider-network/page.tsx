@@ -11,7 +11,7 @@ const ProviderNetworkPage = () => {
         <div className="flex-none w-full md:w-1/3 space-y-5">
           <h1 className="bold-48 text-blue-900">Provider Network</h1>
           <p className="regular-14 text-generic-950 !leading-[145%]">It’s not just about listing providers but ensuring that our members can access the right care in the right environment in the shortest possible time. We partner with healthcare professionals and world-class healthcare providers in Nigeria, and across Africa and India through our partnership with Liberty Health.</p>
-          <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+          <Link href="/tangerine-health/find-provider" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
             <span>Find a Provider</span>
             <ArrowRight size={18} className='text-white' />
           </Link>
@@ -78,7 +78,7 @@ const ProviderNetworkPage = () => {
             <h5 className="text-blue-950 bold-32">
               Find a provider
             </h5>
-            <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+            <Link href="/tangerine-health/find-provider" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
               <span>Explore</span>
               <ArrowRight size={18} className='text-white' />
             </Link>
@@ -87,7 +87,7 @@ const ProviderNetworkPage = () => {
             <h5 className="text-blue-950 bold-32 mb-4">
               Join our Network of Providers
             </h5>
-            <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+            <Link href="/tangerine-health/join-provider-network" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
               <span>Get started</span>
               <ArrowRight size={18} className='text-white' />
             </Link>
