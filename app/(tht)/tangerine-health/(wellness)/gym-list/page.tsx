@@ -29,10 +29,10 @@ const GymListPage = () => {
           <tbody>
             {GYM_LIST.map((gym) => (
               <tr key={gym.name} className="w-full">
-                <td className="w-full p-2 max-w-[50%] regular-12 text-generic-800 align-top">{gym.name}</td>
-                <td className="w-full p-2 max-w-[50%] regular-12 text-generic-800 align-top">{gym.address}</td>
-                <td className="w-full p-2 max-w-[50%] regular-12 text-generic-800 align-top">{gym.location}</td>
-                <td className="w-full p-2 max-w-[50%] regular-12 text-generic-800 align-top">{gym.state}</td>
+                <td className="w-full p-2 max-w-[50%] regular-14 text-generic-800 align-top">{gym.name}</td>
+                <td className="w-full p-2 max-w-[50%] regular-14 text-generic-800 align-top">{gym.address}</td>
+                <td className="w-full p-2 max-w-[50%] regular-14 text-generic-800 align-top">{gym.location}</td>
+                <td className="w-full p-2 max-w-[50%] regular-14 text-generic-800 align-top">{gym.state}</td>
               </tr>
             ))}
           </tbody>
