@@ -31,11 +31,11 @@ const FindProviderPage = () => {
             <input type="text" placeholder='Select plan' className="w-full h-20 px-6 bg-white rounded-md border border-neutral-300 justify-start items-center" />
           </div>
           <div className="w-full h-20 flex-col justify-start items-start gap-2 flex">
-            <div className=" w-full text-zinc-800 text-xs font-normal font-['Gilroy-Medium'] leading-none">State</div>
+            <div className=" w-full text-zinc-800 text-xs font-normal font-gilroy-semibold leading-none">State</div>
             <input type="text" placeholder='Select state' className="w-full h-20 px-6 bg-white rounded-md border border-neutral-300 justify-start items-center" />
           </div>
           <div className=" w-full h-20 flex-col justify-start items-start gap-2 flex">
-            <div className=" w-full text-zinc-800 text-xs font-normal font-['Gilroy-Medium'] leading-none">Service</div>
+            <div className=" w-full text-zinc-800 text-xs font-normal font-gilroy-semibold leading-none">Service</div>
             <input type="text" placeholder='Select service' className="w-full h-20 px-6 bg-white rounded-md border border-neutral-300 justify-start items-center" />
           </div>
 

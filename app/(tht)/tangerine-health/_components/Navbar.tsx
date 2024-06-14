@@ -10,8 +10,20 @@ import { ChevronDown } from "lucide-react";
 const Navbar = () => {
   const pathname = usePathname();
   const [ activeMenu, setActiveMenu ] = useState<string | null>(null);
-  const hideNavbar = pathname === '/tangerine-health/find-provider';
-  const hideNavbar2 = pathname === '/tangerine-health/join-provider-network';
+  
+  const hiddenPaths = [
+    "/tangerine-health/find-provider",
+    "/tangerine-health/join-provider-network",
+    "/tangerine-health/login",
+    "/tangerine-health/policy-holder",
+    "/tangerine-health/service-provider",
+    "/tangerine-health/corporate",
+    "/tangerine-health/broker",
+  ];
+
+  if (hiddenPaths.includes(pathname)) {
+    return null;
+  }
 
   const handleMenuClick = (key: string) => {
     setActiveMenu((prevMenu) => (prevMenu === key ? null : key));
@@ -20,10 +32,6 @@ const Navbar = () => {
   const handleSubMenuClick = () => {
     setActiveMenu(null);
   };
-
-  if (hideNavbar || hideNavbar2) {
-    return <></>
-  }
 
   return (
     <div className="w-full z-30 py-5 fixed top-0 left-0 right-0 bg-white shadow-md">
@@ -81,7 +89,7 @@ const Navbar = () => {
         </ul>
 
         <div className="lg:flexCenter hidden gap-4">
-          <Link href="/" className="btn_dark_orange rounded-lg">
+          <Link href="/tangerine-health/login" className="btn_dark_orange rounded-lg">
             Login
           </Link>
         </div>

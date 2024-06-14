@@ -8,11 +8,19 @@ import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const pathname = usePathname();
-  const hideNavbar = pathname === '/tangerine-health/find-provider';
-  const hideNavbar2 = pathname === '/tangerine-health/join-provider-network';
+  
+  const hiddenPaths = [
+    "/tangerine-health/find-provider",
+    "/tangerine-health/join-provider-network",
+    "/tangerine-health/login",
+    "/tangerine-health/policy-holder",
+    "/tangerine-health/service-provider",
+    "/tangerine-health/corporate",
+    "/tangerine-health/broker",
+  ];
 
-  if (hideNavbar || hideNavbar2) {
-    return <></>
+  if (hiddenPaths.includes(pathname)) {
+    return null;
   }
 
   return (
