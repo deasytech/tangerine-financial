@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const CSRPage = () => {
@@ -12,6 +13,25 @@ const CSRPage = () => {
         </div>
         <div className="w-full">
           <Image src="/images/tht/csr-banner.png" alt="CSR" width={598} height={393} className="w-full h-auto" />
+        </div>
+      </section>
+
+      <section className="relative max-container padding-container mt-20">
+        <div className="w-full min-h-[372px] flex justify-start items-center bg-blue-50 rounded-3xl" style={{
+          backgroundImage: "url('/icons/life/white-logo-icon.svg')",
+          backgroundPosition: "bottom right",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+        }}>
+          <div className="h-full flex-col justify-center items-center md:items-start px-8 md:pl-20 gap-6 flex w-full md:w-1/2">
+            <p className="regular-14 text-generic-500 text-center">
+              join us to serve our community
+            </p>
+            <h3 className="bold-56 md:bold-48 text-blue-950">Become a partner</h3>
+            <Link href="/" className="w-fit px-8 py-3 bg-blue-950 rounded-lg justify-center items-center gap-3 inline-flex">
+              <p className="text-center text-white text-base font-normal font-gilroy-semibold">Click here</p>
+            </Link>
+          </div>
         </div>
       </section>
     </>
