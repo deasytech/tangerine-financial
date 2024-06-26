@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div className="w-full z-30 py-5 fixed top-0 left-0 right-0 bg-white shadow-md">
       <nav className="flexBetween max-container padding-container">
-        <Link href="/tangerine-health">
+        <Link href="/tangerine-life">
           <Image
             src="/images/life/logo.svg"
             alt="Tangerine Africa"

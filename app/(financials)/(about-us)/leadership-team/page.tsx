@@ -1,6 +1,5 @@
 import TeamCard from '@/components/cards/TeamCard'
 import { CloudDownloadIcon } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 

@@ -95,6 +95,7 @@ const TangLifePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {LIFE_INSURANCE.map((item) =>
             <LifeInsuranceCard
+              key={item.title}
               image={item.image}
               title={item.title}
               description={item.description}

@@ -413,3 +413,94 @@ export const GYM_LIST = [
   { name: "Command Guest House Gym", address: "Giginya Barrack, Dambuwa", location: "Sokoto", state: "Sokoto" },
   { name: "Fast Track Fitness", address: "35, Galadima Aminu Way, Jimeta ", location: "Yola", state: "Adamawa" },
 ];
+
+export const DIRECTORS = [
+  {
+    image: "/images/team/fatima.svg",
+    name: "Fatima Kyari",
+    position: "Chairman, Board of Directors",
+  },
+  {
+    image: "/images/team/lola.svg",
+    name: "Lola Cardoso",
+    position: "Group Chief Executive Officer",
+  },
+  {
+    image: "/images/team/rotimi.svg",
+    name: "Rotimi Okpaise",
+    position: "Non-Executive Director",
+  },
+  {
+    image: "/images/team/wale.svg",
+    name: "Wale Odusanya",
+    position: "Non-Executive Director",
+  },
+  {
+    image: "/images/team/ademayowa.svg",
+    name: "Ademayowa Adeduro",
+    position: "Non-Executive Director",
+  },
+  {
+    image: "/images/team/toyin.svg",
+    name: "Toyin Deinde",
+    position: "Chief Operating Officer",
+  },
+];
+
+export const MANAGEMENT = [
+  {
+    image: "/images/team/deinde.svg",
+    name: "Toyin Deinde",
+    position: "Chief Operating Officer",
+  },
+  {
+    image: "/images/team/sobade.svg",
+    name: "Abimbola Sobade",
+    position: "Internal Audit and Control",
+  },
+  {
+    image: "/images/team/buraimoh.svg",
+    name: "Olanrewaju Buraimoh",
+    position: "Finance",
+  },
+  {
+    image: "/images/team/abejide.svg",
+    name: "Eyitayo Abejide",
+    position: "Medical Services",
+  },
+  {
+    image: "/images/team/adelusi.svg",
+    name: "Abiola Adelusi",
+    position: "Membership and Underwriting",
+  },
+  {
+    image: "/images/team/mong.svg",
+    name: "Dr. Rose Mong",
+    position: "Branch Operations",
+  },
+  {
+    image: "/images/team/no-image.png",
+    name: "Daniel Majekodunmi",
+    position: "Information Technology",
+  },
+  {
+    image: "/images/team/mosuro.svg",
+    name: "Abiola Mosuro",
+    position: "Human Resources",
+  },
+  {
+    image: "/images/team/adeyoola.svg",
+    name: "Babatunde Adeyoola",
+    position: "Risk Management",
+  },
+  {
+    image: "/images/team/no-image.png",
+    name: "Omalara Aluko",
+    position: "Marketing and Branding",
+  },
+  {
+    image: "/images/team/megbope.svg",
+    name: "Oyebimpe Megbope",
+    position: "Legal and Compliance",
+  },
+];
