@@ -1,3 +1,5 @@
+import CoreValue from '@/components/life/CoreValue'
+import { CORE_VALUES } from '@/constants/life'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -47,15 +49,15 @@ const AboutUsPage = () => {
 
       <section className="relative max-container padding-container mt-32">
         <h2 className="bold-48 text-green-900 mb-8">Our Core Values</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
-          {/* {CORE_VALUES.map((value) => 
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          {CORE_VALUES.map((value) => 
             <CoreValue
               key={value.title}
               title={value.title}
               icon={value.icon}
               text={value.text}
             />
-          )} */}
+          )}
         </div>
       </section>
 
