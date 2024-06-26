@@ -26,10 +26,12 @@ const config: Config = {
           900: "#851636"
         },
         green: {
+          "base": "#7CBB0E",
           50: "#F8FEE7",
           90: "#292C27",
+          700: "#527D0E",
           900: "#395314",
-          "base": "#7CBB0E",
+          950: "#1C2E05",
         },
         gray: {
           10: "#EEEEEE",

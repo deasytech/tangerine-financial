@@ -13,3 +13,8 @@ export function textToSlug(text: string) {
     .replace(/[^\w\-]+/g, '') // Remove all non-word characters except hyphens
     .replace(/\-\-+/g, '-'); // Replace multiple hyphens with a single hyphen
 }
+
+export const naira = new Intl.NumberFormat("en-NG", {
+  style: "currency",
+  currency: "NGN",
+});

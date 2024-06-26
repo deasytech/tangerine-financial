@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import AwardSection from '../_components/AwardSection'
+import AwardSection from '../../_components/AwardSection'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
-import CoreValue from '../_components/CoreValue'
+import CoreValue from '../../_components/CoreValue'
 import { CORE_VALUES } from '@/constants/tht'
 
 const AboutUsPage = () => {
@@ -53,7 +53,7 @@ const AboutUsPage = () => {
               <h2 className="flex-1 bold-48 text-white w-full">
                 Our Leadership Team
               </h2>
-              <Link href="/" className="flex gap-2 items-center rounded-lg btn_white w-fit !px-2 !py-2">
+              <Link href="/tangerine-health/leadership-team" className="flex gap-2 items-center rounded-lg btn_white w-fit !px-2 !py-2">
                 <ArrowRight size={16} className='text-blue-950' />
               </Link>
             </div>
@@ -64,7 +64,7 @@ const AboutUsPage = () => {
               <h2 className="bold-48 text-orange-base w-full">
                 Our CSR Initiatives
               </h2>
-              <Link href="/" className="flex gap-2 items-center rounded-lg btn_dark_orange w-fit !px-2 !py-2">
+              <Link href="/tangerine-health/csr" className="flex gap-2 items-center rounded-lg btn_dark_orange w-fit !px-2 !py-2">
                 <ArrowRight size={16} className='text-white' />
               </Link>
             </div>
