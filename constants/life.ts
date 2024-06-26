@@ -66,12 +66,30 @@ export const FOOTER_LINKS = [
   },
 ];
 
-export const SOCIALS = {
-  title: "Social",
-  links: [
-    { icon: "/icons/linkedin.svg", label: "@Tangerine Africa" },
-    { icon: "/icons/facebook.svg", label: "@tangerineafrica" },
-    { icon: "/icons/instagram.svg", label: "@tangerineafrica" },
-    { icon: "/icons/x-twitter.svg", label: "@TangerineAfrica" },
-  ],
-};
+export const CORE_VALUES = [
+  {
+    title: "Creativity",
+    icon: "/icons/tht/creative.svg",
+    text: "We are unconventional in our approach to delivering innovative solutions that create value.",
+  },
+  {
+    title: "Accountability",
+    icon: "/icons/tht/accountability.svg",
+    text: "We take responsibility for our words, actions and results.",
+  },
+  {
+    title: "Customer Focus",
+    icon: "/icons/tht/customer-focus.svg",
+    text: "We are customer centric. Our focus is building outstanding customer experience and lasting relationships.",
+  },
+  {
+    title: "Integrity",
+    icon: "/icons/tht/integrity.svg",
+    text: "We are honest, transparent and keep to our commitments.",
+  },
+  {
+    title: "Excellence",
+    icon: "/icons/tht/excellence.svg",
+    text: "We are intentional in consistently producing high-quality results, thereby exceeding the expectations of our stakeholders.",
+  },
+];
