@@ -30,6 +30,7 @@ export const NAV_LINKS = [
       { href: "/tangerine-health/join-provider-network", key: "join-provider-network", label: "Join our Provider Network", desc: "" },
     ]
   },
+  { href: "/tangerine-health/blog", key: "blog", label: "Blog" },
 ];
 
 // SLIDE SECTION
@@ -525,5 +526,102 @@ export const LIBERTY_HEALTH_COVER = [
   {
     name: "Global Elite",
     desc: "This plan offers supreme cover for day-to-day treatment, chronic care and hospitalisation and is ideal for expatriates and families seeking worldwide cover. Members on Global Elite can access care within our contracted provider network in Nigeria and selectively worldwide, except for North America.",
+  },
+];
+
+export const MANAGED_CARE_CAPITATION = [
+  {
+    name: "Silver Plus Plan",
+    desc: "This is a low-budget, entry-level plan suited for lower-level employees in corporate organisations. It covers limited maternity, physiotherapy, and dental care (including scaling and polishing), and other specialist services. Access to care on this plan is at a designated contracted network.",
+  },
+  {
+    name: "Gold Plan",
+    desc: "This is a medium-budget plan designed to meet the needs of general employees within organisations. The plan covers outpatient and inpatient care, (specialists inclusive), medical investigations and drug supplies.",
+  },
+  {
+    name: "Enhanced Gold Plan",
+    desc: "This medium to high budget plan is designed for low-to-medium management staff. The Enhanced Gold Benefit Package includes outpatient and specialist consultations, hospitalisation, investigations, and medicine supplies.",
+  },
+];
+
+export const FEE_SERVICE_PLANS = [
+  {
+    name: "THT Select",
+    desc: "It is a mid-range cost plan that offers comprehensive healthcare for SMEs and corporates.",
+  },
+  {
+    name: "THT Coral",
+    desc: "This is a health insurance plan with coverage for fertility investigations, oncology cancer treatment and secondary dental care- surgical amongst others.",
+  },
+  {
+    name: "THT Pearl",
+    desc: "This is a carefully crafted plan that provides unparalleled coverage through an extensive network of top-tier healthcare providers with the finest medical facilities and specialists at your convenience.",
+  },
+  {
+    name: "THT Alldo",
+    desc: "THT Alldo plan is a budget-friendly entry-level plan that combines flexibility with access to essential medical benefits.  It covers minor surgical procedures, accidents, and medical emergencies.",
+  }
+];
+
+export const FAQ = [
+  {
+    id: "1",
+    question: "What is Managed Care Plan?",
+    answer: "Managed care is a capitation plan under which members can select only one primary provider while secondary and tertiary care is referred for specialist attention.",
+  },
+  {
+    id: "2",
+    question: "How do I get access to care?",
+    answer: "",
+  },
+  {
+    id: "3",
+    question: "How do I select a Hospital?",
+    answer: "",
+  },
+  {
+    id: "4",
+    question: "Can I switch from one hospital to another under the HMO coverage?",
+    answer: "",
+  },
+  {
+    id: "5",
+    question: "When the scheme takes off, can I keep my present doctor?",
+    answer: "",
+  },
+  {
+    id: "6",
+    question: "Is there a limit to the number of visits I can make to the hospital?",
+    answer: "",
+  },
+  {
+    id: "7",
+    question: "Is there an age limit?",
+    answer: "",
+  },
+  {
+    id: "8",
+    question: "Can I switch from a plan which my employer pays for to a more expensive plan offered by the same HMO and pay the differential between my employer’s plan and my desired plan?",
+    answer: "",
+  },
+  {
+    id: "9",
+    question: "Is there a financial limit to the treatment I can receive per visit, on a monthly or annual basis from the hospitals on the network?",
+    answer: "",
+  },
+  {
+    id: "10",
+    question: "Are there any protocols in place to ensure that we get consistently good quality service from the hospitals on the network?",
+    answer: "",
+  },
+  {
+    id: "11",
+    question: "Can I access care at hospitals outside the network in the case of an emergency or when I am out of the station and in need of care?",
+    answer: "",
+  },
+  {
+    id: "12",
+    question: "To whom should I refer my complaints about service?",
+    answer: "",
   },
 ];

@@ -1,4 +1,6 @@
 "use client"
+
+import Image from "next/image"
 import {
   Carousel,
   CarouselContent,
@@ -8,7 +10,6 @@ import {
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 import { SLIDES } from "@/constants/tht"
-import Image from "next/image"
 
 
 const Slider = () => {

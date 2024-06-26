@@ -1,9 +1,8 @@
-import React from 'react'
-import Slider from './_components/Slider'
 import Link from 'next/link'
-import { ArrowRight, Heart, LinkIcon, MessageCircle } from 'lucide-react'
 import Image from 'next/image'
-import AwardSection from './_components/AwardSection'
+import { ArrowRight, Heart, LinkIcon, MessageCircle } from 'lucide-react'
+import Slider from '@/components/tht/Slider'
+import AwardSection from '@/components/tht/AwardSection'
 
 const TangHealthPage = () => {
   return (
@@ -34,7 +33,7 @@ const TangHealthPage = () => {
         <div className="relative h-full bg-white min-h-[372px] px-12 py-16 max-w-3xl rounded-3xl flex flex-col justify-center items-center gap-6 mx-10">
           <h5 className='absolute px-4 py-2 border border-generic-800 rounded-full -top-4 w-fit small-medium uppercase text-blue-950 bg-white'>Who we are</h5>
           <p className='text-center regular-20 text-blue-950'>Total Health Trust (THT), a Tangerine company is the foremost Health Maintenance organisation (HMO) with 26 years of experience providing in-and-out-of-country healthcare access and wellness services. The brand leverages expertise and technology in delivering world-class healthcare and wellness user experiences.</p>
-          <Link href="/" className="flex items-center gap-2 rounded-lg btn_dark_orange w-fit">
+          <Link href="/tangerine-health/about" className="flex items-center gap-2 rounded-lg btn_dark_orange w-fit">
             <span>Learn more</span>
             <ArrowRight size={18} />
           </Link>
@@ -57,7 +56,7 @@ const TangHealthPage = () => {
               Corporate & MSMEs Plans
             </h2>
             <p className='regular-18 !leading-[26px] text-white'>Budget-friendly and carefully designed healthcare plans for corporate organisations and businesses.</p>
-            <Link href="/" className="flex gap-2 items-center rounded-lg btn_white w-fit mt-10">
+            <Link href="/tangerine-health/corporate-msmes" className="flex gap-2 items-center rounded-lg btn_white w-fit mt-10">
               <span>Explore plans</span>
               <ArrowRight size={18} className='text-blue-950' />
             </Link>
@@ -68,7 +67,7 @@ const TangHealthPage = () => {
               Individual Plans
             </h2>
             <p className='regular-18 !leading-[26px] text-blue-950'>Flexible and affordable individual plans covering a wide range of healthcare services.</p>
-            <Link href="/" className="flex gap-2 items-center rounded-lg btn_blue w-fit mt-10">
+            <Link href="/tangerine-health/individuals" className="flex gap-2 items-center rounded-lg btn_blue w-fit mt-10">
               <span>Explore plans</span>
               <ArrowRight size={18} className='text-white' />
             </Link>
@@ -88,7 +87,7 @@ const TangHealthPage = () => {
             <p className="regular-18 text-blue-950">
               Bespoke solutions tailored to help you achieve your physical and psychological well-being goals.
             </p>
-            <Link href="/" className="flex gap-2 items-center rounded-lg btn_red w-fit">
+            <Link href="/tangerine-health/wellness" className="flex gap-2 items-center rounded-lg btn_red w-fit">
               <span>Learn more</span>
               <ArrowRight size={18} className='text-white' />
             </Link>
@@ -107,7 +106,7 @@ const TangHealthPage = () => {
           <p className="regular-18 text-blue-950">
             THT partners with 1700+ healthcare and related providers in Nigeria and over 7000 provider networks across Africa and in India. We have provided answers to some of the questions you might have in mind.
           </p>
-          <Link href="/" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+          <Link href="/tangerine-health/provider-network" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
             <span>Learn more</span>
             <ArrowRight size={18} className='text-white' />
           </Link>
@@ -122,7 +121,7 @@ const TangHealthPage = () => {
           <p className="regular-18 text-blue-950">
             We believe in the power of collaboration to drive positive change in healthcare. Whether you're a healthcare provider, employer, broker, or service provider, we can design a partnership plan to meet your unique needs.
           </p>
-          <Link href="/" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+          <Link href="/tangerine-health/provider-network" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
             <span>Learn more</span>
             <ArrowRight size={18} className='text-white' />
           </Link>

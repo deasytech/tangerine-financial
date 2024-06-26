@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRightIcon } from 'lucide-react'
-import GoBackButton from '../../_components/GoBackButton'
+import GoBackButton from '@/components/tht/GoBackButton'
 
 const JoinProviderNetworkPage = () => {
   return (

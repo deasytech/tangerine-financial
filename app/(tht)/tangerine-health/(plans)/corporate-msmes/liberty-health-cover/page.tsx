@@ -2,7 +2,7 @@ import Image from 'next/image'
 import BackWithBreadCrumbs from '@/components/tht/BackWithBreadCrumbs'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { ArrowRight, PlusCircle } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import LibertyCoverCard from '@/components/tht/LibertyCoverCard'
 import { LIBERTY_HEALTH_COVER } from '@/constants/tht'
 
@@ -14,7 +14,9 @@ const Page = () => {
           <BackWithBreadCrumbs page="Liberty Health Cover" />
           <h1 className="bold-56 text-blue-900">Liberty Health Cover</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">THT through its partnership with leading Pan-African health insurer, Liberty Health, provides best-in-class Liberty Health Cover Plans (LHC) with robust and comprehensive benefits that are best suited to multinationals, corporates and SMEs with business interests in Nigeria and across African Continent.</p>
-          <Button>Get a Quote</Button>
+          <Link href="/tangerine-health/get-quote">
+            <Button>Get a Quote</Button>
+          </Link>
         </div>
         <div className="w-full flex-[3]">
           <Image src="/images/tht/liberty-health-banner.png" alt="liberty health cover" width={598} height={393} className="w-full h-auto" />
@@ -47,7 +49,7 @@ const Page = () => {
               <h2 className="flex-1 bold-48 text-white w-full">
                 Managed Care Capitation Plans
               </h2>
-              <Link href="/tangerine-health/leadership-team" className="flex gap-2 items-center rounded-lg btn_white w-fit !px-2 !py-2">
+              <Link href="/tangerine-health/corporate-msmes/managed-care-plans" className="flex gap-2 items-center rounded-lg btn_white w-fit !px-2 !py-2">
                 <ArrowRight size={16} className='text-orange-base' />
               </Link>
             </div>
@@ -58,7 +60,7 @@ const Page = () => {
               <h2 className="bold-48 text-blue-900 w-full">
                 Fee-for-Service Plans
               </h2>
-              <Link href="/tangerine-health/csr" className="flex gap-2 items-center rounded-lg btn_dark_blue w-fit !px-2 !py-2">
+              <Link href="/tangerine-health/corporate-msmes/fee-for-service-plans" className="flex gap-2 items-center rounded-lg btn_dark_blue w-fit !px-2 !py-2">
                 <ArrowRight size={16} className='text-white' />
               </Link>
             </div>

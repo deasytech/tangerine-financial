@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
-import CoreValue from '../../_components/CoreValue'
+import CoreValue from '../../../../../components/tht/CoreValue'
 import { BENEFITS_OFFERED, PLANS } from '@/constants/tht'
 import PlansCard from '@/components/cards/PlansCard'
 
@@ -19,7 +19,7 @@ const MSMESPage = () => {
             <h1 className="bold-32 lg:bold-56 items-center mb-3 lg:mt-10 text-white">
               Corporate & MSME Plans
             </h1>
-            <Link href="/" className="regular-18 btn_dark_orange rounded-lg flex gap-2 items-center">
+            <Link href="/tangerine-health/get-quote" className="regular-18 btn_dark_orange rounded-lg flex gap-2 items-center">
               Get a Quote
               <ArrowRight size={18} className="text-white" />
             </Link>
@@ -68,7 +68,7 @@ const MSMESPage = () => {
       <section className="relative max-container padding-container mt-32">
         <div className="w-full md:w-1/2 space-y-4">
           <h3 className="bold-48 text-blue-950">Frequently Asked Questions</h3>
-          <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+          <Link href="/tangerine-health/frequently-asked-questions" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
             <span>Learn more</span>
             <ArrowRight size={18} className='text-white' />
           </Link>

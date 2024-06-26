@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
-import { WELLNESS_OFFERINGS } from '@/constants/tht'
 import WellnessCard from '@/components/cards/WellnessCard'
 
 const WellnessPage = () => {
@@ -11,7 +10,7 @@ const WellnessPage = () => {
         <div className="flex-none w-full md:w-1/3 space-y-3">
           <h1 className="bold-48 text-blue-900">Our Wellness Offering</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">Bespoke well-being solutions tailored to your employees' wellness needs.</p>
-          <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+          <Link href="/tangerine-health/get-quote" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
             <span>Get a Quote</span>
             <ArrowRight size={18} className='text-white' />
           </Link>

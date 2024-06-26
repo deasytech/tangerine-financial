@@ -1,7 +1,7 @@
 import Image from "next/image"
-import GoBackButton from "../../_components/GoBackButton"
 import { HEALTH_PLANS } from "@/constants/tht"
 import Link from "next/link"
+import GoBackButton from "@/components/tht/GoBackButton"
 
 
 const LoginPage = () => {

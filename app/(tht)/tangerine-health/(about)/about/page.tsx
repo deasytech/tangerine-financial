@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import React from 'react'
-import AwardSection from '../../_components/AwardSection'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
-import CoreValue from '../../_components/CoreValue'
 import { CORE_VALUES } from '@/constants/tht'
+import AwardSection from '@/components/tht/AwardSection'
+import CoreValue from '@/components/tht/CoreValue'
 
 const AboutUsPage = () => {
   return (

@@ -1,8 +1,11 @@
-import React from 'react'
 
 const BookSessionPage = () => {
   return (
-    <div className='mt-32'>BookSessionPage</div>
+    <>
+      <section className="relative max-container padding-container mt-44">
+        <h1>Book a Session</h1>
+      </section>
+    </>
   )
 }
 

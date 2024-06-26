@@ -1,8 +1,7 @@
-import { ArrowLeft, ArrowRightIcon } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
-import GoBackButton from '../../_components/GoBackButton'
+import Image from 'next/image'
+import { ArrowRightIcon } from 'lucide-react'
+import GoBackButton from '@/components/tht/GoBackButton'
 
 const FindProviderPage = () => {
   return (

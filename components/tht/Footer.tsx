@@ -1,6 +1,6 @@
 "use client"
 
-import { FOOTER_LINKS, SOCIALS } from "@/constants";
+import { FOOTER_LINKS } from "@/constants";
 import { textToSlug } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,6 +17,7 @@ const Footer = () => {
     "/tangerine-health/service-provider",
     "/tangerine-health/corporate",
     "/tangerine-health/broker",
+    "/tangerine-health/get-quote",
   ];
 
   if (hiddenPaths.includes(pathname)) {

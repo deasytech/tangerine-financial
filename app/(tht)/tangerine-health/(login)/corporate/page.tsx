@@ -1,7 +1,7 @@
 import Image from "next/image"
-import GoBackButton from "../../_components/GoBackButton"
 import Link from "next/link"
 import { ArrowRightIcon } from "lucide-react"
+import GoBackButton from "@/components/tht/GoBackButton"
 
 const CorporatePage = () => {
   return (

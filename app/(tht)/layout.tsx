@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Navbar from "./tangerine-health/_components/Navbar";
-import Footer from "./tangerine-health/_components/Footer";
+import Navbar from "../../components/tht/Navbar";
+import Footer from "../../components/tht/Footer";
 
 export const metadata: Metadata = {
   title: "Total Health Trust Limited",

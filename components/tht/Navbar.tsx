@@ -19,6 +19,7 @@ const Navbar = () => {
     "/tangerine-health/service-provider",
     "/tangerine-health/corporate",
     "/tangerine-health/broker",
+    "/tangerine-health/get-quote",
   ];
 
   if (hiddenPaths.includes(pathname)) {
