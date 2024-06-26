@@ -160,17 +160,17 @@ export const BENEFITS_OFFERED = [
 export const PLANS = [
   {
     title: "Liberty Health Cover",
-    link: "/tangerine-health",
+    link: "/tangerine-health/corporate-msmes/liberty-health-cover",
     text: "high-end health plans best suited for multinationals, corporations, and SMEs within and outside the country.",
   },
   {
     title: "Managed Care Plans",
-    link: "/tangerine-health",
+    link: "/tangerine-health/corporate-msmes/managed-care-plans",
     text: "Managed Care is designed for those who desire adequate cover for all medically necessary conditions that are budget-friendly.",
   },
   {
     title: "Fee-For-Service Plans",
-    link: "/tangerine-health",
+    link: "/tangerine-health/corporate-msmes/fee-for-service-plans",
     text: "Cost-effective healthcare plans for those who crave the flexibility of access to care.",
   },
 ];
@@ -502,5 +502,28 @@ export const MANAGEMENT = [
     image: "/images/team/megbope.svg",
     name: "Oyebimpe Megbope",
     position: "Legal and Compliance",
+  },
+];
+
+export const LIBERTY_HEALTH_COVER = [
+  {
+    name: "Lite",
+    desc: "This entry-level plan offers in-country cover to the staff of employer groups. It provides cover for day-to-day treatment, chronic care, and hospitalisation. Members on Lite can only access care in Nigeria from our contracted provider network and within benefit limits.",
+  },
+  {
+    name: "Classic",
+    desc: "This plan offers in-country cover to families living in Africa for day-to-day treatment, chronic care, and hospitalisation at higher limits than the Lite plan. Members on the Classic plan can access care in Nigeria from our contracted provider network and within benefit limits.",
+  },
+  {
+    name: "Classic Critical Care",
+    desc: "Classic Critical Care covers in-country, in-patient and out-patient benefits and major disease benefits like cancer treatment, organ transplants and kidney dialysis. It also covers in-patient treatment for life-threatening conditions in Africa or India when care is not available locally. Members have access to treatment via our Enhanced Network of contracted healthcare providers.",
+  },
+  {
+    name: "Plus Africa",
+    desc: "This is a pan-African healthcare plan that offers more comprehensive cover for day-to-day treatment, chronic care and hospitalisation. It is also ideal for organisations whose employees travel regularly across Africa and require extensive healthcare cover. Members on Plus Africa can access care within our provider network in Nigeria and selectively across Africa, India, UAE and Lebanon.",
+  },
+  {
+    name: "Global Elite",
+    desc: "This plan offers supreme cover for day-to-day treatment, chronic care and hospitalisation and is ideal for expatriates and families seeking worldwide cover. Members on Global Elite can access care within our contracted provider network in Nigeria and selectively worldwide, except for North America.",
   },
 ];

@@ -28,7 +28,7 @@ const CSRPage = () => {
               join us to serve our community
             </p>
             <h3 className="bold-56 md:bold-48 text-blue-950">Become a partner</h3>
-            <Link href="/" className="w-fit px-8 py-3 bg-blue-950 rounded-lg justify-center items-center gap-3 inline-flex">
+            <Link href="/tangerine-health" className="w-fit px-8 py-3 bg-blue-950 rounded-lg justify-center items-center gap-3 inline-flex">
               <p className="text-center text-white text-base font-normal font-gilroy-semibold">Click here</p>
             </Link>
           </div>
