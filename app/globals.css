@@ -28,6 +28,9 @@ body {
   .btn_green {
     @apply bg-green-base px-6 py-2 text-white transition-all hover:bg-green-base/75 cursor-pointer font-gilroy-regular;
   }
+  .btn_dark_green {
+    @apply bg-green-800 px-6 py-2 text-white transition-all hover:bg-green-800/75 cursor-pointer font-gilroy-regular;
+  }
   .btn_dark_orange {
     @apply bg-orange-base px-6 py-2 text-white transition-all hover:bg-orange-base/75 cursor-pointer font-gilroy-regular;
   }
