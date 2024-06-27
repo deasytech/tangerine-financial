@@ -1,6 +1,5 @@
-import Link from 'next/link'
+import { Suspense } from 'react'
 import Image from 'next/image'
-import { ArrowRightIcon } from 'lucide-react'
 import GoBackButton from '@/components/tht/GoBackButton'
 import GetQuoteForm from '@/components/tht/GetQuoteForm'
 
@@ -25,7 +24,9 @@ const GetQuotePage = () => {
             <h3 className="text-blue-950 text-5xl font-normal font-gilroy-semibold leading-10">Get a quote</h3>
             <p className="regular-18 text-generic-800">Your time is valued. Fill out the form, and our consultants will tailor health insurance options for your team based on their needs.</p>
           </div>
-          <GetQuoteForm />
+          <Suspense fallback={<div>Loading quotation form...</div>}>
+            <GetQuoteForm />
+          </Suspense>
         </div>
       </div>
     </section >
