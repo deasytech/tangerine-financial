@@ -46,7 +46,7 @@ const TangLifePage = () => {
               Corporate Products
             </h2>
             <p className='regular-18 !leading-[32px] text-white'>A tailored solution for your company's insurance needs. With our comprehensive coverage and flexible options, we provide peace of mind for both employers and employees. Secure your team's future with Tangerine Life Corporate Plan today.</p>
-            <Link href="/" className="flex gap-2 items-center rounded-lg btn_green w-fit mt-10">
+            <Link href="/tangerine-life/corporate-products" className="flex gap-2 items-center rounded-lg btn_green w-fit mt-10">
               <span>Explore plans</span>
               <ArrowRight size={18} className='text-white' />
             </Link>
@@ -57,7 +57,7 @@ const TangLifePage = () => {
               Retail Products
             </h2>
             <p className='regular-18 !leading-[32px] text-white'>Our retail plans offer tailored solutions for diverse needs, including Investment linked Products, Endowment and Protection Plans with customisable coverage</p>
-            <Link href="/" className="flex gap-2 items-center rounded-lg btn_white !text-green-base w-fit mt-10">
+            <Link href="/tangerine-life/retail-products" className="flex gap-2 items-center rounded-lg btn_white !text-green-base w-fit mt-10">
               <span>Explore plans</span>
               <ArrowRight size={18} className='text-green-base' />
             </Link>
