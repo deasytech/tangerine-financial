@@ -625,3 +625,111 @@ export const FAQ = [
     answer: "",
   },
 ];
+
+export const POSTS = [
+  {
+    "image": "/images/tht/blog/blog1.png",
+    "category": "world asthma day",
+    "title": "Uncovering Asthma Misconceptions",
+    "date": "3rd May 2022, 5 mins",
+    "slug": "uncovering-asthma-misconceptions",
+  },
+  {
+    "image": "/images/tht/blog/blog2.png",
+    "category": "health tips",
+    "title": "The Importance of Hydration",
+    "date": "15th June 2023, 8 mins",
+    "slug": "the-importance-of-hydration"
+  },
+  {
+    "image": "/images/tht/blog/blog3.png",
+    "category": "nutrition",
+    "title": "Top 10 Superfoods for Your Diet",
+    "date": "20th April 2023, 6 mins",
+    "slug": "top-10-superfoods-for-your-diet"
+  },
+  {
+    "image": "/images/tht/blog/blog4.png",
+    "category": "mental health",
+    "title": "Managing Stress in the Workplace",
+    "date": "1st March 2023, 10 mins",
+    "slug": "managing-stress-in-the-workplace"
+  },
+  {
+    "image": "/images/tht/blog/blog5.png",
+    "category": "fitness",
+    "title": "Benefits of Morning Exercise",
+    "date": "5th January 2023, 7 mins",
+    "slug": "benefits-of-morning-exercise"
+  },
+  {
+    "image": "/images/tht/blog/blog6.png",
+    "category": "sleep",
+    "title": "Tips for Better Sleep Quality",
+    "date": "12th February 2023, 5 mins",
+    "slug": "tips-for-better-sleep-quality"
+  },
+  {
+    "image": "/images/tht/blog/blog7.png",
+    "category": "disease prevention",
+    "title": "How to Protect Yourself from Flu",
+    "date": "30th November 2022, 6 mins",
+    "slug": "how-to-protect-yourself-from-flu"
+  },
+  {
+    "image": "/images/tht/blog/blog8.png",
+    "category": "yoga",
+    "title": "Yoga for Beginners",
+    "date": "10th December 2022, 9 mins",
+    "slug": "yoga-for-beginners"
+  },
+  {
+    "image": "/images/tht/blog/blog9.png",
+    "category": "world heart day",
+    "title": "Heart Health: What You Need to Know",
+    "date": "29th September 2022, 8 mins",
+    "slug": "heart-health-what-you-need-to-know"
+  },
+  {
+    "image": "/images/tht/blog/blog10.png",
+    "category": "mindfulness",
+    "title": "Practicing Mindfulness Daily",
+    "date": "18th October 2022, 7 mins",
+    "slug": "practicing-mindfulness-daily"
+  },
+  {
+    "image": "/images/tht/blog/blog11.png",
+    "category": "diet",
+    "title": "Understanding Keto Diet",
+    "date": "22nd August 2022, 6 mins",
+    "slug": "understanding-keto-diet"
+  },
+  {
+    "image": "/images/tht/blog/blog12.png",
+    "category": "wellness",
+    "title": "Creating a Balanced Lifestyle",
+    "date": "14th July 2022, 10 mins",
+    "slug": "creating-a-balanced-lifestyle"
+  },
+  {
+    "image": "/images/tht/blog/blog13.png",
+    "category": "healthcare",
+    "title": "The Future of Telemedicine",
+    "date": "5th September 2022, 5 mins",
+    "slug": "the-future-of-telemedicine"
+  },
+  {
+    "image": "/images/tht/blog/blog14.png",
+    "category": "mental wellness",
+    "title": "Coping with Anxiety",
+    "date": "3rd April 2023, 8 mins",
+    "slug": "coping-with-anxiety"
+  },
+  {
+    "image": "/images/tht/blog/blog15.png",
+    "category": "women's health",
+    "title": "Understanding PCOS",
+    "date": "9th March 2023, 7 mins",
+    "slug": "understanding-pcos"
+  },
+];
