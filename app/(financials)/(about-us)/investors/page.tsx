@@ -141,11 +141,30 @@ const InvestorsPage = () => {
         <h3 className="bold-40 text-blue-950">Annual Financial Reports</h3>
 
         <div className="flex flex-col md:flex-row mt-10 max-w-full gap-6">
-          <SubsidaryImage image="/images/report-notice-of-agm.svg" name="Notice of AGM" subName="Download file" link="/" />
-          <SubsidaryImage image="/images/report-2022.svg" name="2022 Annual Report" subName="Download file" link="/" />
-          <SubsidaryImage image="/images/report-2021.svg" name="2021 Annual Report" subName="Download file" link="/" />
+          <SubsidaryImage
+            image="/images/report-notice-of-agm.svg"
+            hoverImage="/images/report-notice-of-agm.svg"
+            name="Notice of AGM"
+            subName="Download file"
+            link="/"
+          />
+          <SubsidaryImage
+            image="/images/report-2022.svg"
+            hoverImage="/images/report-2022.svg"
+            name="2022 Annual Report"
+            subName="Download file"
+            link="/"
+          />
+          <SubsidaryImage
+            image="/images/report-2021.svg"
+            hoverImage="/images/report-2021.svg"
+            name="2021 Annual Report"
+            subName="Download file"
+            link="/"
+          />
           <SubsidaryImage
             image="/images/report-tangerine-recycling.svg"
+            hoverImage="/images/report-tangerine-recycling.svg"
             name="Tangerine Recycling for Scholarship"
             subName="Download file"
             link="Recycling-for-Scholarships-August-Staff-Engagement(CSR).pdf"
