@@ -9,9 +9,9 @@ const Hero = () => {
             The provider of choice for insurance and pension solutions in Africa
           </h1>
           <div className="flex gap-4 mt-6">
-            <RenderTag link="/" name="Insurance" />
-            <RenderTag link="/" name="Health" />
-            <RenderTag link="/" name="Pension" />
+            <RenderTag link="/tangerine-health" name="Health" />
+            <RenderTag link="/tangerine-general" name="Insurance" />
+            <RenderTag link="/tangerine-pension" name="Pension" />
           </div>
         </div>
       </div>

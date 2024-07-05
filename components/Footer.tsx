@@ -58,8 +58,8 @@ const Footer = () => {
               <FooterColumn title={columns.title} key={index}>
                 <ul className="regular-12 flex flex-col gap-2 text-gray-800">
                   {columns.links.map((link) => (
-                    <Link href={`/footer/${textToSlug(link)}`} key={link}>
-                      {link}
+                    <Link href={link.href} key={link.href}>
+                      {link.name}
                     </Link>
                   ))}
                 </ul>

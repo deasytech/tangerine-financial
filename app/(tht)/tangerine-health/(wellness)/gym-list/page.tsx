@@ -7,12 +7,17 @@ import React from 'react'
 const GymListPage = () => {
   return (
     <>
-      <section className="relative max-container padding-container flex flex-col gap-8 md:flex-row items-center w-full mt-44">
-        <div className="flex-none w-full md:w-1/3 space-y-3">
-          <h1 className="bold-48 text-blue-900">Gym Network</h1>
-        </div>
-        <div className="flex-1 w-full">
-          <Image src="/images/tht/wellness-banner.png" alt="Wellness" width={598} height={393} className="w-full h-auto" />
+      <section className="relative max-container padding-container mt-40">
+        <div className="h-[540px] bg-cover bg-center" style={{
+          backgroundImage: "url('/images/tht/gym-banner.png')",
+          borderRadius: '32px',
+          overflow: 'hidden',
+        }}>
+          <div className="px-8 md:ml-32 h-full flex flex-col justify-center items-start w-full md:w-[40%]">
+            <h1 className="bold-32 lg:bold-56 items-center mb-3 lg:mt-10 text-white">
+              Gym Network
+            </h1>
+          </div>
         </div>
       </section>
 

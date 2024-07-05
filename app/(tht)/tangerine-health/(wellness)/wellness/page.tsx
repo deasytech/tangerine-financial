@@ -2,21 +2,24 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import WellnessCard from '@/components/cards/WellnessCard'
+import { Button } from '@/components/ui/button'
 
 const WellnessPage = () => {
   return (
     <>
       <section className="relative max-container padding-container flex flex-col gap-8 md:flex-row items-center w-full mt-44">
         <div className="flex-none w-full md:w-1/3 space-y-3">
-          <h1 className="bold-48 text-blue-900">Our Wellness Offering</h1>
+          <h1 className="bold-48 text-blue-950">Our Wellness Offering</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">Bespoke well-being solutions tailored to your employees' wellness needs.</p>
-          <Link href="/tangerine-health/get-quote" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
-            <span>Get a Quote</span>
-            <ArrowRight size={18} className='text-white' />
+          <Link href="/tangerine-health/get-quote">
+            <Button size="lg" className="mt-4 gap-2">
+              Get a Quote
+              <ArrowRight size={16} />
+            </Button>
           </Link>
         </div>
         <div className="flex-1 w-full">
-          <Image src="/images/tht/wellness-banner.png" alt="Wellness" width={598} height={393} className="w-full h-auto" />
+          <Image src="/images/tht/wellness-banner.png" alt="Wellness" width={697} height={370} className="w-full object-contain" />
         </div>
       </section>
 
@@ -92,18 +95,22 @@ const WellnessPage = () => {
             <h5 className="text-blue-950 bold-32">
               Our Gym Network
             </h5>
-            <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
-              <span>Explore</span>
-              <ArrowRight size={18} className='text-white' />
+            <Link href="/tangerine-health/gym-list">
+              <Button size="lg" className="mt-4 gap-2">
+                Explore
+                <ArrowRight size={16} />
+              </Button>
             </Link>
           </div>
           <div className="w-full flex-col justify-between bg-blue-50 rounded-2xl px-8 py-12">
             <h5 className="text-blue-950 bold-32 mb-4">
               Do you need any of our wellbeing offerings? Click to get started
             </h5>
-            <Link href="/tangerine-health" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
-              <span>Get started</span>
-              <ArrowRight size={18} className='text-white' />
+            <Link href="/tangerine-health/gym-list">
+              <Button size="lg" className="mt-4 gap-2">
+                Get started
+                <ArrowRight size={16} />
+              </Button>
             </Link>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { Button } from '@/components/ui/button';
 
 interface PlanDetail {
   title: string;
@@ -34,9 +35,11 @@ const PricingPlanCard = ({ planName, price, description, details, link }: Plan) 
           </tbody>
         </table>
       </div>
-      <Link href={link} className="absolute bottom-8 right-8 flex gap-2 items-center rounded-lg btn_blue w-fit">
-        <span>Get Quote</span>
-        <ArrowRight size={18} className='text-white' />
+      <Link href={link}>
+        <Button size="lg" className="mt-4 gap-2">
+          Get Quote
+          <ArrowRight size={16} />
+        </Button>
       </Link>
     </div>
   )

@@ -23,10 +23,30 @@ const Subsidary = () => {
       </Link>
 
       <div className="flex flex-col md:flex-row mt-10 max-w-full gap-4">
-        <SubsidaryImage image="/images/general.png" name="General" link="/" />
-        <SubsidaryImage image="/images/life.png" name="Life" link="/" />
-        <SubsidaryImage image="/images/pension.png" name="Pension" link="/" />
-        <SubsidaryImage image="/images/health.png" name="Health" link="/" />
+        <SubsidaryImage
+          image="/images/general.png"
+          name="General"
+          link="/"
+          hoverImage="/images/general-colored.png"
+          hoverText="General Insurance" />
+        <SubsidaryImage
+          image="/images/life.png"
+          name="Life"
+          link="/"
+          hoverImage="/images/life-colored.png"
+          hoverText="Life Insurance" />
+        <SubsidaryImage
+          image="/images/pension.png"
+          name="Pension"
+          link="/"
+          hoverImage="/images/pension-colored.png"
+          hoverText="APT Pension" />
+        <SubsidaryImage
+          image="/images/health.png"
+          name="Health"
+          link="/tangerine-health"
+          hoverImage="/images/health-colored.png"
+          hoverText="Health Insurance" />
       </div>
     </section>
   );

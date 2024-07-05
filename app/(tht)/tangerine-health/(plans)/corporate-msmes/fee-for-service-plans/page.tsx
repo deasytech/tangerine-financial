@@ -12,14 +12,14 @@ const Page = () => {
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-start w-full mt-44">
         <div className="w-full space-y-3 flex-[2]">
           <BackWithBreadCrumbs page="Fee-for-Service Plans" />
-          <h1 className="bold-56 text-blue-900">Fee-for-Service Plans</h1>
+          <h1 className="bold-56 text-blue-950">Fee-for-Service Plans</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">These are mid-range healthcare plans for those who crave the flexibility of access to care.</p>
           <Link href="/tangerine-health/get-quote">
-            <Button>Get a Quote</Button>
+            <Button size="lg" className="mt-4">Get a Quote</Button>
           </Link>
         </div>
         <div className="w-full flex-[3]">
-          <Image src="/images/tht/feeforservice-banner.png" alt="Fee-for-Service Plans" width={598} height={393} className="w-full h-auto rounded-3xl" />
+          <Image src="/images/tht/feeforservice-banner.png" alt="Fee-for-Service Plans" width={698} height={370} className="w-full object-contain rounded-3xl" />
         </div>
       </section>
 

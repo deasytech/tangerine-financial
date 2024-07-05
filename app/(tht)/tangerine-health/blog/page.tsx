@@ -32,7 +32,7 @@ const BlogPage = () => {
       <section className="relative max-container padding-container mt-20">
         <h3 className="bold-36 !font-gilroy-light">More Posts</h3>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {POSTS.map((post) =>
+          {POSTS?.map((post) =>
             <BlogCard
               key={post.title}
               image={post.image}

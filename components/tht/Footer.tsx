@@ -1,7 +1,6 @@
 "use client"
 
-import { FOOTER_LINKS } from "@/constants";
-import { textToSlug } from "@/lib/utils";
+import { FOOTER_LINKS } from "@/constants/tht";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -18,15 +17,15 @@ const Footer = () => {
     "/tangerine-health/corporate",
     "/tangerine-health/broker",
     "/tangerine-health/get-quote",
+    "/tangerine-health/book-session",
   ];
 
   if (hiddenPaths.includes(pathname)) {
     return null;
   }
-
   return (
-    <>
-      <section className="relative max-container padding-container flex gap-6 mt-28">
+    <div className="bg-blue-50 py-20 mt-28">
+      <section className="relative max-container padding-container flex gap-6">
         <div className="w-full flex flex-col gap-4">
           <Image src="/images/tht/logo.svg" alt="twitter logo" width={120} height={67} />
           <p className="regular-14 !font-gilroy-medium max-w-xs">Your preferred comprehensive health insurance and well-being partner.</p>
@@ -43,8 +42,8 @@ const Footer = () => {
               <FooterColumn title={columns.title} key={index}>
                 <ul className="regular-12 !font-gilroy-light flex flex-col gap-2 text-gray-800">
                   {columns.links.map((link) => (
-                    <Link href={`/footer/${textToSlug(link)}`} key={link}>
-                      {link}
+                    <Link href={link.href} key={link.href}>
+                      {link.name}
                     </Link>
                   ))}
                 </ul>
@@ -54,7 +53,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <footer className="padding-container max-container flex w-full flex-col gap-14 my-20">
+      <footer className="padding-container max-container flex w-full flex-col gap-14 mt-20">
         <div className="flex flex-col md:flex-row gap-6 p-10 bg-blue-950 rounded-3xl">
           <div className="w-full flex flex-col gap-6">
             <h3 className="bold-14 text-white uppercase">Contact</h3>
@@ -150,7 +149,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
@@ -162,7 +161,7 @@ type FooterColumnProps = {
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return (
     <div className="flex flex-col gap-2">
-      <h4 className="bold-18 whitespace-nowrap uppercase text-generic-950">{title}</h4>
+      <h4 className="text-xs font-gilroy-semibold whitespace-nowrap uppercase text-generic-950">{title}</h4>
       {children}
     </div>
   );

@@ -12,14 +12,35 @@ const Page = () => {
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-start w-full mt-44">
         <div className="w-full space-y-3 flex-[2]">
           <BackWithBreadCrumbs page="Managed Care Capitation Plans" />
-          <h1 className="bold-56 text-blue-900">Managed Care Capitation Plans</h1>
+          <h1 className="bold-56 text-blue-950">Managed Care Capitation Plans</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">Cost-effective healthcare for all employee levels, covering primary healthcare and specialist consultations and treatment.</p>
           <Link href="/tangerine-health/get-quote">
-            <Button>Get a Quote</Button>
+            <Button size="lg" className="mt-4">Get a Quote</Button>
           </Link>
         </div>
         <div className="w-full flex-[3]">
-          <Image src="/images/tht/managed-care-banner.png" alt="Managed Care Capitation Plans" width={598} height={393} className="w-full h-auto" />
+          <div className="flex gap-4">
+            <Image
+              src="/images/tht/managed-care-banner.png"
+              alt="Managed Care Capitation Plans"
+              width={386} height={461}
+              className="w-full object-contain"
+            />
+            <div className="w-full flex flex-col gap-4">
+              <Image
+                src="/images/tht/managed-care-banner2.png"
+                alt="Managed Care Capitation Plans"
+                width={282} height={264}
+                className="w-full object-contain"
+              />
+              <Image
+                src="/images/tht/managed-care-banner3.png"
+                alt="Managed Care Capitation Plans"
+                width={282} height={225}
+                className="w-full object-contain"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -34,7 +55,7 @@ const Page = () => {
       </section>
 
       <section className="relative max-container padding-container mt-32">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {MANAGED_CARE_CAPITATION.map((item) =>
             <LibertyCoverCard
               key={item.name}

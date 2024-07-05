@@ -15,11 +15,11 @@ const Page = () => {
           <h1 className="bold-56 text-blue-900">Liberty Health Cover</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">THT through its partnership with leading Pan-African health insurer, Liberty Health, provides best-in-class Liberty Health Cover Plans (LHC) with robust and comprehensive benefits that are best suited to multinationals, corporates and SMEs with business interests in Nigeria and across African Continent.</p>
           <Link href="/tangerine-health/get-quote">
-            <Button>Get a Quote</Button>
+            <Button size="lg" className="mt-4">Get a Quote</Button>
           </Link>
         </div>
         <div className="w-full flex-[3]">
-          <Image src="/images/tht/liberty-health-banner.png" alt="liberty health cover" width={598} height={393} className="w-full h-auto" />
+          <Image src="/images/tht/liberty-health-banner.png" alt="liberty health cover" width={696} height={364} className="w-full object-contain" />
         </div>
       </section>
 
@@ -36,7 +36,11 @@ const Page = () => {
       <section className="relative max-container padding-container mt-32">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {LIBERTY_HEALTH_COVER.map((item) =>
-            <LibertyCoverCard key={item.name} name={item.name} desc={item.desc} />
+            <LibertyCoverCard
+              key={item.name}
+              name={item.name}
+              desc={item.desc}
+            />
           )}
         </div>
       </section>

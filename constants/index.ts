@@ -5,10 +5,10 @@ export const NAV_LINKS = [
     key: "about-us", 
     label: "About Us",
     subMenu: [
-      { href: "/overview", key: "overview", label: "Overview" },
-      { href: "/investors", key: "investors", label: "Investors" },
-      { href: "/leadership-team", key: "leadership-team", label: "Leadership Team" },
-      { href: "/our-businesses", key: "our-businesses", label: "Our Businesses" },
+      { href: "/overview", key: "overview", label: "Overview", target: "_self" },
+      { href: "/investors", key: "investors", label: "Investors", target: "_self" },
+      { href: "/leadership-team", key: "leadership-team", label: "Leadership Team", target: "_self" },
+      // { href: "/our-businesses", key: "our-businesses", label: "Our Businesses", target: "_self" },
     ]
   },
   { 
@@ -16,22 +16,14 @@ export const NAV_LINKS = [
     key: "our-subsidiaries", 
     label: "Subsidiaries",
     subMenu: [
-      { href: "/tangerine-general", key: "tangerine-general", label: "Tangerine General" },
-      { href: "/tangerine-life", key: "tangerine-life", label: "Tangerine Life" },
-      { href: "/tangerine-health", key: "tangerine-health", label: "Tangerine Health" },
-      { href: "/tangerine-pension", key: "tangerine-pension", label: "Tangerine APT Pension" },
+      { href: "/tangerine-general", key: "tangerine-general", label: "Tangerine General", target: "_blank" },
+      { href: "/tangerine-life", key: "tangerine-life", label: "Tangerine Life", target: "_blank" },
+      { href: "/tangerine-health", key: "tangerine-health", label: "Tangerine Health", target: "_blank" },
+      { href: "/tangerine-pension", key: "tangerine-pension", label: "Tangerine APT Pension", target: "_blank" },
     ]
   },
   { href: "/impact", key: "our-impact", label: "Our Impact" },
   { href: "/careers", key: "careers", label: "Careers" },
-];
-
-// CAMP SECTION
-export const PEOPLE_URL = [
-  "/person-1.png",
-  "/person-2.png",
-  "/person-3.png",
-  "/person-4.png",
 ];
 
 // FEATURES SECTION
@@ -60,37 +52,45 @@ export const PRESS = [
 export const FOOTER_LINKS = [
   {
     title: "Company",
-    links: ["About us", "Our Impact", "Careers", "Investors", "Leadership"],
+    links: [
+      { name: "About us", href: "/about" },
+      { name: "Our Impact", href: "/impact" },
+      { name: "Careers", href: "/careers" },
+      { name: "Investors", href: "/investors" },
+      { name: "Leadership", href: "/leadership-team" }
+    ],
   },
   {
     title: "Subsidiaries",
     links: [
-      "Tangerine General",
-      "Tangerine Life",
-      "Tangerine Pension",
-      "Tangerine Health",
+      { name: "Tangerine General", href: "/tangerine-general" },
+      { name: "Tangerine Life", href: "/tangerine-life" },
+      { name: "Tangerine Pension", href: "/tangerine-pension" },
+      { name: "Tangerine Health", href: "/tangerine-health" }
     ],
   },
   {
     title: "Media centre",
-    links: ["Media Center"],
+    links: [
+      { name: "Media Center", href: "/" },
+    ],
   },
   {
     title: "Compliance",
     links: [
-      "Terms and Conditions",
-      "Privacy Policy",
-      "Cookies Policy",
-      "Whistleblowing Policy",
+      { name: "Terms and Conditions", href: "/pages/terms-and-conditions" },
+      { name: "Privacy Policy", href: "/pages/privacy-policy" },
+      { name: "Cookies Policy", href: "/pages/cookies-policy" },
+      { name: "Whistleblowing Policy", href: "/pages/whistleblowing-policy" }
     ],
   },
   {
     title: "Contact us",
     links: [
-      "hello@tangerine.africa",
-      "14 Hughes Ave, Alagomeji-Yaba, Lagos.",
-      "54 Portland Place, London, United Kingdom, W1B 1DY",
-      "0700tangerine ( 0700 826437463)",
+      { name: "hello@tangerine.africa", href: "mailto:hello@tangerine.africa" },
+      { name: "14 Hughes Ave, Alagomeji-Yaba, Lagos.", href: "#" },
+      { name: "54 Portland Place, London, United Kingdom, W1B 1DY", href: "#" },
+      { name: "0700tangerine (0700 826437463)", href: "#" }
     ],
   },
 ];

@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react'
 import { BENEFITS_OFFERED, INDIVIDUAL_PLANS } from '@/constants/tht'
 import PricingPlanCard from '@/components/cards/PricingPlanCard'
 import CoreValue from '@/components/tht/CoreValue'
+import { Button } from '@/components/ui/button'
 
 const IndividualsPage = () => {
   return (
@@ -66,9 +67,11 @@ const IndividualsPage = () => {
       <section className="relative max-container padding-container mt-32">
         <div className="w-full md:w-1/2 space-y-4">
           <h3 className="bold-48 text-blue-950">Frequently Asked Questions</h3>
-          <Link href="/tangerine-health/frequently-asked-questions" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
-            <span>Learn more</span>
-            <ArrowRight size={18} className='text-white' />
+          <Link href="/tangerine-health/frequently-asked-questions">
+            <Button size="lg" className="mt-4 gap-2">
+              Learn more
+              <ArrowRight size={16} />
+            </Button>
           </Link>
         </div>
 

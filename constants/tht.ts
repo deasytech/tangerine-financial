@@ -1,18 +1,18 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/tangerine-health/about", key: "about", label: "About" },
-  { 
-    href: "/tangerine-health/corporate-msmes", 
-    key: "plans", 
+  {
+    href: "/tangerine-health/corporate-msmes",
+    key: "plans",
     label: "Plans",
     subMenu: [
       { href: "/tangerine-health/corporate-msmes", key: "corporate-msmes", label: "Corporates & MSMEs", desc: "Comprehensive healthcare plans for all types of organisations." },
       { href: "/tangerine-health/individuals", key: "individuals", label: "Individuals", desc: "Tailor made individual plans covering primary, secondary and tertiary health care." },
     ]
   },
-  { 
-    href: "/tangerine-health/wellness", 
-    key: "wellness", 
+  {
+    href: "/tangerine-health/wellness",
+    key: "wellness",
     label: "Wellness",
     subMenu: [
       { href: "/tangerine-health/wellness", key: "wellness-overview", label: "Wellness", desc: "Bespoke well-being solutions tailored to your employees' wellness needs." },
@@ -20,9 +20,9 @@ export const NAV_LINKS = [
       { href: "/tangerine-health/book-session", key: "book-session", label: "Book a Session", desc: "" },
     ]
   },
-  { 
-    href: "/tangerine-health/provider-network", 
-    key: "provider-network", 
+  {
+    href: "/tangerine-health/provider-network",
+    key: "provider-network",
     label: "Provider Network",
     subMenu: [
       { href: "/tangerine-health/provider-network", key: "provider-network-overview", label: "Provider Network", desc: "THT is in partnership with 1500+ healthcare professionals and world-class providers of health-related services in Nigeria." },
@@ -48,19 +48,19 @@ export const PRESS = [
     title: "Verod Capital Press Release On Tangerine's Acquisition Of ARM Life Plc.",
     slug: "verod-capital-press-release-on-tangerines-acquisition-of-arm-life-plc",
     date: "18 March 2020",
-    description:`<p>Tangerine Life Insurance Limited (“Tangerine Life”), supported by leading West-African private equity firm Verod Capital Management Limited (“Verod”), today announced its acquisition of a majority stake in ARM Life Insurance Plc (“ARM Life”). The acquisition, which is effective from Friday, February 28th, 2020 propels Tangerine Life to 4th place in Nigeria's life insurance industry.</p><p>Tangerine Life (formerly Metropolitan Life Insurance Nigeria Limited) is a cutting edge provider of digital financial services including insurance services, where it historically focused on corporates through its group life offering. ARM Life is a leading provider of life insurance services in Nigeria, with strong focus on retail and annuity products. Given their complementary strengths, the acquisition provides Tangerine Life with a solid presence across end users and a broad product portfolio, creating a strong foundation for future expansion.</p><p>Speaking on the acquisition, Livingstone Magorimbo, Managing Director of Tangerine Life said, “The landscape of the insurance industry is evolving very quickly. At Tangerine Life, we have made a decision to ensure that we are always at the forefront of innovation within the industry. As part of that innovation strategy, we have found collaboration to be a key instrument in ensuring that we build and maintain a sturdy, profitable business”. He added that “the acquisition will provide a perfect springboard for Tangerine Life to utilize the distinct strengths that ARM Life brings to bare, thereby strengthening the insurance services provided by Tangerine Life to create and deliver better value.”</p><p>“Innovation is paramount in ensuring customer satisfaction in today's business landscape and we are keen to ensure that our customers receive the best at all touchpoints. We believe that this acquisition will ensure exceptional value creation for our customers and partners alike” said, Stephen Alangbo, Managing Director of ARM Life Plc.</p><p>“This acquisition is in line with our broader strategy towards capturing the opportunities we see within the sector”, said Eric Idiahi, partner at Verod Capital. He continued, “The acquisition not only creates a stronger player, but provides a superior platform for sustained growth given strong synergies within the two businesses. The greater story about Tangerine will be about innovation, transformation, technology - all of which will be applied towards a superior customer experience, acquiring ARM Life is one piece of the puzzle towards actualizing our vision for Tangerine Life.”</p>`,
+    description: `<p>Tangerine Life Insurance Limited (“Tangerine Life”), supported by leading West-African private equity firm Verod Capital Management Limited (“Verod”), today announced its acquisition of a majority stake in ARM Life Insurance Plc (“ARM Life”). The acquisition, which is effective from Friday, February 28th, 2020 propels Tangerine Life to 4th place in Nigeria's life insurance industry.</p><p>Tangerine Life (formerly Metropolitan Life Insurance Nigeria Limited) is a cutting edge provider of digital financial services including insurance services, where it historically focused on corporates through its group life offering. ARM Life is a leading provider of life insurance services in Nigeria, with strong focus on retail and annuity products. Given their complementary strengths, the acquisition provides Tangerine Life with a solid presence across end users and a broad product portfolio, creating a strong foundation for future expansion.</p><p>Speaking on the acquisition, Livingstone Magorimbo, Managing Director of Tangerine Life said, “The landscape of the insurance industry is evolving very quickly. At Tangerine Life, we have made a decision to ensure that we are always at the forefront of innovation within the industry. As part of that innovation strategy, we have found collaboration to be a key instrument in ensuring that we build and maintain a sturdy, profitable business”. He added that “the acquisition will provide a perfect springboard for Tangerine Life to utilize the distinct strengths that ARM Life brings to bare, thereby strengthening the insurance services provided by Tangerine Life to create and deliver better value.”</p><p>“Innovation is paramount in ensuring customer satisfaction in today's business landscape and we are keen to ensure that our customers receive the best at all touchpoints. We believe that this acquisition will ensure exceptional value creation for our customers and partners alike” said, Stephen Alangbo, Managing Director of ARM Life Plc.</p><p>“This acquisition is in line with our broader strategy towards capturing the opportunities we see within the sector”, said Eric Idiahi, partner at Verod Capital. He continued, “The acquisition not only creates a stronger player, but provides a superior platform for sustained growth given strong synergies within the two businesses. The greater story about Tangerine will be about innovation, transformation, technology - all of which will be applied towards a superior customer experience, acquiring ARM Life is one piece of the puzzle towards actualizing our vision for Tangerine Life.”</p>`,
   },
   {
     title: "Strong revenue growth underpins improved profitability as Tangerine records 27% growth in Insurance revenues following implementation of IFRS 17",
     slug: "strong-revenue-growth-underpins-improved-profitability",
     date: "4 January 2020",
-    description:`<p>Tangerine Life Insurance Limited (“Tangerine Life”), supported by leading West-African private equity firm Verod Capital Management Limited (“Verod”), today announced its acquisition of a majority stake in ARM Life Insurance Plc (“ARM Life”). The acquisition, which is effective from Friday, February 28th, 2020 propels Tangerine Life to 4th place in Nigeria's life insurance industry.</p><p>Tangerine Life (formerly Metropolitan Life Insurance Nigeria Limited) is a cutting edge provider of digital financial services including insurance services, where it historically focused on corporates through its group life offering. ARM Life is a leading provider of life insurance services in Nigeria, with strong focus on retail and annuity products. Given their complementary strengths, the acquisition provides Tangerine Life with a solid presence across end users and a broad product portfolio, creating a strong foundation for future expansion.</p><p>Speaking on the acquisition, Livingstone Magorimbo, Managing Director of Tangerine Life said, “The landscape of the insurance industry is evolving very quickly. At Tangerine Life, we have made a decision to ensure that we are always at the forefront of innovation within the industry. As part of that innovation strategy, we have found collaboration to be a key instrument in ensuring that we build and maintain a sturdy, profitable business”. He added that “the acquisition will provide a perfect springboard for Tangerine Life to utilize the distinct strengths that ARM Life brings to bare, thereby strengthening the insurance services provided by Tangerine Life to create and deliver better value.”</p><p>“Innovation is paramount in ensuring customer satisfaction in today's business landscape and we are keen to ensure that our customers receive the best at all touchpoints. We believe that this acquisition will ensure exceptional value creation for our customers and partners alike” said, Stephen Alangbo, Managing Director of ARM Life Plc.</p><p>“This acquisition is in line with our broader strategy towards capturing the opportunities we see within the sector”, said Eric Idiahi, partner at Verod Capital. He continued, “The acquisition not only creates a stronger player, but provides a superior platform for sustained growth given strong synergies within the two businesses. The greater story about Tangerine will be about innovation, transformation, technology - all of which will be applied towards a superior customer experience, acquiring ARM Life is one piece of the puzzle towards actualizing our vision for Tangerine Life.”</p>`,
+    description: `<p>Tangerine Life Insurance Limited (“Tangerine Life”), supported by leading West-African private equity firm Verod Capital Management Limited (“Verod”), today announced its acquisition of a majority stake in ARM Life Insurance Plc (“ARM Life”). The acquisition, which is effective from Friday, February 28th, 2020 propels Tangerine Life to 4th place in Nigeria's life insurance industry.</p><p>Tangerine Life (formerly Metropolitan Life Insurance Nigeria Limited) is a cutting edge provider of digital financial services including insurance services, where it historically focused on corporates through its group life offering. ARM Life is a leading provider of life insurance services in Nigeria, with strong focus on retail and annuity products. Given their complementary strengths, the acquisition provides Tangerine Life with a solid presence across end users and a broad product portfolio, creating a strong foundation for future expansion.</p><p>Speaking on the acquisition, Livingstone Magorimbo, Managing Director of Tangerine Life said, “The landscape of the insurance industry is evolving very quickly. At Tangerine Life, we have made a decision to ensure that we are always at the forefront of innovation within the industry. As part of that innovation strategy, we have found collaboration to be a key instrument in ensuring that we build and maintain a sturdy, profitable business”. He added that “the acquisition will provide a perfect springboard for Tangerine Life to utilize the distinct strengths that ARM Life brings to bare, thereby strengthening the insurance services provided by Tangerine Life to create and deliver better value.”</p><p>“Innovation is paramount in ensuring customer satisfaction in today's business landscape and we are keen to ensure that our customers receive the best at all touchpoints. We believe that this acquisition will ensure exceptional value creation for our customers and partners alike” said, Stephen Alangbo, Managing Director of ARM Life Plc.</p><p>“This acquisition is in line with our broader strategy towards capturing the opportunities we see within the sector”, said Eric Idiahi, partner at Verod Capital. He continued, “The acquisition not only creates a stronger player, but provides a superior platform for sustained growth given strong synergies within the two businesses. The greater story about Tangerine will be about innovation, transformation, technology - all of which will be applied towards a superior customer experience, acquiring ARM Life is one piece of the puzzle towards actualizing our vision for Tangerine Life.”</p>`,
   },
   {
     title: "Strong revenue growth underpins improved profitability as Tangerine records 27% growth in Insurance revenues following implementation of IFRS 17",
     slug: "strong-revenue-growth-underpins-improved-profitability-2",
     date: "4 January 2020",
-    description:`<p>Tangerine Life Insurance Limited (“Tangerine Life”), supported by leading West-African private equity firm Verod Capital Management Limited (“Verod”), today announced its acquisition of a majority stake in ARM Life Insurance Plc (“ARM Life”). The acquisition, which is effective from Friday, February 28th, 2020 propels Tangerine Life to 4th place in Nigeria's life insurance industry.</p><p>Tangerine Life (formerly Metropolitan Life Insurance Nigeria Limited) is a cutting edge provider of digital financial services including insurance services, where it historically focused on corporates through its group life offering. ARM Life is a leading provider of life insurance services in Nigeria, with strong focus on retail and annuity products. Given their complementary strengths, the acquisition provides Tangerine Life with a solid presence across end users and a broad product portfolio, creating a strong foundation for future expansion.</p><p>Speaking on the acquisition, Livingstone Magorimbo, Managing Director of Tangerine Life said, “The landscape of the insurance industry is evolving very quickly. At Tangerine Life, we have made a decision to ensure that we are always at the forefront of innovation within the industry. As part of that innovation strategy, we have found collaboration to be a key instrument in ensuring that we build and maintain a sturdy, profitable business”. He added that “the acquisition will provide a perfect springboard for Tangerine Life to utilize the distinct strengths that ARM Life brings to bare, thereby strengthening the insurance services provided by Tangerine Life to create and deliver better value.”</p><p>“Innovation is paramount in ensuring customer satisfaction in today's business landscape and we are keen to ensure that our customers receive the best at all touchpoints. We believe that this acquisition will ensure exceptional value creation for our customers and partners alike” said, Stephen Alangbo, Managing Director of ARM Life Plc.</p><p>“This acquisition is in line with our broader strategy towards capturing the opportunities we see within the sector”, said Eric Idiahi, partner at Verod Capital. He continued, “The acquisition not only creates a stronger player, but provides a superior platform for sustained growth given strong synergies within the two businesses. The greater story about Tangerine will be about innovation, transformation, technology - all of which will be applied towards a superior customer experience, acquiring ARM Life is one piece of the puzzle towards actualizing our vision for Tangerine Life.”</p>`,
+    description: `<p>Tangerine Life Insurance Limited (“Tangerine Life”), supported by leading West-African private equity firm Verod Capital Management Limited (“Verod”), today announced its acquisition of a majority stake in ARM Life Insurance Plc (“ARM Life”). The acquisition, which is effective from Friday, February 28th, 2020 propels Tangerine Life to 4th place in Nigeria's life insurance industry.</p><p>Tangerine Life (formerly Metropolitan Life Insurance Nigeria Limited) is a cutting edge provider of digital financial services including insurance services, where it historically focused on corporates through its group life offering. ARM Life is a leading provider of life insurance services in Nigeria, with strong focus on retail and annuity products. Given their complementary strengths, the acquisition provides Tangerine Life with a solid presence across end users and a broad product portfolio, creating a strong foundation for future expansion.</p><p>Speaking on the acquisition, Livingstone Magorimbo, Managing Director of Tangerine Life said, “The landscape of the insurance industry is evolving very quickly. At Tangerine Life, we have made a decision to ensure that we are always at the forefront of innovation within the industry. As part of that innovation strategy, we have found collaboration to be a key instrument in ensuring that we build and maintain a sturdy, profitable business”. He added that “the acquisition will provide a perfect springboard for Tangerine Life to utilize the distinct strengths that ARM Life brings to bare, thereby strengthening the insurance services provided by Tangerine Life to create and deliver better value.”</p><p>“Innovation is paramount in ensuring customer satisfaction in today's business landscape and we are keen to ensure that our customers receive the best at all touchpoints. We believe that this acquisition will ensure exceptional value creation for our customers and partners alike” said, Stephen Alangbo, Managing Director of ARM Life Plc.</p><p>“This acquisition is in line with our broader strategy towards capturing the opportunities we see within the sector”, said Eric Idiahi, partner at Verod Capital. He continued, “The acquisition not only creates a stronger player, but provides a superior platform for sustained growth given strong synergies within the two businesses. The greater story about Tangerine will be about innovation, transformation, technology - all of which will be applied towards a superior customer experience, acquiring ARM Life is one piece of the puzzle towards actualizing our vision for Tangerine Life.”</p>`,
   },
 ];
 
@@ -68,33 +68,45 @@ export const PRESS = [
 export const FOOTER_LINKS = [
   {
     title: "Company",
-    links: ["About us", "History", "Leadership Team", "Partnership", "Privacy Policy", "Terms"],
+    links: [
+      { name: "About us", href: "/tangerine-health/about" },
+      { name: "History", href: "/tangerine-health/about" },
+      { name: "Leadership Team", href: "/tangerine-health/leadership-team" },
+      { name: "Careers", href: "/tangerine-health/careers" },
+      { name: "Partnership", href: "/tangerine-health/partnership" },
+      { name: "Privacy Policy", href: "/tangerine-health" },
+      { name: "Terms", href: "/tangerine-health" }
+    ],
   },
   {
     title: "Plans",
     links: [
-      "Liberty Health Plans",
-      "Total Health Plan",
-      "Managed Care Plan",
-      "FAQs",
+      {name: "Liberty Health Plans", href: "/tangerine-health/corporate-msmes/liberty-health-cover"},
+      {name: "Total Health Plan", href: "/tangerine-health"},
+      {name: "Managed Care Plan", href: "/tangerine-health/corporate-msmes/managed-care-plans"},
+      {name: "FAQs", href: "/tangerine-health/frequently-asked-questions"},
     ],
   },
   {
     title: "Wellness",
-    links: ["Wellness Offerings", "Gym List", "Book a session"],
+    links: [
+      { name: "Wellness Offerings", href: "/tangerine-health/wellness" },
+      { name: "Gym List", href: "/tangerine-health/gym-list" },
+      { name: "Book a session", href: "/tangerine-health/book-session" }
+    ],
   },
   {
     title: "provider network",
     links: [
-      "Find a Provider",
-      "Join our Provider Network",
+      { name: "Find a Provider", href: "/tangerine-health/find-provider" },
+      { name: "Join our Provider Network", href: "/tangerine-health/join-provider-network" },
     ],
   },
   {
     title: "Media",
     links: [
-      "Blog",
-      "Gallery",
+      { name: "Blog", href: "/tangerine-health/blog" },
+      { name: "Gallery", href: "/tangerine-health" },
     ],
   },
 ];
@@ -228,7 +240,7 @@ export const INDIVIDUAL_PLANS = [
         "value": "N/A"
       },
     ],
-    "link": "/tangerine-health"
+    "link": "/tangerine-health/get-quote"
   },
   {
     "planName": "Pearl",
@@ -280,7 +292,7 @@ export const INDIVIDUAL_PLANS = [
         "value": "Gym access (Discounted gym access at i-Fitness gyms)"
       },
     ],
-    "link": "/tangerine-health"
+    "link": "/tangerine-health/get-quote"
   },
   {
     "planName": "Coral",
@@ -332,7 +344,7 @@ export const INDIVIDUAL_PLANS = [
         "value": "Gym access (Discounted gym access at i-Fitness gyms)"
       },
     ],
-    "link": "/tangerine-health"
+    "link": "/tangerine-health/get-quote"
   },
 ];
 
@@ -417,32 +429,32 @@ export const GYM_LIST = [
 
 export const DIRECTORS = [
   {
-    image: "/images/team/fatima.svg",
-    name: "Fatima Kyari",
-    position: "Chairman, Board of Directors",
+    image: "/images/tht/team/rotimi.png",
+    name: "Rotimi Okpaise",
+    position: "Ag. Board Chair",
   },
   {
-    image: "/images/team/lola.svg",
+    image: "/images/tht/team/lola.png",
     name: "Lola Cardoso",
     position: "Group Chief Executive Officer",
   },
   {
-    image: "/images/team/rotimi.svg",
-    name: "Rotimi Okpaise",
-    position: "Non-Executive Director",
+    image: "/images/tht/team/tonye.png",
+    name: "Tonye Ukpong",
+    position: "Managing Director",
   },
   {
-    image: "/images/team/wale.svg",
+    image: "/images/tht/team/wale.png",
     name: "Wale Odusanya",
     position: "Non-Executive Director",
   },
   {
-    image: "/images/team/ademayowa.svg",
+    image: "/images/tht/team/ademayowa.png",
     name: "Ademayowa Adeduro",
     position: "Non-Executive Director",
   },
   {
-    image: "/images/team/toyin.svg",
+    image: "/images/tht/team/toyin.png",
     name: "Toyin Deinde",
     position: "Chief Operating Officer",
   },
@@ -450,57 +462,57 @@ export const DIRECTORS = [
 
 export const MANAGEMENT = [
   {
-    image: "/images/team/deinde.svg",
+    image: "/images/tht/team/ukpong.png",
+    name: "Tonye Ukpong",
+    position: "Managing Director",
+  },
+  {
+    image: "/images/tht/team/deinde.png",
     name: "Toyin Deinde",
     position: "Chief Operating Officer",
   },
   {
-    image: "/images/team/sobade.svg",
+    image: "/images/tht/team/sobade.png",
     name: "Abimbola Sobade",
     position: "Internal Audit and Control",
   },
   {
-    image: "/images/team/buraimoh.svg",
+    image: "/images/tht/team/buraimoh.png",
     name: "Olanrewaju Buraimoh",
     position: "Finance",
   },
   {
-    image: "/images/team/abejide.svg",
+    image: "/images/tht/team/abejide.png",
     name: "Eyitayo Abejide",
     position: "Medical Services",
   },
   {
-    image: "/images/team/adelusi.svg",
+    image: "/images/tht/team/adelusi.png",
     name: "Abiola Adelusi",
     position: "Membership and Underwriting",
   },
   {
-    image: "/images/team/mong.svg",
+    image: "/images/tht/team/mong.png",
     name: "Dr. Rose Mong",
     position: "Branch Operations",
   },
   {
-    image: "/images/team/no-image.png",
-    name: "Daniel Majekodunmi",
-    position: "Information Technology",
-  },
-  {
-    image: "/images/team/mosuro.svg",
+    image: "/images/tht/team/mosuro.png",
     name: "Abiola Mosuro",
     position: "Human Resources",
   },
   {
-    image: "/images/team/adeyoola.svg",
+    image: "/images/tht/team/adeyoola.png",
     name: "Babatunde Adeyoola",
     position: "Risk Management",
   },
   {
-    image: "/images/team/no-image.png",
+    image: "/images/tht/team/aluko.png",
     name: "Omalara Aluko",
     position: "Marketing and Branding",
   },
   {
-    image: "/images/team/megbope.svg",
+    image: "/images/tht/team/megbope.png",
     name: "Oyebimpe Megbope",
     position: "Legal and Compliance",
   },
@@ -572,57 +584,57 @@ export const FAQ = [
   {
     id: "2",
     question: "How do I get access to care?",
-    answer: "",
+    answer: "All you need to do is walk into your preferred or selected hospital, show them your THT membership card and you can access care.",
   },
   {
     id: "3",
     question: "How do I select a Hospital?",
-    answer: "",
+    answer: "At onboarding, we provide you with the list of hospitals. To assist in your decision-making process, it is best to choose a hospital close to your home, place of work, or anywhere you deem convenient for you to easily access care, bearing in mind that you can choose different hospitals for different members of the family.",
   },
   {
     id: "4",
     question: "Can I switch from one hospital to another under the HMO coverage?",
-    answer: "",
+    answer: "Yes, you can. However, we must receive a notification from the member before the 15th of the month, to take effect by the next month.",
   },
   {
     id: "5",
     question: "When the scheme takes off, can I keep my present doctor?",
-    answer: "",
+    answer: "You may remain with your doctor if he/she is at a hospital on the provider network.",
   },
   {
     id: "6",
     question: "Is there a limit to the number of visits I can make to the hospital?",
-    answer: "",
+    answer: "There are no limits to the number of visits you can make to the hospital.",
   },
   {
     id: "7",
     question: "Is there an age limit?",
-    answer: "",
+    answer: "This policy covers members up to the age of 60 years old. For an existing insured person who was less than 60 years old when the cover commenced but subsequently aged beyond 60 years old, such person will continue to be covered under this policy.",
   },
   {
     id: "8",
-    question: "Can I switch from a plan which my employer pays for to a more expensive plan offered by the same HMO and pay the differential between my employer’s plan and my desired plan?",
-    answer: "",
+    question: "Can I switch from a plan which my employer pays for to a more expensive plan offered by the same HMO and pay the differential between my employer's plan and my desired plan?",
+    answer: "Yes, you can pay the differential to be on your desired plan. However, this payment must be through your employer. The insured company can only change its health insurance plan at policy renewal.",
   },
   {
     id: "9",
     question: "Is there a financial limit to the treatment I can receive per visit, on a monthly or annual basis from the hospitals on the network?",
-    answer: "",
+    answer: "There are no financial limits to the treatment you can receive in a month or year once it is within the procedures and benefits covered as captured on the benefits table.",
   },
   {
     id: "10",
     question: "Are there any protocols in place to ensure that we get consistently good quality service from the hospitals on the network?",
-    answer: "",
+    answer: "THT carries out quality control on all network providers to ensure they meet stringent standards. Our medical services team conducts regular reviews to ensure the quality and effectiveness of care within the THT provider network.",
   },
   {
     id: "11",
     question: "Can I access care at hospitals outside the network in the case of an emergency or when I am out of the station and in need of care?",
-    answer: "",
+    answer: "We refer to a situation as an emergency, if immediate attention is not given to the affected person, it could result in death or permanent disability. In such cases, you can make use of any hospital. However, THT must be notified within 48 hours. In addition, if you are on an official assignment in another location or state, you can access any other hospital on the network for urgent care, but a notification is also required.",
   },
   {
     id: "12",
     question: "To whom should I refer my complaints about service?",
-    answer: "",
+    answer: "For prompt action, we advise that all complaints about service be directed as soon as possible to our 24-hour Contact Centre number - 0700 868 2548 (0700-TOTAL HT). Alternatively, you can also send an email to contactcentre@totalhealthtrust.com",
   },
 ];
 
@@ -731,5 +743,49 @@ export const POSTS = [
     "title": "Understanding PCOS",
     "date": "9th March 2023, 7 mins",
     "slug": "understanding-pcos"
+  },
+];
+
+export const CSR_PHOTOS = [
+  {
+    title: "Voluntary Blood Donor Drive",
+    subTitle: "Our csr initiatives",
+    photos: [
+      "/images/tht/gallery/blood-donor-drive/1.png",
+      "/images/tht/gallery/blood-donor-drive/2.png",
+      "/images/tht/gallery/blood-donor-drive/3.png",
+      "/images/tht/gallery/blood-donor-drive/4.png",
+      "/images/tht/gallery/blood-donor-drive/5.png",
+      "/images/tht/gallery/blood-donor-drive/6.png",
+      "/images/tht/gallery/blood-donor-drive/7.png",
+      "/images/tht/gallery/blood-donor-drive/8.png",
+      "/images/tht/gallery/blood-donor-drive/9.png",
+    ]
+  },
+  {
+    title: "Ojuwoye Community Primary Inclusive School",
+    subTitle: "",
+    photos: [
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/1.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/2.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/3.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/4.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/5.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/6.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/7.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/8.png",
+      "/images/tht/gallery/ojuwoye-community-primary-inclusive-school/9.png",
+    ]
+  },
+];
+
+export const THIRD_PARTY = [
+  {
+    title: "Project Management and Advisory",
+    description: "Over the years, THT has developed competence in helping our partners and other organisations bring to life some very audacious medically inclined projects and CSR initiatives. We deliver unimaginable value and peace of mind; you should get in touch!"
+  },
+  {
+    title: "Personalized Solutions",
+    description: "We work closely with employers to design health insurance plans that align with the unique needs and budgets of their employee groups. Once we know your preferences, we will deliver your individualised customer experience."
   },
 ];

@@ -13,6 +13,8 @@ const LeadershipTeamPage = () => {
               image={team.image}
               name={team.name}
               position={team.position}
+              width={384}
+              height={372}
             />
           )}
         </div>

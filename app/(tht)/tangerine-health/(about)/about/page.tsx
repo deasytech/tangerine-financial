@@ -14,7 +14,7 @@ const AboutUsPage = () => {
           <p className="regular-18 text-generic-950 !leading-[145%]">Total Health Trust (THT) Ltd, a Tangerine company is the preferred health insurer with 26 years of experience providing in-and-out country healthcare and wellbeing services. The brand leverages its expertise and technology in delivering world-class healthcare and wellness solutions. THT is a 4-time winner of the HMO of the Year Award (2016, 2017, 2019 & 2021).</p>
         </div>
         <div className="w-full">
-          <Image src="/images/tht/about-banner.png" alt="About us" width={598} height={393} className="w-full h-auto" />
+          <Image src="/images/tht/about-banner.png" alt="About us" width={589} height={393} className="w-full h-auto" />
         </div>
       </section>
 

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { ArrowRight, Heart, LinkIcon, MessageCircle } from 'lucide-react'
 import Slider from '@/components/tht/Slider'
 import AwardSection from '@/components/tht/AwardSection'
@@ -121,48 +120,10 @@ const TangHealthPage = () => {
           <p className="regular-18 text-blue-950">
             We believe in the power of collaboration to drive positive change in healthcare. Whether you're a healthcare provider, employer, broker, or service provider, we can design a partnership plan to meet your unique needs.
           </p>
-          <Link href="/tangerine-health/provider-network" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
+          <Link href="/tangerine-health/partnership" className="flex gap-2 items-center rounded-lg btn_blue w-fit">
             <span>Learn more</span>
             <ArrowRight size={18} className='text-white' />
           </Link>
-        </div>
-      </section>
-
-      <section className="relative max-container padding-container mt-28">
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-          {[1, 2, 3].map((_: number, index: number) => (
-            <div key={index} className='flex flex-col gap-6 border border-gray-100 p-10 rounded-2xl'>
-              <div className="flex items-start gap-4">
-                <Image src="/images/tht/logo.svg" alt="twitter logo" width={52} height={52} />
-                <div className="flex flex-col">
-                  <h5 className='bold-16'>Total Health Trust</h5>
-                  <div className="flex items-center gap-4">
-                    <p>@thtnigeria</p>
-                    <p>-</p>
-                    <p className='text-blue-500'>Follow</p>
-                  </div>
-                </div>
-                <Image src="/icons/x-twitter-black.svg" alt='twitter icon' width={32} height={32} />
-              </div>
-              <p className='regular-12 !font-gilroy-light'>So excited to share that we hit 100,000 patient visits this week! Check out the thread from our CEO to learn more about this big milestone!</p>
-              <p className='regular-14'>5:37 PM • 19 Jul, 2022</p>
-              <div className='flex justify-between items-center'>
-                <div className='flex items-center gap-2 w-full'>
-                  <Heart size={24} fill='red' className='text-red-500' />
-                  <p className='regular-14'>4</p>
-                </div>
-                <div className='flex items-center gap-2 w-full'>
-                  <MessageCircle size={24} fill='#3d83f7' className='text-blue-500' />
-                  <p className='regular-14'>Reply</p>
-                </div>
-                <div className='flex items-center gap-2 w-full justify-end'>
-                  <LinkIcon size={24} className='text-gray-500' />
-                  <p className='regular-14'>Copy link</p>
-                </div>
-              </div>
-              <Link href="/" className='w-full text-center border border-gray-100 py-3 rounded-full text-blue-300'>Read more on X</Link>
-            </div>
-          ))}
         </div>
       </section>
     </>

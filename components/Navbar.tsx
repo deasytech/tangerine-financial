@@ -58,7 +58,7 @@ const Navbar = () => {
                     <div className="w-full flex flex-col gap-2">
                       {link.subMenu.map((subLink) => (
                         <li key={subLink.key} className="mb-2 p-2 last:mb-0 hover:bg-orange-50">
-                          <Link href={subLink.href} className="regular-12 text-generic-700" onClick={handleSubMenuClick}>
+                          <Link href={subLink.href} target={subLink.target} className="regular-12 text-generic-700" onClick={handleSubMenuClick}>
                             {subLink.label}
                           </Link>
                         </li>

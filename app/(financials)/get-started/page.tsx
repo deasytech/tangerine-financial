@@ -19,21 +19,21 @@ const GetStartedPage = () => {
         </div>
         <div className='w-full flex flex-col gap-8'>
           <div className='flex gap-8'>
-            <Link href="/tangerine-insurance" className='flex flex-col gap-2'>
+            <Link href="/tangerine-general" target="_blank" className='flex flex-col gap-2'>
               <Image src="/images/general-insurance.png" alt="" width={176} height={102} />
               <p className="regular-18 text-blue-950">General Insurance</p>
             </Link>
-            <Link href="/tangerine-life" className='flex flex-col gap-2'>
+            <Link href="/tangerine-life" target="_blank" className='flex flex-col gap-2'>
               <Image src="/images/life-insurance.png" alt="" width={176} height={102} />
               <p className="regular-18 text-blue-950">Life Insurance</p>
             </Link>
           </div>
           <div className='flex gap-8'>
-            <Link href="/tangerine-health" className='flex flex-col gap-2'>
+            <Link href="/tangerine-health" target="_blank" className='flex flex-col gap-2'>
               <Image src="/images/health-insurance.png" alt="" width={176} height={102} />
               <p className="regular-18 text-blue-950">Health Insurance</p>
             </Link>
-            <Link href="/tangerine-pension" className='flex flex-col gap-2'>
+            <Link href="/tangerine-pension" target="_blank" className='flex flex-col gap-2'>
               <Image src="/images/pension-start.png" alt="" width={176} height={102} />
               <p className="regular-18 text-blue-950">Pensions</p>
             </Link>

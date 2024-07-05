@@ -20,6 +20,7 @@ const Navbar = () => {
     "/tangerine-health/corporate",
     "/tangerine-health/broker",
     "/tangerine-health/get-quote",
+    "/tangerine-health/book-session",
   ];
 
   if (hiddenPaths.includes(pathname)) {
@@ -35,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full z-30 py-5 fixed top-0 left-0 right-0 bg-white shadow-md">
+    <header className="w-full z-30 py-5 fixed top-0 left-0 right-0 bg-white shadow-md">
       <nav className="flexBetween max-container padding-container">
         <Link href="/tangerine-health">
           <Image
@@ -103,7 +104,7 @@ const Navbar = () => {
           className="cursor-pointer lg:hidden"
         />
       </nav>
-    </div>
+    </header>
   );
 };
 

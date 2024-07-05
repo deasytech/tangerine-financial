@@ -12,7 +12,7 @@ const FindProviderPage = () => {
 
       <div className="flex justify-between items-center gap-32">
         <Image
-          src="/images/tht/network_provider_banner.png"
+          src="/images/tht/network_provider_banner.png?v=1"
           alt="network provider"
           width={520}
           height={708}
