@@ -41,7 +41,7 @@ const Footer = () => {
                   >
                     <Image src={link.icon} alt="logo" width={18} height={18} />
 
-                    <label className="regular-12 font-gilroy-medium text-blue-base">
+                    <label className="regular-12 font-gilroy-medium text-blue-base cursor-pointer">
                       {link.label}
                     </label>
                   </Link>

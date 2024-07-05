@@ -10,7 +10,7 @@ import React from 'react'
 const InvestorsPage = () => {
   return (
     <>
-      <section className="relative h-screen bg-cover bg-center mt-24 mx-5" style={{
+      <section className="relative h-screen bg-contain bg-no-repeat bg-center mx-5" style={{
         backgroundImage: "url('/images/investor-hero.svg')",
         borderRadius: '32px',
         overflow: 'hidden',
