@@ -1,23 +1,25 @@
 "use client"
 
-import { FOOTER_LINKS } from "@/constants/tht";
+import { FOOTER_LINKS, SOCIALS } from "@/constants/tht";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const pathname = usePathname();
-  
+
   const hiddenPaths = [
     "/tangerine-health/find-provider",
     "/tangerine-health/join-provider-network",
     "/tangerine-health/login",
+    "/tangerine-health/register",
     "/tangerine-health/policy-holder",
     "/tangerine-health/service-provider",
     "/tangerine-health/corporate",
     "/tangerine-health/broker",
     "/tangerine-health/get-quote",
     "/tangerine-health/book-session",
+    "/tangerine-health/buy-now",
   ];
 
   if (hiddenPaths.includes(pathname)) {
@@ -30,10 +32,11 @@ const Footer = () => {
           <Image src="/images/tht/logo.svg" alt="twitter logo" width={120} height={67} />
           <p className="regular-14 !font-gilroy-medium max-w-xs">Your preferred comprehensive health insurance and well-being partner.</p>
           <div className='flex gap-6'>
-            <Image src="/icons/b-Linkedin.svg" alt="linkedin logo" width={32} height={32} />
-            <Image src="/icons/b-facebook.svg" alt="facebook logo" width={32} height={32} />
-            <Image src="/icons/b-instagram.svg" alt="instagram logo" width={32} height={32} />
-            <Image src="/icons/b-twitter.svg" alt="twitter logo" width={32} height={32} />
+            {SOCIALS?.links?.map((social) =>
+              <Link href={social.href} target="_blank">
+                <Image src={social.icon} alt={social.label} width={32} height={32} />
+              </Link>
+            )}
           </div>
         </div>
         <div className="w-full">

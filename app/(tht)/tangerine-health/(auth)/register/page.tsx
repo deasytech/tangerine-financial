@@ -25,7 +25,7 @@ const LoginPage = () => {
         </div>
       </div>
       <div className="text-center my-8">
-        <Link href="/tangerine-health" className="bg-blue-50 py-2 px-6 rounded-full regular-12 text-blue-950">Already have an account? <span className="!font-gilroy-bold">Login here</span></Link>
+        <Link href="/tangerine-health/login" className="bg-blue-50 py-2 px-6 rounded-full regular-12 text-blue-950">Already have an account? <span className="!font-gilroy-bold">Login here</span></Link>
       </div>
     </section>
   )

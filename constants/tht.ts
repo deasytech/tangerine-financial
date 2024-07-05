@@ -114,10 +114,10 @@ export const FOOTER_LINKS = [
 export const SOCIALS = {
   title: "Social",
   links: [
-    { icon: "/icons/linkedin.svg", label: "@Tangerine Africa" },
-    { icon: "/icons/facebook.svg", label: "@tangerineafrica" },
-    { icon: "/icons/instagram.svg", label: "@tangerineafrica" },
-    { icon: "/icons/x-twitter.svg", label: "@TangerineAfrica" },
+    { icon: "/icons/b-Linkedin.svg", label: "@Tangerine Africa", href: "https://www.linkedin.com/company/total-health-trust-limited/mycompany/?viewAsMember=true" },
+    { icon: "/icons/b-facebook.svg", label: "@tangerineafrica", href: "https://www.facebook.com/TotalHealthTrustHMO" },
+    { icon: "/icons/b-instagram.svg", label: "@tangerineafrica", href: "https://www.instagram.com/totalhealthtrusthmo/" },
+    { icon: "/icons/b-twitter.svg", label: "@TangerineAfrica", href: "https://twitter.com/tht_hmo" },
   ],
 };
 
@@ -240,7 +240,7 @@ export const INDIVIDUAL_PLANS = [
         "value": "N/A"
       },
     ],
-    "link": "/tangerine-health/get-quote"
+    "link": "/tangerine-health/buy-now"
   },
   {
     "planName": "Pearl",
@@ -292,7 +292,7 @@ export const INDIVIDUAL_PLANS = [
         "value": "Gym access (Discounted gym access at i-Fitness gyms)"
       },
     ],
-    "link": "/tangerine-health/get-quote"
+    "link": "/tangerine-health/buy-now"
   },
   {
     "planName": "Coral",
@@ -344,7 +344,7 @@ export const INDIVIDUAL_PLANS = [
         "value": "Gym access (Discounted gym access at i-Fitness gyms)"
       },
     ],
-    "link": "/tangerine-health/get-quote"
+    "link": "/tangerine-health/buy-now"
   },
 ];
 

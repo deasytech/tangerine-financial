@@ -37,7 +37,7 @@ const PricingPlanCard = ({ planName, price, description, details, link }: Plan) 
       </div>
       <Link href={link}>
         <Button size="lg" className="mt-4 gap-2">
-          Get Quote
+          Buy now
           <ArrowRight size={16} />
         </Button>
       </Link>

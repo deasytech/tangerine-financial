@@ -1,5 +1,4 @@
 import { FOOTER_LINKS, SOCIALS } from "@/constants";
-import { textToSlug } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -15,12 +15,14 @@ const Navbar = () => {
     "/tangerine-health/find-provider",
     "/tangerine-health/join-provider-network",
     "/tangerine-health/login",
+    "/tangerine-health/register",
     "/tangerine-health/policy-holder",
     "/tangerine-health/service-provider",
     "/tangerine-health/corporate",
     "/tangerine-health/broker",
     "/tangerine-health/get-quote",
     "/tangerine-health/book-session",
+    "/tangerine-health/buy-now",
   ];
 
   if (hiddenPaths.includes(pathname)) {
