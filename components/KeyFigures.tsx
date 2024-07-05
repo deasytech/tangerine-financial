@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { Button } from '@/components/ui/button';
 
 interface Props {
   price: string;
@@ -15,9 +16,11 @@ const KeyFigures = ({ price, linkHref, image, text }: Props) => {
         <span className="regular-20">₦</span>
         <span>{price}</span>
       </h3>
-      <Link href={linkHref} className='flex btn_dark_orange w-fit gap-2 rounded-full'>
-        <Image src={image} alt={text} width={16} height={21} />
-        <span>{text}</span>
+      <Link href={linkHref}>
+        <Button variant="secondary" size="lg" className="gap-2 rounded-full">
+          <Image src={image} alt={text} width={12} height={12} />
+          {text}
+        </Button>
       </Link>
     </div>
   )

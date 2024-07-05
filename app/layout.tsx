@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Tangerine Africa Group",
   description:
     "Your financial partner and so much more. Free transfers, savings, loans, insurance, pensions and many other things at your finger tips.",
-  assets: "../public/images/logo.png",
+  assets: "/images/logo.svg",
 };
 
 export default function RootLayout({

@@ -1,5 +1,5 @@
 import AboutHero from "@/components/AboutHero";
-import Button from "@/components/Button";
+import { Button } from "@/components/ui/button";
 import SubsidaryCard from "@/components/cards/SubsidaryCard";
 import ValuesCard from "@/components/cards/ValuesCard";
 import { CloudDownloadIcon } from "lucide-react";
@@ -172,21 +172,23 @@ const OverviewPage = () => {
             <h2 className="bold-40 text-orange-base">
               Group Executives
             </h2>
-            <Link href="" className="flex gap-2 rounded-lg btn_dark_orange w-fit">
-              <span>Learn more</span>
-              <Image src="/icons/arrow-top-right.svg" alt="Learn more" width={13} height={13} />
+            <Link href="/leadership-team">
+              <Button variant="secondary" size="lg" className="gap-2">
+                Learn more
+                <Image src="/icons/arrow-top-right.svg" alt="learn more" width={12} height={12} />
+              </Button>
             </Link>
           </div>
           <div className="bg-blue-50 w-full p-12 flex flex-col gap-6 rounded-3xl">
             <h2 className="bold-40 text-blue-base">
               Board of Directors
             </h2>
-            <Button
-              type={"button"}
-              title={"Learn more"}
-              variant={"btn_dark_blue w-fit p-0!"}
-              icon="/icons/arrow-top-right.svg"
-            />
+            <Link href="/leadership-team#directors">
+              <Button variant="secondary" size="lg" className="gap-2">
+                Learn more
+                <Image src="/icons/arrow-top-right.svg" alt="learn more" width={12} height={12} />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -198,11 +200,9 @@ const OverviewPage = () => {
             Section 172 Statement
           </h2>
           <p className="regular-18 text-generic-800">Discover how we put people first with our Section 172 statement. See how our decisions consider everyone, from employees to the environment. We're not just about profits we're about building a sustainable future for all.</p>
-          <Button
-            type={"button"}
-            title={"Learn more"}
-            variant={"btn_dark_orange w-fit"}
-          />
+          <Link href="/pages/section-172-statement">
+            <Button variant="secondary" size="lg">Learn more</Button>
+          </Link>
         </div>
       </section>
 

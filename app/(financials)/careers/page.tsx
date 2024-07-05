@@ -1,5 +1,6 @@
 import CareerHero from '@/components/CareerHero'
 import ValuesCard from '@/components/cards/ValuesCard'
+import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -139,11 +140,13 @@ const CareersPage = () => {
           <div className="h-full flex-col justify-center items-center md:items-start md:pl-20 gap-6 flex w-full md:w-1/2">
             <h3 className="bold-32 md:bold-48 text-white text-center md:text-start">Come Join our team at Tangerine</h3>
             <p className="regular-18 text-white text-center md:text-start">
-            Working at Tangerine is more than just a job. Want to come along for the ride?
+              Working at Tangerine is more than just a job. Want to come along for the ride?
             </p>
-            <Link href="/" className="w-fit px-8 py-3 bg-orange-base rounded-lg justify-center items-center gap-3 inline-flex">
-              <p className="text-center text-white text-base font-normal font-gilroy-semibold">See all Open Positions</p>
-              <ArrowRight className="text-white" />
+            <Link href="/">
+              <Button variant="secondary" size="lg" className="gap-2">
+                See all Open Positions
+                <ArrowRight size={18} />
+              </Button>
             </Link>
           </div>
         </div>

@@ -349,4 +349,54 @@ export const COMPLIANCE = [
     <br>
     <br>16.2 Reports on whistleblowing information shall be provided to Senior Management on a monthly basis and to the Board Audit and Compliance Committee on a quarterly basis.</p>`,
   },
+  {
+    title: "Section 172 statement",
+    slug: "section-172-statement",
+    date: "16, AUGUST 2022",
+    description:`<p>1. Introduction</p>
+<p>The Tangerine Financial Limited Board of Directors (&ldquo;Board&rdquo;) prides itself on the adoption of holistic approaches to issues that affect the business, its stakeholders and the communities in which the various entities in the Group operate.&nbsp;</p>
+<p>Section 172 of the Companies Act 2006 sets out the matters, listed in (1)(a) to (f), that directors must have regard to when meeting their statutory duty of promoting the success of the company for the benefit of its various stakeholders.&nbsp; The Section 172 duty applies to each individual Director, even when decisions are made collectively by the Board. It is fiduciary in nature and so recognises the position of trust that each Director holds and the need for good faith.<br><br>Our directors have, in dispensing their duties, considered the wider implications of the decisions taken and the necessity to maintain high standards of business conduct and the interests of key stakeholders.&nbsp;</p>
+<p>2. Overview</p>
+<p>The Board is responsible for setting, monitoring, and upholding the culture, values, standards, ethics, and reputation of the Group to ensure that our obligations to our shareholders, employees, customers and others are met while Management drives the embedding of the desired culture throughout the Group. The Board also monitors adherence to our policies and compliance with local corporate governance requirements across the Group and is committed to acting where our operating businesses fall short of the standards we expect.&nbsp;<br><br>&nbsp;In accordance with the requirements of Section 172 (1), Companies Act 2006, the Board considers that, during the financial year ending 31 December 2022, the directors have acted in a way that they consider, in good faith, would be most likely to promote the success of the company for the benefit of its members as a whole, having regard to the interests of the stakeholders, and other factors, as stated in the Act.&nbsp; This statement will delve into the ways in which the Board have nurtured the relationships of its key stakeholders.&nbsp;&nbsp;</p>
+<p>3. Our Key Stakeholders&nbsp;</p>
+<p>Given that the Group&rsquo;s commercial operations are in Nigeria, the way in which the Board interacts with our stakeholders differ to varying degrees.&nbsp;<br><br>Our key stakeholders are:&nbsp;</p>
+<ul>
+<li>Investors&nbsp;</li>
+<li>Employees&nbsp;</li>
+<li>Community&nbsp;</li>
+<li>Regulators&nbsp;</li>
+<li>Customers&nbsp;</li>
+<li>Suppliers&nbsp;</li>
+</ul>
+<p>These stakeholders remain crucial to the success of our business growth and the generation of sustainable return.&nbsp;&nbsp;The methods adopted and forums chosen to engage our stakeholders reflect their interests.&nbsp;&nbsp;</p>
+<p>3.1. Investors</p>
+<p>The Company seeks to maintain an open and active dialogue with investors. This ensures that the Group&rsquo;s strategy is well understood and that investors&rsquo; perspectives and concerns are properly communicated. &nbsp; To achieve this, representatives of our investors are members of the Board of the Company as well as the various operating subsidiaries.&nbsp;<br><br>In 2022, our directors cultivated the relationship with our investors in different ways. Examples include:&nbsp;</p>
+<ul>
+<li>The Group CEO, Group CFO and other members of the Group executive management team regularly attended quarterly board meetings with the Board members (at which investors&rsquo; representatives are present) to update them on the financial, operational and strategic performance of the business. Separate meetings were also held with the investors to understand any areas of concern which were then discussed at subsequent board meetings. &nbsp;</li>
+<li>Representatives of our investors are also members of committees to which their expertise relate. At present, there are three Board committees namely Risk, Audit &amp; Compliance and Nominations &amp; Governance, who meet quarterly to discuss deliverables relating to their subject matter.&nbsp; Additional meetings were also held outside of scheduled timings, as required. &nbsp;</li>
+<li>The Group CEO sent monthly reports to the Board on the status of projects identified as key to the achievement of financial performance and those that move the Group closer to achieving its mission &ndash; becoming the provider of choice for comprehensive insurance and pensions solutions.&nbsp;</li>
+<li>A directors training session on IFRS17 was held in Lagos, Nigeria in October to guide directors across the entire Group given its relevance to the performance of their roles as board members.&nbsp;&nbsp;</li>
+</ul>
+<p>3.2. Employees</p>
+<p>Our employees are the backbone of the Tangerine Group and we endeavour to create an inclusive and positive working environment. During the year, we made strides in cementing our culture by increasing touchpoints between executive management and the employees of the Group:&nbsp;</p>
+<ul>
+<li>A culture transformation roadshow was successfully completed across the various office locations with many of the Group executives facilitating the sessions</li>
+<li>The Group CEO addressed the entire organisation in a virtual townhall, formally establishing a feedback loop that drastically improved employee&rsquo;s sense of pride in the Tangerine Group&nbsp;</li>
+<li>A communication plan was developed and executed by the Group CEO and other members of executive management which increased transparency levels between executive management and employees.&nbsp;</li>
+<li>At each Tangerine Financial Board meeting, the Group CEO provided a people update as part of the wider business review which analyses changes in employee management and engagement, management changes and exit statistics.&nbsp;&nbsp;</li>
+</ul>
+<p>3.3. Community</p>
+<p>Part of being a sustainable business for our Group means caring for the wider community that we operate in. Though we do not have any operations in the United Kingdom, during 2022, our operating entities in Nigeria adopted global standards with regard to community engagement initiatives. Examples of these initiatives in 2022 include:&nbsp;</p>
+<ul>
+<li>Volunteering days at local orphanages.&nbsp;</li>
+<li>Sensitising our employees as well as the community on the necessity of recycling, through many drives. The success of these drives are reinforced by the incentive of sponsoring young disadvantaged children through primary school.&nbsp;&nbsp;&nbsp;</li>
+<li>Appointing a Group Environmental, Social and Governance Manager who provides status updates on the Group&rsquo;s performance on ESG matters. Our directors work closely with the Manager in developing policies that comply with international standards.</li>
+</ul>
+<p>3.4. Government and Regulators&nbsp;&nbsp;</p>
+<p>The Company does not have any commercial operations in the UK; all commercial activity is currently conducted by the operating entities in Nigeria.&nbsp; In that regard, the directors ensure that the operating entities maintain good relationships with their relevant regulators through regular courtesy visits during which insights and perspectives are shared. With respect to the operations conducted in the UK, the Group maintains its relationship with Companies House and HMRC by ensuring compliance with statutory filings.&nbsp;</p>
+<p>3.5. Customers</p>
+<p>The Company does not have any commercial operations in the UK and therefore does not have any customers. For customers of the operating entities, the Group&rsquo;s goal is to leverage technology to serve a greater number of customers. Accordingly, throughout 2022, the Board extensively discussed the technological capabilities and digital strategy of the Group in order to improve the operations of the various businesses including our service delivery and customer experience. As part of this process, a technology oversight sub-committee was formed to work closely with management on this project, and regular progress updates were provided to the Board.<br><br>Furthermore, through contributions to sponsored activities and end of year gifts, the Tangerine Group has demonstrated care and consideration for the indirect customers, which are the direct customers of the operating entities in Nigeria.&nbsp;&nbsp;</p>
+<p>3.6. Suppliers</p>
+<p>The Group operates in conjunction with a number of suppliers that help deliver services to our stakeholders. When engaging with suppliers, the directors ensure that proper vendor management is adhered to. A Group Procurement Policy was created and reviewed by the Group CFO and approved by the Board, that details the procedures to follow when services and or products are above a certain threshold, requiring board approval. According to the Policy, other matters that Tangerine boards must consider when engaging suppliers include any conflicts of interest, due process and standard of operation.&nbsp;</p>`,
+  }
 ];

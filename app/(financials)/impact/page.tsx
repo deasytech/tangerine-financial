@@ -1,4 +1,4 @@
-import Button from '@/components/Button'
+import { Button } from '@/components/ui/button'
 import ImpactHero from '@/components/ImpactHero'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -103,11 +103,11 @@ const ImpactPage = () => {
             </h2>
             <p className="regular-14 text-generic-700 font-gilroy-medium">Discover the ethical dimensions of our CSR efforts. Dive into our commitment to making a positive impact, guided by transparency and adherence to ISO 26000 standards.</p>
             <div className='flex gap-5'>
-              <Link href="/" className='btn_dark_orange rounded-lg w-fit'>
-                Become a Partner
+              <Link href="/">
+                <Button variant="secondary" size="lg">Become a Partner</Button>
               </Link>
-              <Link href="/" className='btn_dark_orange_outline rounded-lg w-fit'>
-              Explore Our CSR Reports
+              <Link href="/">
+                <Button variant="outline" size="lg">Explore Our CSR Reports</Button>
               </Link>
             </div>
           </div>
@@ -156,7 +156,7 @@ const ImpactPage = () => {
           <div className="h-full flex-col justify-center items-center mx-6 md:mx-0 md:items-start md:pl-20 gap-6 flex w-full md:w-1/2">
             <h3 className="bold-32 md:bold-48 text-white">Sign up to our Newsletter</h3>
             <p className="regular-18 text-white text-center">
-            Get updates on our products, offerings.
+              Get updates on our products, offerings.
             </p>
             <div className='flex w-full bg-white rounded-lg p-2 gap-2'>
               <input type="text" placeholder='Your email' className='flex-1 no-focus' />

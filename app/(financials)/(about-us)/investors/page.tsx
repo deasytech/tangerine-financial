@@ -1,5 +1,6 @@
 import KeyFigures from '@/components/KeyFigures'
 import SubsidaryImage from '@/components/SubsidaryImage'
+import { Button } from '@/components/ui/button'
 import { PRESS } from '@/constants'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
@@ -127,9 +128,11 @@ const InvestorsPage = () => {
           <p className="bg-orange-100 text-orange-base uppercase w-fit p-2 px-4 rounded-full">Corporate governance</p>
           <h3 className="text-orange-base bold-48">Group Executives</h3>
           <p className="regular-16 text-generic-800 max-w-md">The Board of Directors is responsible for setting the Company's strategic directions and ensuring their execution, encompassing environmental, social, and governance considerations.</p>
-          <Link href="/" className="flex gap-2 rounded-lg btn_dark_orange w-fit">
-            <span>Learn more</span>
-            <Image src="/icons/arrow-top-right.svg" alt="Learn more" width={13} height={13} />
+          <Link href="/">
+            <Button variant="secondary" size="lg" className="gap-2">
+              Learn more
+              <Image src="/icons/arrow-top-right.svg" alt="Learn more" width={12} height={12} />
+            </Button>
           </Link>
         </div>
       </section>
