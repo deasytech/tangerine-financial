@@ -53,7 +53,7 @@ export const FOOTER_LINKS = [
   {
     title: "Company",
     links: [
-      { name: "About us", href: "/about" },
+      { name: "About us", href: "/overview" },
       { name: "Our Impact", href: "/impact" },
       { name: "Careers", href: "/careers" },
       { name: "Investors", href: "/investors" },
