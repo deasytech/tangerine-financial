@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import Button from "./Button";
-import SubsidaryImage from "./SubsidaryImage";
+import SubsidaryImage from "@/components/SubsidaryImage";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Subsidary = () => {
   return (
@@ -13,13 +14,11 @@ const Subsidary = () => {
         products that improve life.
       </p>
 
-      <Link href="/" className="cursor-pointer">
-        <Button
-          title="Learn more"
-          type="button"
-          icon="/icons/arrow-right.svg"
-          variant="btn_dark_orange"
-        />
+      <Link href="/">
+        <Button variant="secondary" size="lg" className="gap-2">
+          Learn more
+          <ArrowRight size={16} />
+        </Button>
       </Link>
 
       <div className="flex flex-col md:flex-row mt-10 max-w-full gap-4">
