@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 
 type SubsidaryImageProps = {
   image: string;
-  hoverImage: string;
-  hoverText: string;
+  hoverImage?: string;
+  hoverText?: string;
   name: string;
   subName?: string;
   link: string;
@@ -34,7 +34,7 @@ const SubsidaryImage = ({
         onMouseLeave={() => setIsHovered(false)}
       >
         <Image
-          src={isHovered ? hoverImage : image}
+          src={isHovered ? hoverImage! : image}
           alt={name}
           width={280}
           height={360}
