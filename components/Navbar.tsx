@@ -18,6 +18,7 @@ const Navbar = () => {
 
   const handleSubMenuClick = () => {
     setActiveMenu(null);
+    setOpenMobileNav(false);
   };
 
   const handleMobileNav = () => {
@@ -98,7 +99,7 @@ const Navbar = () => {
         <Menu size={32} onClick={handleMobileNav} className="lg:hidden cursor-pointer" />
       </nav>
       {openMobileNav && (
-        <nav className="fixed inset-0 flex items-center justify-center bg-white z-40 lg:hidden">
+        <nav className="fixed inset-0 flex items-center justify-center bg-white/95 z-40 lg:hidden">
           <div className="absolute top-5 right-5">
             <X size={32} onClick={handleMobileNav} className="cursor-pointer" aria-label="Close mobile menu" />
           </div>
@@ -108,7 +109,7 @@ const Navbar = () => {
                 {link.subMenu ? (
                   <button
                     onClick={() => handleMenuClick(link.key)}
-                    className="regular-12 text-blue-base flex items-center cursor-pointer transition-all hover:bg-orange-50 p-1 px-4 rounded-full"
+                    className="regular-16 text-blue-base flex items-center cursor-pointer transition-all hover:bg-orange-50 p-1 px-4 rounded-full"
                     aria-haspopup="true"
                     aria-expanded={activeMenu === link.key}
                   >
@@ -119,17 +120,17 @@ const Navbar = () => {
                   <Link
                     href={link.href}
                     onClick={handleSubMenuClick}
-                    className={`regular-12 text-blue-base flex items-center cursor-pointer transition-all hover:bg-orange-50 p-1 px-4 rounded-full ${pathname === link.href ? 'bg-orange-base text-white hover:text-blue-base' : ''}`}
+                    className={`regular-16 text-blue-base flex items-center cursor-pointer transition-all hover:bg-orange-50 p-1 px-4 rounded-full ${pathname === link.href ? 'bg-orange-base text-white hover:text-blue-base' : ''}`}
                   >
                     {link.label}
                   </Link>
                 )}
                 {link.subMenu && activeMenu === link.key && (
-                  <div className="absolute left-0 top-full mt-2 w-full bg-white shadow-lg rounded-lg p-4">
+                  <div className="mt-2 w-full bg-white shadow-lg rounded-lg p-4">
                     <ul className="flex flex-col gap-2">
                       {link.subMenu.map((subLink) => (
                         <li key={subLink.key} className="mb-2 p-2 last:mb-0 hover:bg-orange-50">
-                          <Link href={subLink.href} target={subLink.target} className="regular-12 text-generic-700" onClick={handleSubMenuClick}>
+                          <Link href={subLink.href} target={subLink.target} className="regular-16 text-generic-700" onClick={handleSubMenuClick}>
                             {subLink.label}
                           </Link>
                         </li>

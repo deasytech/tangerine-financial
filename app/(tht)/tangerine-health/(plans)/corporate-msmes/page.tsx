@@ -14,9 +14,9 @@ const MSMESPage = () => {
           borderRadius: '32px',
           overflow: 'hidden',
         }}>
-          <div className="ml-32 h-full flex flex-col justify-center items-start w-[40%]">
+          <div className="px-6 md:ml-32 h-full flex flex-col gap-3 justify-center items-start w-full max-w-md">
             <p className="regular-14 uppercase text-white">our plans</p>
-            <h1 className="bold-32 lg:bold-56 items-center mb-3 lg:mt-10 text-white">
+            <h1 className="bold-32 lg:bold-56 items-center text-white">
               Corporate & MSME Plans
             </h1>
             <Link href="/tangerine-health/get-quote" className="regular-18 btn_dark_orange rounded-lg flex gap-2 items-center">
