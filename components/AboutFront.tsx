@@ -20,7 +20,7 @@ const AboutFront = () => {
           <p className="regular-14 text-gray-700 font-gilroy-medium">
             Tangerine Financial is an investment holding company committed to empowering businesses and people across Africa to live financially secure lives, through the provision of comprehensive insurance and pensions solutions.
           </p>
-          <Link href="/about-us">
+          <Link href="/overview">
             <Button variant="secondary" size="lg" className="gap-2">
               Learn more
               <ArrowRight size={16} />

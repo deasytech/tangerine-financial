@@ -43,31 +43,29 @@ const OverviewPage = () => {
 
       <section className="relative max-container padding-container mt-20">
         <div className="w-full flex flex-col gap-4 mb-16">
-          <h2 className="bold-40 text-orange-base">
-            Our Vision
-          </h2>
+          <h2 className="bold-40 text-orange-base">Our Vision</h2>
           <p className="regular-18 text-gray-400 font-gilroy-medium max-w-lg">
             To be the provider of choice in Africa for comprehensive Insurance and Pensions solutions
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="w-full bg-blue-50 p-8 rounded-2xl" style={{
-            backgroundImage: "url('/images/piggy-save.svg')",
-            backgroundPosition: "bottom right",
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-          }}>
-            <p className="bg-blue-600 text-white w-fit px-3 rounded-full mb-8">our mission</p>
-            <h3 className="bold-32 md:bold-48 max-w-xs text-blue-base">To help people live financially secure lives</h3>
+          <div
+            className="w-full bg-blue-50 p-8 rounded-2xl bg-no-repeat md:bg-[url('/images/piggy-save.svg')] bg-br-position"
+          >
+            <p className="bg-blue-600 text-white w-fit px-3 rounded-full mb-8">Our Mission</p>
+            <h3 className="bold-32 md:bold-48 max-w-xs text-blue-base">
+              To help people live financially secure lives
+            </h3>
           </div>
-          <div className="w-full bg-orange-50 p-8 rounded-2xl" style={{
-            backgroundImage: "url('/images/tang-people.svg')",
-            backgroundPosition: "bottom right",
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-          }}>
+          <div
+            className="w-full bg-orange-50 p-8 rounded-2xl bg-no-repeat md:bg-[url('/images/tang-people.svg')] bg-br-position"
+          >
             <h3 className="bold-32 md:bold-48 max-w-xs mb-8">Our Culture Statement</h3>
-            <p className="regular-16 max-w-xs">At Tangerine, we are honest, transparent and keep to our commitments. We are a team of strong collaborators that are intentional in creating innovative solutions that add value to our stakeholders</p>
+            <p className="regular-16 max-w-xs">
+              At Tangerine, we are honest, transparent and keep to our commitments. We are a team of
+              strong collaborators that are intentional in creating innovative solutions that add value
+              to our stakeholders.
+            </p>
           </div>
         </div>
       </section>
@@ -194,7 +192,7 @@ const OverviewPage = () => {
       </section>
 
       <section className="relative max-container padding-container mt-20">
-        <div className="mb-14 flex flex-col gap-4 w-1/2">
+        <div className="mb-14 flex flex-col gap-4 w-full max-w-md">
           <p className="regular-14 uppercase text-generic-500">Putting People First: Explore Our Section 172 Statement</p>
           <h2 className="bold-40 text-orange-base">
             Section 172 Statement
@@ -218,7 +216,7 @@ const OverviewPage = () => {
             <p className="regular-18 text-white text-center">
               Download our Corporate Profile for a comprehensive overview.
             </p>
-            <Link href="/" className="w-fit px-8 py-3 bg-white rounded-lg justify-center items-center gap-3 inline-flex">
+            <Link href="/TangerineCorporateProfile.pdf" target="_blank" className="w-fit px-8 py-3 bg-white rounded-lg justify-center items-center gap-3 inline-flex">
               <p className="text-center text-orange-base text-base font-normal font-gilroy-semibold">Dowload</p>
               <CloudDownloadIcon className="text-orange-base" />
             </Link>
