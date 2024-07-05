@@ -14,7 +14,7 @@ const AboutFront = () => {
           <p className="regular-14 uppercase text-gray-400 font-gilroy-semibold">
             About us
           </p>
-          <h2 className="bold-40 text-orange-600">
+          <h2 className="bold-40 text-orange-base">
             Everything you need
           </h2>
           <p className="regular-14 text-gray-700 font-gilroy-medium">

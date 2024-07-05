@@ -144,7 +144,12 @@ const InvestorsPage = () => {
           <SubsidaryImage image="/images/report-notice-of-agm.svg" name="Notice of AGM" subName="Download file" link="/" />
           <SubsidaryImage image="/images/report-2022.svg" name="2022 Annual Report" subName="Download file" link="/" />
           <SubsidaryImage image="/images/report-2021.svg" name="2021 Annual Report" subName="Download file" link="/" />
-          <SubsidaryImage image="/images/report-tangerine-recycling.svg" name="Tangerine Recycling for Scholarship" subName="Download file" link="/" />
+          <SubsidaryImage
+            image="/images/report-tangerine-recycling.svg"
+            name="Tangerine Recycling for Scholarship"
+            subName="Download file"
+            link="Recycling-for-Scholarships-August-Staff-Engagement(CSR).pdf"
+          />
         </div>
       </section>
     </>

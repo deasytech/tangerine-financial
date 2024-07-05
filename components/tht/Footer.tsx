@@ -33,7 +33,7 @@ const Footer = () => {
           <p className="regular-14 !font-gilroy-medium max-w-xs">Your preferred comprehensive health insurance and well-being partner.</p>
           <div className='flex gap-6'>
             {SOCIALS?.links?.map((social) =>
-              <Link href={social.href} target="_blank">
+              <Link key={social.href} href={social.href} target="_blank">
                 <Image src={social.icon} alt={social.label} width={32} height={32} />
               </Link>
             )}

@@ -14,30 +14,23 @@ const Subsidary = () => {
         products that improve life.
       </p>
 
-      <Link href="/">
-        <Button variant="secondary" size="lg" className="gap-2">
-          Learn more
-          <ArrowRight size={16} />
-        </Button>
-      </Link>
-
       <div className="flex flex-col md:flex-row mt-10 max-w-full gap-4">
         <SubsidaryImage
           image="/images/general.png"
           name="General"
-          link="/"
+          link="/tangerine-general"
           hoverImage="/images/general-colored.png"
           hoverText="General Insurance" />
         <SubsidaryImage
           image="/images/life.png"
           name="Life"
-          link="/"
+          link="/tangerine-life"
           hoverImage="/images/life-colored.png"
           hoverText="Life Insurance" />
         <SubsidaryImage
           image="/images/pension.png"
           name="Pension"
-          link="/"
+          link="https://tangerineapt.ng"
           hoverImage="/images/pension-colored.png"
           hoverText="APT Pension" />
         <SubsidaryImage

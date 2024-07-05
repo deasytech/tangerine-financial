@@ -20,7 +20,7 @@ const LeadershipPage = () => {
             position="Group Chief Executive Officer"
           />
           <TeamCard
-            image="/images/team/abrantes.svg"
+            image="/images/team/abrantes.png"
             name="Helio Abrantes"
             position="Group Chief Financial Officer"
           />

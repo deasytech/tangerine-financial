@@ -103,10 +103,10 @@ const ImpactPage = () => {
             </h2>
             <p className="regular-14 text-generic-700 font-gilroy-medium">Discover the ethical dimensions of our CSR efforts. Dive into our commitment to making a positive impact, guided by transparency and adherence to ISO 26000 standards.</p>
             <div className='flex gap-5'>
-              <Link href="/">
+              <Link href="#">
                 <Button variant="secondary" size="lg">Become a Partner</Button>
               </Link>
-              <Link href="/">
+              <Link href="/Recycling-for-Scholarships-August-Staff-Engagement(CSR).pdf" target="_blank">
                 <Button variant="outline" size="lg">Explore Our CSR Reports</Button>
               </Link>
             </div>

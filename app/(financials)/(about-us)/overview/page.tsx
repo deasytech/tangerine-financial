@@ -149,7 +149,7 @@ const OverviewPage = () => {
             subTitle="our businesses"
             description="Tangerine APT Pensions Limited is a leading Pension Fund Administrator and Asset Management Company. APT Pension provides pensioners with excellent returns on their retirement benefits and generates the best returns for the stakeholders.
             The company has a presence in over 29 states across Nigeria and as a Pension Fund Administrator, "
-            link="/tangerine-pension"
+            link="https://tangerineapt.ng"
             titleStyle="text-red-base"
             subTitleStyle="text-red-900"
             linkStyle="bg-red-base hover:bg-red-base/75"

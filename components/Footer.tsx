@@ -34,9 +34,10 @@ const Footer = () => {
               <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                 {SOCIALS.links.map((link) => (
                   <Link
-                    href="/"
+                    href={link.href}
                     key={link.icon}
                     className="flex gap-2 items-center"
+                    target="_blank"
                   >
                     <Image src={link.icon} alt="logo" width={18} height={18} />
 

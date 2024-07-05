@@ -65,7 +65,7 @@ export const FOOTER_LINKS = [
     links: [
       { name: "Tangerine General", href: "/tangerine-general" },
       { name: "Tangerine Life", href: "/tangerine-life" },
-      { name: "Tangerine Pension", href: "/tangerine-pension" },
+      { name: "Tangerine Pension", href: "https://tangerineapt.ng" },
       { name: "Tangerine Health", href: "/tangerine-health" }
     ],
   },
@@ -98,10 +98,10 @@ export const FOOTER_LINKS = [
 export const SOCIALS = {
   title: "Social",
   links: [
-    { icon: "/icons/linkedin.svg", label: "@Tangerine Africa" },
-    { icon: "/icons/facebook.svg", label: "@tangerineafrica" },
-    { icon: "/icons/instagram.svg", label: "@tangerineafrica" },
-    { icon: "/icons/x-twitter.svg", label: "@TangerineAfrica" },
+    { icon: "/icons/linkedin.svg", label: "@Tangerine Africa", href: "https://www.linkedin.com/company/tangerine-africa/posts/?feedView=all" },
+    { icon: "/icons/facebook.svg", label: "@tangerineafrica", href: "https://web.facebook.com/TangerineAfrica/?_rdc=1&_rdr" },
+    { icon: "/icons/instagram.svg", label: "@tangerineafrica", href: "https://www.instagram.com/tangerineafrica?igsh=MWZ3amhybjJ3bXluZw==" },
+    { icon: "/icons/x-twitter.svg", label: "@TangerineAfrica", href: "https://x.com/tangerinafrica?s=21&t=tmfoilz0vsLV41wXFMExcQ" },
   ],
 };
 
