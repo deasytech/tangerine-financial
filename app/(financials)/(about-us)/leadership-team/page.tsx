@@ -31,7 +31,7 @@ const LeadershipPage = () => {
           />
           <TeamCard
             image="/images/team/bakere.svg"
-            name="Sekeenat Bakere"
+            name="Sakeenat Bakere"
             position="Executive Director of Tangerine Life"
           />
         </div>
@@ -77,9 +77,9 @@ const LeadershipPage = () => {
             position="Executive Director, Acting Managing Director"
           />
           <TeamCard
-            image="/images/team/deinde.svg"
-            name="Toyin Deinde"
-            position="Chief Operating Officer"
+            image="/images/team/tonye.png"
+            name="Tonye Ukpong"
+            position="Managing Director"
           />
           <TeamCard
             image="/images/team/mohammed.svg"
