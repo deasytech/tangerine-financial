@@ -116,7 +116,7 @@ const OverviewPage = () => {
             title="Tangerine General"
             subTitle="our businesses"
             description="Tangerine General provides protection for individuals and businesses over speciﬁed assets in the event of damage or loss. Tangerine General is licensed by the National Insurance Commission (NAICOM) and has over 5,000 Corporate Clients."
-            link="/"
+            link="/tangerine-general"
             titleStyle="text-orange-base"
             subTitleStyle="text-orange-900"
             linkStyle="bg-orange-base hover:bg-orange-base/75"
@@ -126,7 +126,7 @@ const OverviewPage = () => {
             title="Tangerine Life"
             subTitle="our businesses"
             description="Tangerine Life is a financial services provider that strives to improve the financial security of its consumers. Since its inception, Tangerine Life has Insured 800,000 lives, protected 700 corporate clients, and ranked the top 5 Life Insurance Businesses in Nigeria."
-            link="/"
+            link="/tangerine-life"
             titleStyle="text-green-base"
             subTitleStyle="text-green-900"
             linkStyle="bg-green-base hover:bg-green-base/75"
@@ -138,7 +138,7 @@ const OverviewPage = () => {
             description="With an industry track record of 26 years, Tangerine Health provides a diversified range of health and well-being services focusing on preventive and curative support for individuals and corporates through its partnership with 1500+ providers across all 36 states of Nigeria.
 
             It is the health and well-being partner to 400 multinationals, large local corporates and SMEs."
-            link="/"
+            link="/tangerine-health"
             titleStyle="text-blue-950"
             subTitleStyle="text-blue-950"
             linkStyle="bg-blue-950 hover:bg-blue-950/75"
@@ -149,7 +149,7 @@ const OverviewPage = () => {
             subTitle="our businesses"
             description="Tangerine APT Pensions Limited is a leading Pension Fund Administrator and Asset Management Company. APT Pension provides pensioners with excellent returns on their retirement benefits and generates the best returns for the stakeholders.
             The company has a presence in over 29 states across Nigeria and as a Pension Fund Administrator, "
-            link="/"
+            link="/tangerine-pension"
             titleStyle="text-red-base"
             subTitleStyle="text-red-900"
             linkStyle="bg-red-base hover:bg-red-base/75"

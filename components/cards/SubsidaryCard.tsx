@@ -24,7 +24,7 @@ const SubsidaryCard = ({ title, titleStyle, subTitle, subTitleStyle, description
         <div className="regular-12">{description}</div>
       </div>
       <div className="flex justify-end mt-10">
-        <Link href={link}>
+        <Link href={link} target="_blank">
           <Button size="icon" className={linkStyle}>
             <ArrowRight size={18} />
           </Button>
