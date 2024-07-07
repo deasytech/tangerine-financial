@@ -283,7 +283,7 @@ export function BookSessionForm() {
         <div className="flex gap-6">
           <FormField
             control={form.control}
-            name="healthTopic"
+            name="location"
             render={({ field }) => (
               <FormItem className="space-y-1.5 w-full">
                 <FormLabel>Location</FormLabel>
@@ -300,7 +300,7 @@ export function BookSessionForm() {
           />
           <FormField
             control={form.control}
-            name="healthTopic"
+            name="proposedDate"
             render={({ field }) => (
               <FormItem className="space-y-1.5 w-full">
                 <FormLabel>Proposed date</FormLabel>
