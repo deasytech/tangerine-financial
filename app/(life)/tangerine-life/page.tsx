@@ -9,10 +9,7 @@ import React from 'react'
 const TangLifePage = () => {
   return (
     <>
-      <section className="w-full h-screen flex items-center justify-center">
-        <h1 className="bold-64 text-blue-950">Under construction</h1>
-      </section>
-      {/* <section className="relative max-container padding-container mt-32">
+      <section className="relative max-container padding-container mt-32">
         <div className="h-[640px] bg-cover bg-center" style={{
           backgroundImage: "url('/images/life/home-banner.png')",
           borderRadius: '32px',
@@ -105,7 +102,7 @@ const TangLifePage = () => {
             />
           )}
         </div>
-      </section> */}
+      </section>
     </>
   )
 }
