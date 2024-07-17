@@ -22,7 +22,7 @@ const Footer = () => {
     <>
       <div className="bg-green-50 mt-24 pt-20">
         <div className="padding-container max-container">
-          <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row gap-6">
             <div className="w-full flex flex-col gap-4">
               <Image src="/images/life/logo.svg" alt="twitter logo" width={127} height={40} />
               <p className="regular-14 !font-gilroy-medium max-w-xs text-green-900">Empowering people to live financially secure.</p>
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="w-full">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 {FOOTER_LINKS.map((columns, index) => (
                   <FooterColumn title={columns.title} key={index}>
                     <ul className="regular-12 !font-gilroy-light flex flex-col gap-2 text-gray-800">

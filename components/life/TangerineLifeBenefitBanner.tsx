@@ -13,7 +13,7 @@ const TangerineLifeBenefitBanner = () => {
           src="/images/life/home-benefit-img.png"
           alt="benefit"
           width={571} height={583}
-          className="absolute -top-28 right-20 xs:hidden lg:flex"
+          className="absolute -top-28 right-20 max-md:hidden lg:flex"
         />
       </div>
     </section>

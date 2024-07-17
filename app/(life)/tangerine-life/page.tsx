@@ -1,8 +1,9 @@
+import Link from 'next/link'
+import { ArrowRight } from 'lucide-react'
+import MoreLinks from '@/components/life/MoreLinks'
 import TangerineLifeBenefitBanner from '@/components/life/TangerineLifeBenefitBanner'
 import LifeInsuranceCard from '@/components/life/cards/LifeInsuranceCard'
 import { LIFE_INSURANCE } from '@/constants/life'
-import { ArrowRight } from 'lucide-react'
-import Link from 'next/link'
 
 const TangLifePage = () => {
   return (
@@ -65,14 +66,7 @@ const TangLifePage = () => {
 
       <TangerineLifeBenefitBanner />
 
-      <section className="bg-green-50 mt-24">
-        <div className="max-container padding-container justify-center flex flex-col md:flex-row items-center py-6">
-          <h3 className="regular-24 text-green-base uppercase !font-gilroy-bold w-full text-center">SELF SERVICE</h3>
-          <h3 className="regular-24 text-green-base uppercase !font-gilroy-bold w-full text-center">MAKE A CLAIM</h3>
-          <h3 className="regular-24 text-green-base uppercase !font-gilroy-bold w-full text-center">RENEW MY POLICY</h3>
-          <h3 className="regular-24 text-green-base uppercase !font-gilroy-bold w-full text-center">GET A QUOTE</h3>
-        </div>
-      </section>
+      <MoreLinks />
 
       <section className="relative max-container padding-container mt-24">
         <h3 className="bold-56 text-green-base w-full md:w-1/2 mb-10">Why choose Tangerine Life Insurance?</h3>
