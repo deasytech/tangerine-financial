@@ -11,9 +11,7 @@ const Footer = () => {
   const pathname = usePathname();
 
   const hiddenPaths = [
-    "/tangerine-health/find-provider",
-    "/tangerine-health/join-provider-network",
-    "/tangerine-health/login",
+    "/tangerine-life/get-quote",
   ];
 
   if (hiddenPaths.includes(pathname)) {
@@ -22,7 +20,7 @@ const Footer = () => {
 
   return (
     <>
-    <div className="bg-green-50 mt-24 pt-20">
+      <div className="bg-green-50 mt-24 pt-20">
         <div className="padding-container max-container">
           <div className="flex gap-6">
             <div className="w-full flex flex-col gap-4">

@@ -4,6 +4,7 @@ import BackWithBreadCrumbs from '@/components/tht/BackWithBreadCrumbs'
 import { Button } from '@/components/ui/button'
 import AvailableRidersCard from '@/components/life/cards/AvailableRidersCard'
 import { AVAILABLE_RIDERS } from '@/constants/life'
+import MoreLinks from '@/components/life/MoreLinks'
 
 const Page = () => {
   return (
@@ -45,22 +46,7 @@ const Page = () => {
         </div>
       </section>
 
-      <section className="relative bg-green-50 mt-20">
-        <div className="max-container padding-container py-10 flex flex-col md:flex-row gap-4 items-center justify-between">
-          <Link href="/tangerine-life" className="w-full">
-            <Button variant="green" size="lg" className="w-full">SELF SERVICE</Button>
-          </Link>
-          <Link href="/tangerine-life" className="w-full">
-            <Button variant="green" size="lg" className="w-full">MAKE A CLAIM</Button>
-          </Link>
-          <Link href="/tangerine-life" className="w-full">
-            <Button variant="green" size="lg" className="w-full">RENEW MY POLICY</Button>
-          </Link>
-          <Link href="/tangerine-life/get-quote" className="w-full">
-            <Button variant="green" size="lg" className="w-full">GET A QUOTE</Button>
-          </Link>
-        </div>
-      </section>
+      <MoreLinks />
     </>
   )
 }

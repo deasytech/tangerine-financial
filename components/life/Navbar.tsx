@@ -10,15 +10,9 @@ import { ChevronDown } from "lucide-react";
 const Navbar = () => {
   const pathname = usePathname();
   const [ activeMenu, setActiveMenu ] = useState<string | null>(null);
-  
+
   const hiddenPaths = [
-    "/tangerine-health/find-provider",
-    "/tangerine-health/join-provider-network",
-    "/tangerine-health/login",
-    "/tangerine-health/policy-holder",
-    "/tangerine-health/service-provider",
-    "/tangerine-health/corporate",
-    "/tangerine-health/broker",
+    "/tangerine-life/get-quote",
   ];
 
   if (hiddenPaths.includes(pathname)) {
