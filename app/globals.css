@@ -203,14 +203,14 @@ body {
   }
 
   .tab-title {
-    @apply text-[14px] uppercase text-generic-950 mb-2
+    @apply text-[14px] uppercase text-generic-950 mb-2;
   }
 
   .tab {
-    @apply flex flex-col gap-4 justify-start
+    @apply flex flex-col gap-4 justify-start;
   }
   .tab p {
-    @apply text-[16px] font-[400] text-generic-950 leading-[145%] font-gilroy-regular
+    @apply text-[16px] font-[400] text-generic-950 leading-[145%] font-gilroy-regular;
   }
 
   .bg-br-position {

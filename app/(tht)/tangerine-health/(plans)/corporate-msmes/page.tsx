@@ -1,7 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import React from 'react'
-import CoreValue from '../../../../../components/tht/CoreValue'
+import CoreValue from '@/components/tht/CoreValue'
 import { BENEFITS_OFFERED, PLANS } from '@/constants/tht'
 import PlansCard from '@/components/cards/PlansCard'
 
