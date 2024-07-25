@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const hiddenPaths = [
     "/tangerine-life/get-quote",
+    "/tangerine-life/buy-policy",
   ];
 
   if (hiddenPaths.includes(pathname)) {
