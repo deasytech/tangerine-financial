@@ -1,5 +1,5 @@
 import KeyFigures from '@/components/KeyFigures'
-import SubsidaryImage from '@/components/SubsidaryImage'
+import SubsidaryImage from '@/components/SubsidiaryImage'
 import { Button } from '@/components/ui/button'
 import { PRESS } from '@/constants'
 import { ArrowRight } from 'lucide-react'

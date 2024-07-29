@@ -1,5 +1,4 @@
 import ContactTabs from '@/components/ContactTabs'
-import React from 'react'
 
 const COntactPage = () => {
   return (
