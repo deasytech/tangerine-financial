@@ -26,7 +26,7 @@ const Footer = () => {
                 About Tangerine Financial
               </p>
               <p className="regular-12 max-w-xs font-gilroy-medium">
-                Tangerine Financials is an investment holding company with
+                Tangerine Financial is an investment holding company with
                 registration number 13341620.
               </p>
             </div>

@@ -276,10 +276,10 @@ export const COMPLIANCE = [
     <br><br>The channels and procedures for whistle blowing or raising complaints shall depend on whether the allegation, complaint or information is being made or disclosed by a staff member or by a party external to the Company.
     <br>
     <br>Staff Members
-    <br>Staff members are expected to whistle blow on transactions, operations and any other activities of the Company that involve fraud, corruption and misconduct, whether internal or external via the dedicated email address whistleblow@tangerine.africa
+    <br>Staff members are expected to whistle blow on transactions, operations and any other activities of the Company that involve fraud, corruption and misconduct, whether internal or external via the dedicated email address tangerineafrica.whistleblow@oalpconsulting.com
     <br>
     <br>External Parties
-    <br>Parties external to the Company, however, are required to bring allegations and complaints of corruption, fraud and any other misconduct in the execution of any business of the Company or project(s) related to the Company to the knowledge of the Company via the Whistleblowing link on the Company's website or send an email to whistleblow@tangerine.africa
+    <br>Parties external to the Company, however, are required to bring allegations and complaints of corruption, fraud and any other misconduct in the execution of any business of the Company or project(s) related to the Company to the knowledge of the Company via the Whistleblowing link on the Company's website or send an email to tangerineafrica.whistleblow@oalpconsulting.com
     <br>
     <br>All communications made via the dedicated email address and the whistleblowing portal will be received by the Head of Internal Audit, Chief Compliance Officer and Managing Director/CEO.
     <br>
@@ -389,7 +389,7 @@ export const COMPLIANCE = [
 <p>Part of being a sustainable business for our Group means caring for the wider community that we operate in. Though we do not have any operations in the United Kingdom, during 2022, our operating entities in Nigeria adopted global standards with regard to community engagement initiatives. Examples of these initiatives in 2022 include:&nbsp;</p>
 <ul>
 <li>Volunteering days at local orphanages.&nbsp;</li>
-<li>Sensitising our employees as well as the community on the necessity of recycling, through many drives. The success of these drives are reinforced by the incentive of sponsoring young disadvantaged children through primary school.&nbsp;&nbsp;&nbsp;</li>
+<li>Sensitizing our employees as well as the community on the necessity of recycling, through many drives. The success of these drives are reinforced by the incentive of sponsoring young disadvantaged children through primary school.&nbsp;&nbsp;&nbsp;</li>
 <li>Appointing a Group Environmental, Social and Governance Manager who provides status updates on the Group&rsquo;s performance on ESG matters. Our directors work closely with the Manager in developing policies that comply with international standards.</li>
 </ul>
 <p>3.4. Government and Regulators&nbsp;&nbsp;</p>

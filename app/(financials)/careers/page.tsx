@@ -4,12 +4,13 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 
 const CareersPage = () => {
   return (
     <>
-      <CareerHero />
+      <section className="relative w-full bg-cover bg-center mt-16">
+        <Image src="/images/career-hero.png" alt="career image" width={1440} height={912} className="object-cover w-full" />
+      </section>
 
       <section className="relative max-container padding-container flexCenter gap-6 flex-col md:flex-row justify-between mt-24">
         <div className="w-full flex flex-col gap-4">

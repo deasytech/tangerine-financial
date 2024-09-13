@@ -20,10 +20,7 @@ const InvestorsPage = () => {
             <h1 className="bold-56 items-center text-white">
               Investor Relations
             </h1>
-            <p className="regular-18 text-white">
-              Tangerine is a leading technology and financial services platform that consistently goes the extra mile to improve individuals' and businesses' financial security.
-              Our reliable financial service products create and protect wealth, guaranteeing an enjoyable future.
-            </p>
+            <p className="regular-18 text-white">Tangerine is a leading financial services platform that consistently goes the extra mile to improve individuals' and businesses' financial security</p>
           </div>
         </div>
       </section>
@@ -94,7 +91,7 @@ const InvestorsPage = () => {
             <p className="regular-18 text-white">
               Access the Tangerine's earnings-related financial information: the 1Q and 9M activity indicators but also the half-year and annual results
             </p>
-            <Link href="/" className="w-fit px-8 py-3 bg-white rounded-lg justify-center items-center gap-3 inline-flex">
+            <Link href="/TGIL_2023_FCR_Non-Life_Report_-_Abridged_Version.pdf" target="_blank" className="w-fit px-8 py-3 bg-white rounded-lg justify-center items-center gap-3 inline-flex">
               <p className="text-center text-orange-base text-base font-normal font-gilroy-semibold">Read report</p>
               <ArrowRight className="text-orange-base" />
             </Link>
@@ -130,7 +127,7 @@ const InvestorsPage = () => {
           <p className="bg-orange-100 text-orange-base uppercase w-fit p-2 px-4 rounded-full">Corporate governance</p>
           <h3 className="text-orange-base bold-48">Group Executives</h3>
           <p className="regular-16 text-generic-800 max-w-md">The Board of Directors is responsible for setting the Company's strategic directions and ensuring their execution, encompassing environmental, social, and governance considerations.</p>
-          <Link href="/">
+          <Link href="/leadership-team">
             <Button variant="secondary" size="lg" className="gap-2">
               Learn more
               <Image src="/icons/arrow-top-right.svg" alt="Learn more" width={12} height={12} />

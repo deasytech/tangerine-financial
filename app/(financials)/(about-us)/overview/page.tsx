@@ -60,7 +60,7 @@ const OverviewPage = () => {
           <div
             className="w-full bg-orange-50 p-8 rounded-2xl bg-no-repeat md:bg-[url('/images/tang-people.svg')] bg-br-position"
           >
-            <h3 className="bold-32 md:bold-48 max-w-xs mb-8">Our Culture Statement</h3>
+            <h3 className="bold-32 md:bold-48 text-orange-base max-w-xs mb-8">Our Culture Statement</h3>
             <p className="regular-16 max-w-xs">
               At Tangerine, we are honest, transparent and keep to our commitments. We are a team of
               strong collaborators that are intentional in creating innovative solutions that add value
@@ -116,7 +116,7 @@ const OverviewPage = () => {
             title="Tangerine General"
             subTitle="our businesses"
             description="Tangerine General provides protection for individuals and businesses over speciﬁed assets in the event of damage or loss. Tangerine General is licensed by the National Insurance Commission (NAICOM) and has over 5,000 Corporate Clients."
-            link="/tangerine-general"
+            link="https://tangerine-general.vercel.app/"
             titleStyle="text-orange-base"
             subTitleStyle="text-orange-900"
             linkStyle="bg-orange-base hover:bg-orange-base/75"
@@ -126,7 +126,7 @@ const OverviewPage = () => {
             title="Tangerine Life"
             subTitle="our businesses"
             description="Tangerine Life is a financial services provider that strives to improve the financial security of its consumers. Since its inception, Tangerine Life has Insured 800,000 lives, protected 700 corporate clients, and ranked the top 5 Life Insurance Businesses in Nigeria."
-            link="/tangerine-life"
+            link="https://tangerine-life.vercel.app/"
             titleStyle="text-green-base"
             subTitleStyle="text-green-900"
             linkStyle="bg-green-base hover:bg-green-base/75"
@@ -135,10 +135,10 @@ const OverviewPage = () => {
           <SubsidaryCard
             title="Tangerine Health"
             subTitle="our businesses"
-            description="With an industry track record of 26 years, Tangerine Health provides a diversified range of health and well-being services focusing on preventive and curative support for individuals and corporates through its partnership with 1500+ providers across all 36 states of Nigeria.
+            description="With an industry track record of 26 years, Tangerine Health provides a diversified range of health and well-being services focusing on preventive and curative support for individuals and corporate through its partnership with 1500+ providers across all 36 states of Nigeria.
 
-            It is the health and well-being partner to 400 multinationals, large local corporates and SMEs."
-            link="/tangerine-health"
+            It is the health and well-being partner to 400 multinationals, large local corporate and SMEs."
+            link="https://tangerine-tht.vercel.app/"
             titleStyle="text-blue-950"
             subTitleStyle="text-blue-950"
             linkStyle="bg-blue-950 hover:bg-blue-950/75"
@@ -166,7 +166,14 @@ const OverviewPage = () => {
           <p className="regular-18">Meet the Minds Steering Our Organization</p>
         </div>
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="bg-orange-50 w-full p-12 flex flex-col gap-6 rounded-3xl">
+          <div className="bg-orange-50 w-full p-12 flex flex-col gap-6 rounded-3xl" style={{
+            backgroundImage: "url('/images/group-executive-bg.png')",
+            borderRadius: '32px',
+            overflow: 'hidden',
+            backgroundSize: 'contain',
+            backgroundPosition: 'right',
+            backgroundRepeat: 'no-repeat',
+          }}>
             <h2 className="bold-40 text-orange-base">
               Group Executives
             </h2>
@@ -217,7 +224,7 @@ const OverviewPage = () => {
               Download our Corporate Profile for a comprehensive overview.
             </p>
             <Link href="/TangerineCorporateProfile.pdf" target="_blank" className="w-fit px-8 py-3 bg-white rounded-lg justify-center items-center gap-3 inline-flex">
-              <p className="text-center text-orange-base text-base font-normal font-gilroy-semibold">Dowload</p>
+              <p className="text-center text-orange-base text-base font-normal font-gilroy-semibold">Download</p>
               <CloudDownloadIcon className="text-orange-base" />
             </Link>
           </div>

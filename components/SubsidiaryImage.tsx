@@ -42,10 +42,10 @@ const SubsidaryImage = ({
         />
         {isHovered && (
           <div
-            className={`absolute inset-0 flex flex-col justify-center items-center bg-opacity-50 text-white rounded-lg transition-transform duration-300 ${isHovered ? 'bottom-1/2 translate-y-1/2' : 'bottom-0 translate-y-full'
+            className={`absolute inset-0 flex flex-col justify-center items-center bg-opacity-50 text-white rounded-lg transition-transform duration-300 cursor-pointer ${isHovered ? 'bottom-1/2 translate-y-1/2' : 'bottom-0 translate-y-full'
               }`}
           >
-            <p className="bold-56 mb-2">{hoverText}</p>
+            <p className="bold-56 mb-2 ml-3">{hoverText}</p>
             <Link href={link} passHref>
               <Button variant="secondary" size="icon" className="rounded-full">
                 <Image src="/icons/arrow-right-up.svg" alt="arrow right up" width={24} height={24} />
@@ -54,7 +54,7 @@ const SubsidaryImage = ({
           </div>
         )}
       </div>
-      <label className={cn("regular-16 font-gilroy-light", isHovered && "text-orange-base")}>{name}</label>
+      <label className={cn("regular-16 font-gilroy-light text-center", isHovered && "text-orange-base")}>{name}</label>
       {subName && (
         <div className="flex justify-between">
           <p className="regular-12 text-generic-500 uppercase">{subName}</p>
