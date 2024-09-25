@@ -20,7 +20,7 @@ const InvestorsPage = () => {
             <h1 className="bold-56 items-center text-white">
               Investor Relations
             </h1>
-            <p className="regular-18 text-white">Tangerine is a leading financial services platform that consistently goes the extra mile to improve individuals' and businesses' financial security</p>
+            <p className="regular-18 text-white">Tangerine is a leading financial services platform that consistently goes the extra mile to improve individuals' and businesses' financial security <br />Our reliable financial service products create and protect wealth, guaranteeing an enjoyable future.</p>
           </div>
         </div>
       </section>
