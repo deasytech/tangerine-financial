@@ -40,7 +40,7 @@ const InvestorsPage = () => {
           <div className="h-full flex-col justify-center items-center md:items-start md:pl-20 gap-6 flex w-full md:w-1/2 relative z-10">
             <h3 className="bold-32 md:bold-48 text-blue-950">Company profile</h3>
             <p className="regular-18 text-generic-800 text-center px-6 md:px-0 md:text-start">
-              Tangerine is a leading financial services platform that consistently goes the extra mile to improve individuals' and businesses' financial security. Our reliable financial service products create and protect wealth, guaranteeing an enjoyable future.
+              Tangerine is a leading financial services platform that consistently goes the extra mile to improve individuals' and businesses' financial security. <br />Our reliable financial service products create and protect wealth, guaranteeing an enjoyable future.
             </p>
           </div>
         </div>
