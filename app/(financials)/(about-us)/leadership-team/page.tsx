@@ -20,16 +20,6 @@ const LeadershipPage = () => {
             position="Group Chief Executive Officer"
           />
           <TeamCard
-            image="/images/team/abrantes.png"
-            name="Helio Abrantes"
-            position="Group Chief Financial Officer"
-          />
-          <TeamCard
-            image="/images/team/sijuwade.svg"
-            name="Christine Sijuwade"
-            position="Group General Counsel & Group Head of Legal and Compliance"
-          />
-          <TeamCard
             image="/images/team/bakere.svg"
             name="Sakeenat Bakere"
             position="Executive Director of Tangerine Life"
@@ -70,11 +60,6 @@ const LeadershipPage = () => {
             image="/images/team/adeduro.svg"
             name="Ademayowa Adeduro"
             position="Managing Director"
-          />
-          <TeamCard
-            image="/images/team/mbuya.svg"
-            name="Anele Mbuya"
-            position="Executive Director, Acting Managing Director"
           />
           <TeamCard
             image="/images/team/tonye.png"
