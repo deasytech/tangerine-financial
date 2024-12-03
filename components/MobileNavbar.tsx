@@ -49,7 +49,7 @@ const MobileNavbar: React.FC = () => {
             <SheetTitle>
               <Link href="/">
                 <Image
-                  src="/images/life/logo.svg"
+                  src="/images/logo.svg"
                   alt="Tangerine Africa"
                   width={127}
                   height={40}

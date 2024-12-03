@@ -20,6 +20,11 @@ const LeadershipPage = () => {
             position="Group Chief Executive Officer"
           />
           <TeamCard
+            image="/images/team/sijuwade.svg"
+            name="Christine Sijuwade"
+            position="Group Chief Operating Officer & General Counsel"
+          />
+          <TeamCard
             image="/images/team/bakere.svg"
             name="Sakeenat Bakere"
             position="Executive Director of Tangerine Life"
